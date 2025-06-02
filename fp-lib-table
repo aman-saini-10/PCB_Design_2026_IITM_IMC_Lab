@@ -1,0 +1,12 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "LT3083EDF-PBF")(type "KiCad")(uri "${KIPRJMOD}/Comp_Lib/Footprints/LT3083EDF-PBF.pretty")(options "")(descr ""))
+  (lib (name "TMUX1072RUTR")(type "KiCad")(uri "${KIPRJMOD}/Comp_Lib/Footprints/TMUX1072RUTR.pretty")(options "")(descr ""))
+  (lib (name "CL10A106KP8NNNC")(type "KiCad")(uri "${KIPRJMOD}/Comp_Lib/Footprints/CL10A106KP8NNNC.pretty")(options "")(descr ""))
+  (lib (name "CL31A107MQHNNNE")(type "KiCad")(uri "${KIPRJMOD}/Comp_Lib/Footprints/CL31A107MQHNNNE.pretty")(options "")(descr ""))
+  (lib (name "PV36W253C01B00")(type "KiCad")(uri "${KIPRJMOD}/Comp_Lib/Footprints/PV36W253C01B00.pretty")(options "")(descr ""))
+  (lib (name "PV36W502C01B00")(type "KiCad")(uri "${KIPRJMOD}/Comp_Lib/Footprints/PV36W502C01B00.pretty")(options "")(descr ""))
+  (lib (name "jumper")(type "KiCad")(uri "${KIPRJMOD}/Comp_Lib/Footprints/jumper.pretty")(options "")(descr ""))
+  (lib (name "TPS74401RGWT")(type "KiCad")(uri "${KIPRJMOD}/Comp_Lib/Footprints/TPS74401RGWT.pretty")(options "")(descr ""))
+  (lib (name "CRCW06031K00JNEA")(type "KiCad")(uri "${KIPRJMOD}/Comp_Lib/Footprints/CRCW06031K00JNEA.pretty")(options "")(descr ""))
+)

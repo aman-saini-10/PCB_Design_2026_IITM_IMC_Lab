@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "LT3083EDF-PBF")(type "KiCad")(uri "${KIPRJMOD}/Comp_Lib/Symbols/LT3083EDF-PBF.kicad_sym")(options "")(descr ""))
+  (lib (name "TMUX1072RUTR")(type "KiCad")(uri "${KIPRJMOD}/Comp_Lib/Symbols/TMUX1072RUTR.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS74401RGWT")(type "KiCad")(uri "${KIPRJMOD}/Comp_Lib/Symbols/TPS74401RGWT.kicad_sym")(options "")(descr ""))
+  (lib (name "CRCW06031K00JNEA")(type "KiCad")(uri "${KIPRJMOD}/Comp_Lib/Symbols/CRCW06031K00JNEA.kicad_sym")(options "")(descr ""))
+)
