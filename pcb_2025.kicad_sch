@@ -4031,8 +4031,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 20.32 0)
+			(property "Reference" "U10"
+				(at 0 -20.32 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -4040,7 +4040,7 @@
 				)
 			)
 			(property "Value" "SN74AVC4T245RGYR"
-				(at 0 17.78 0)
+				(at 0 -17.78 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -4068,6 +4068,15 @@
 				)
 			)
 			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "P. No" "SN74AVC4T245RGYR"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4323,10 +4332,102 @@
 						)
 					)
 				)
+				(pin bidirectional line
+					(at 30.48 0 180)
+					(length 7.62)
+					(name "1B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 30.48 -2.54 180)
+					(length 7.62)
+					(name "1B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 30.48 -5.08 180)
+					(length 7.62)
+					(name "2B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 30.48 -7.62 180)
+					(length 7.62)
+					(name "2B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 30.48 -10.16 180)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SN74AVC4T245RGYR_1_1"
 				(pin input line
 					(at 30.48 5.08 180)
 					(length 7.62)
-					(name "*1OE"
+					(name "~{1OE}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4344,7 +4445,7 @@
 				(pin input line
 					(at 30.48 2.54 180)
 					(length 7.62)
-					(name "*2OE"
+					(name "~{2OE}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4352,6 +4453,317 @@
 						)
 					)
 					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SN74AVC4T245RGYR_1"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U9"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "SN74AVC4T245RGYR"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "SN74AVC4T245RGYR:RGY16_2P55X2P05"
+				(at -30.48 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "SN74AVC4T245RGYR"
+				(at -30.48 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "P. No" "SN74AVC4T245RGYR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "SN74AVC4T245RGYR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "RGY16_2P55X2P05"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SN74AVC4T245RGYR_1_0_1"
+				(polyline
+					(pts
+						(xy -22.86 15.24) (xy -22.86 -15.24)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -22.86 -15.24) (xy 22.86 -15.24)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 22.86 15.24) (xy -22.86 15.24)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 22.86 -15.24) (xy 22.86 15.24)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at -30.48 10.16 0)
+					(length 7.62)
+					(name "VCCA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -30.48 7.62 0)
+					(length 7.62)
+					(name "1DIR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -30.48 5.08 0)
+					(length 7.62)
+					(name "2DIR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -30.48 2.54 0)
+					(length 7.62)
+					(name "1A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -30.48 0 0)
+					(length 7.62)
+					(name "1A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -30.48 -2.54 0)
+					(length 7.62)
+					(name "2A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -30.48 -5.08 0)
+					(length 7.62)
+					(name "2A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -30.48 -7.62 0)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 30.48 10.16 180)
+					(length 7.62)
+					(name "EPAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 30.48 7.62 180)
+					(length 7.62)
+					(name "VCCB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4442,6 +4854,44 @@
 						)
 					)
 					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SN74AVC4T245RGYR_1_1_1"
+				(pin input line
+					(at 30.48 5.08 180)
+					(length 7.62)
+					(name "~{1OE}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 30.48 2.54 180)
+					(length 7.62)
+					(name "~{2OE}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6581,7 +7031,7 @@
 		(uuid "4335ea30-aa0e-4ea8-923a-6a38a9e7c8f3")
 	)
 	(junction
-		(at 485.14 347.98)
+		(at 486.41 356.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4ba866cb-873c-4c01-bfdb-0f5b52ad24c9")
@@ -6593,7 +7043,7 @@
 		(uuid "55869ff3-288c-4188-9362-30b30feeff5c")
 	)
 	(junction
-		(at 485.14 396.24)
+		(at 486.41 405.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "55a49206-0d58-4421-a444-0969d2bd4ebd")
@@ -6617,6 +7067,12 @@
 		(uuid "64760013-38e9-43b7-bd80-18fdc4f86623")
 	)
 	(junction
+		(at 510.54 577.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64db641a-d334-4ae7-9930-38774d4e8ee6")
+	)
+	(junction
 		(at 129.54 186.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6629,7 +7085,7 @@
 		(uuid "73a33e70-8021-4cbb-8c3f-c29d7af5c52b")
 	)
 	(junction
-		(at 603.25 398.78)
+		(at 604.52 407.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7725b19f-ba72-49de-8b2b-17061d33c230")
@@ -6665,7 +7121,7 @@
 		(uuid "81f0759e-4da5-46c9-9169-ae51c7314d1b")
 	)
 	(junction
-		(at 603.25 350.52)
+		(at 604.52 359.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8569ba99-1744-4358-8e3e-6512abbb410d")
@@ -6950,7 +7406,7 @@
 	)
 	(wire
 		(pts
-			(xy 485.14 355.6) (xy 485.14 356.87)
+			(xy 486.41 364.49) (xy 486.41 365.76)
 		)
 		(stroke
 			(width 0)
@@ -7037,6 +7493,16 @@
 			(type default)
 		)
 		(uuid "083a6f3a-a2ca-4bfe-9ab6-38abe575b688")
+	)
+	(wire
+		(pts
+			(xy 490.22 438.15) (xy 494.03 438.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0859bb3b-6a86-46e8-b636-1e2892281df7")
 	)
 	(wire
 		(pts
@@ -7130,6 +7596,16 @@
 	)
 	(wire
 		(pts
+			(xy 504.19 400.05) (xy 514.35 400.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b10c3d4-9ce8-4cc6-a690-4d4aa39f03f0")
+	)
+	(wire
+		(pts
 			(xy 121.92 179.07) (xy 121.92 184.15)
 		)
 		(stroke
@@ -7200,7 +7676,7 @@
 	)
 	(wire
 		(pts
-			(xy 481.33 332.74) (xy 488.95 332.74)
+			(xy 482.6 341.63) (xy 490.22 341.63)
 		)
 		(stroke
 			(width 0)
@@ -7380,7 +7856,7 @@
 	)
 	(wire
 		(pts
-			(xy 481.33 340.36) (xy 488.95 340.36)
+			(xy 482.6 349.25) (xy 490.22 349.25)
 		)
 		(stroke
 			(width 0)
@@ -7390,7 +7866,7 @@
 	)
 	(wire
 		(pts
-			(xy 605.79 337.82) (xy 598.17 337.82)
+			(xy 607.06 346.71) (xy 599.44 346.71)
 		)
 		(stroke
 			(width 0)
@@ -7520,7 +7996,7 @@
 	)
 	(wire
 		(pts
-			(xy 574.04 383.54) (xy 593.09 383.54)
+			(xy 575.31 392.43) (xy 594.36 392.43)
 		)
 		(stroke
 			(width 0)
@@ -7530,7 +8006,7 @@
 	)
 	(wire
 		(pts
-			(xy 509.27 577.85) (xy 514.35 577.85)
+			(xy 509.27 577.85) (xy 510.54 577.85)
 		)
 		(stroke
 			(width 0)
@@ -7650,7 +8126,7 @@
 	)
 	(wire
 		(pts
-			(xy 481.33 381) (xy 488.95 381)
+			(xy 482.6 389.89) (xy 490.22 389.89)
 		)
 		(stroke
 			(width 0)
@@ -7660,7 +8136,7 @@
 	)
 	(wire
 		(pts
-			(xy 574.04 342.9) (xy 593.09 342.9)
+			(xy 575.31 351.79) (xy 594.36 351.79)
 		)
 		(stroke
 			(width 0)
@@ -7710,7 +8186,7 @@
 	)
 	(wire
 		(pts
-			(xy 605.79 335.28) (xy 598.17 335.28)
+			(xy 607.06 344.17) (xy 599.44 344.17)
 		)
 		(stroke
 			(width 0)
@@ -7720,7 +8196,7 @@
 	)
 	(wire
 		(pts
-			(xy 494.03 383.54) (xy 513.08 383.54)
+			(xy 495.3 392.43) (xy 514.35 392.43)
 		)
 		(stroke
 			(width 0)
@@ -7800,7 +8276,7 @@
 	)
 	(wire
 		(pts
-			(xy 574.04 347.98) (xy 579.12 347.98)
+			(xy 575.31 356.87) (xy 584.2 356.87)
 		)
 		(stroke
 			(width 0)
@@ -7900,6 +8376,16 @@
 	)
 	(wire
 		(pts
+			(xy 486.41 354.33) (xy 490.22 354.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27db2cfc-285a-4f3c-8647-274c2e8aacaa")
+	)
+	(wire
+		(pts
 			(xy 77.47 129.54) (xy 80.01 129.54)
 		)
 		(stroke
@@ -7950,7 +8436,7 @@
 	)
 	(wire
 		(pts
-			(xy 481.33 337.82) (xy 488.95 337.82)
+			(xy 482.6 346.71) (xy 490.22 346.71)
 		)
 		(stroke
 			(width 0)
@@ -8070,7 +8556,7 @@
 	)
 	(wire
 		(pts
-			(xy 494.03 388.62) (xy 513.08 388.62)
+			(xy 495.3 397.51) (xy 514.35 397.51)
 		)
 		(stroke
 			(width 0)
@@ -8100,7 +8586,7 @@
 	)
 	(wire
 		(pts
-			(xy 509.27 378.46) (xy 513.08 378.46)
+			(xy 510.54 387.35) (xy 514.35 387.35)
 		)
 		(stroke
 			(width 0)
@@ -8250,6 +8736,16 @@
 	)
 	(wire
 		(pts
+			(xy 490.22 496.57) (xy 494.03 496.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35137c83-35d7-419a-9580-99a812918197")
+	)
+	(wire
+		(pts
 			(xy 125.73 39.37) (xy 125.73 40.64)
 		)
 		(stroke
@@ -8260,7 +8756,7 @@
 	)
 	(wire
 		(pts
-			(xy 494.03 386.08) (xy 513.08 386.08)
+			(xy 495.3 394.97) (xy 514.35 394.97)
 		)
 		(stroke
 			(width 0)
@@ -8290,7 +8786,7 @@
 	)
 	(wire
 		(pts
-			(xy 605.79 342.9) (xy 598.17 342.9)
+			(xy 607.06 351.79) (xy 599.44 351.79)
 		)
 		(stroke
 			(width 0)
@@ -8540,6 +9036,16 @@
 	)
 	(wire
 		(pts
+			(xy 485.14 402.59) (xy 488.95 402.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "448d3557-761b-426e-b3d9-754103d8349f")
+	)
+	(wire
+		(pts
 			(xy 87.63 292.1) (xy 87.63 293.37)
 		)
 		(stroke
@@ -8567,6 +9073,16 @@
 			(type default)
 		)
 		(uuid "44f55236-8eba-4c00-a86c-22f0920bc0b8")
+	)
+	(wire
+		(pts
+			(xy 490.22 519.43) (xy 494.03 519.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45ad04dc-c51f-4719-8545-fff8e7b4f546")
 	)
 	(wire
 		(pts
@@ -8640,7 +9156,7 @@
 	)
 	(wire
 		(pts
-			(xy 574.04 350.52) (xy 603.25 350.52)
+			(xy 575.31 359.41) (xy 604.52 359.41)
 		)
 		(stroke
 			(width 0)
@@ -8680,7 +9196,7 @@
 	)
 	(wire
 		(pts
-			(xy 485.14 347.98) (xy 513.08 347.98)
+			(xy 486.41 356.87) (xy 514.35 356.87)
 		)
 		(stroke
 			(width 0)
@@ -8730,6 +9246,16 @@
 	)
 	(wire
 		(pts
+			(xy 485.14 400.05) (xy 488.95 400.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49e58b6e-2c78-484c-a705-70b24c3ad4bc")
+	)
+	(wire
+		(pts
 			(xy 486.41 443.23) (xy 494.03 443.23)
 		)
 		(stroke
@@ -8770,7 +9296,7 @@
 	)
 	(wire
 		(pts
-			(xy 509.27 330.2) (xy 513.08 330.2)
+			(xy 510.54 339.09) (xy 514.35 339.09)
 		)
 		(stroke
 			(width 0)
@@ -8840,7 +9366,7 @@
 	)
 	(wire
 		(pts
-			(xy 481.33 386.08) (xy 488.95 386.08)
+			(xy 482.6 394.97) (xy 490.22 394.97)
 		)
 		(stroke
 			(width 0)
@@ -8850,7 +9376,7 @@
 	)
 	(wire
 		(pts
-			(xy 596.9 438.15) (xy 604.52 438.15)
+			(xy 596.9 438.15) (xy 605.79 438.15)
 		)
 		(stroke
 			(width 0)
@@ -8860,7 +9386,7 @@
 	)
 	(wire
 		(pts
-			(xy 596.9 519.43) (xy 604.52 519.43)
+			(xy 596.9 519.43) (xy 605.79 519.43)
 		)
 		(stroke
 			(width 0)
@@ -8880,7 +9406,7 @@
 	)
 	(wire
 		(pts
-			(xy 603.25 398.78) (xy 605.79 398.78)
+			(xy 604.52 407.67) (xy 607.06 407.67)
 		)
 		(stroke
 			(width 0)
@@ -9130,6 +9656,16 @@
 	)
 	(wire
 		(pts
+			(xy 486.41 351.79) (xy 490.22 351.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62e95fe7-de28-4fc7-b486-f744a3e0b25e")
+	)
+	(wire
+		(pts
 			(xy 44.45 62.23) (xy 44.45 63.5)
 		)
 		(stroke
@@ -9260,7 +9796,7 @@
 	)
 	(wire
 		(pts
-			(xy 605.79 391.16) (xy 598.17 391.16)
+			(xy 607.06 400.05) (xy 599.44 400.05)
 		)
 		(stroke
 			(width 0)
@@ -9270,7 +9806,7 @@
 	)
 	(wire
 		(pts
-			(xy 574.04 388.62) (xy 593.09 388.62)
+			(xy 575.31 397.51) (xy 594.36 397.51)
 		)
 		(stroke
 			(width 0)
@@ -9287,6 +9823,16 @@
 			(type default)
 		)
 		(uuid "6853fd5e-73d2-4537-b579-6bef04305267")
+	)
+	(wire
+		(pts
+			(xy 505.46 351.79) (xy 514.35 351.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "687e005e-1433-4555-ac0f-8f343449d9ef")
 	)
 	(wire
 		(pts
@@ -9400,6 +9946,16 @@
 	)
 	(wire
 		(pts
+			(xy 491.49 577.85) (xy 495.3 577.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d9293d3-0f57-4077-82cd-06c0ec596854")
+	)
+	(wire
+		(pts
 			(xy 575.31 552.45) (xy 589.28 552.45)
 		)
 		(stroke
@@ -9440,7 +9996,7 @@
 	)
 	(wire
 		(pts
-			(xy 603.25 406.4) (xy 603.25 407.67)
+			(xy 604.52 415.29) (xy 604.52 416.56)
 		)
 		(stroke
 			(width 0)
@@ -9450,7 +10006,7 @@
 	)
 	(wire
 		(pts
-			(xy 574.04 345.44) (xy 579.12 345.44)
+			(xy 575.31 354.33) (xy 584.2 354.33)
 		)
 		(stroke
 			(width 0)
@@ -9480,7 +10036,7 @@
 	)
 	(wire
 		(pts
-			(xy 605.79 388.62) (xy 598.17 388.62)
+			(xy 607.06 397.51) (xy 599.44 397.51)
 		)
 		(stroke
 			(width 0)
@@ -9560,7 +10116,7 @@
 	)
 	(wire
 		(pts
-			(xy 574.04 393.7) (xy 579.12 393.7)
+			(xy 575.31 402.59) (xy 580.39 402.59)
 		)
 		(stroke
 			(width 0)
@@ -9690,7 +10246,7 @@
 	)
 	(wire
 		(pts
-			(xy 603.25 358.14) (xy 603.25 359.41)
+			(xy 604.52 367.03) (xy 604.52 368.3)
 		)
 		(stroke
 			(width 0)
@@ -9730,7 +10286,7 @@
 	)
 	(wire
 		(pts
-			(xy 574.04 398.78) (xy 603.25 398.78)
+			(xy 575.31 407.67) (xy 604.52 407.67)
 		)
 		(stroke
 			(width 0)
@@ -9760,7 +10316,7 @@
 	)
 	(wire
 		(pts
-			(xy 574.04 332.74) (xy 579.12 332.74)
+			(xy 575.31 341.63) (xy 580.39 341.63)
 		)
 		(stroke
 			(width 0)
@@ -9810,7 +10366,7 @@
 	)
 	(wire
 		(pts
-			(xy 494.03 381) (xy 513.08 381)
+			(xy 495.3 389.89) (xy 514.35 389.89)
 		)
 		(stroke
 			(width 0)
@@ -9910,7 +10466,7 @@
 	)
 	(wire
 		(pts
-			(xy 574.04 381) (xy 579.12 381)
+			(xy 575.31 389.89) (xy 580.39 389.89)
 		)
 		(stroke
 			(width 0)
@@ -10130,7 +10686,7 @@
 	)
 	(wire
 		(pts
-			(xy 605.79 386.08) (xy 598.17 386.08)
+			(xy 607.06 394.97) (xy 599.44 394.97)
 		)
 		(stroke
 			(width 0)
@@ -10230,7 +10786,7 @@
 	)
 	(wire
 		(pts
-			(xy 605.79 340.36) (xy 598.17 340.36)
+			(xy 607.06 349.25) (xy 599.44 349.25)
 		)
 		(stroke
 			(width 0)
@@ -10340,6 +10896,16 @@
 	)
 	(wire
 		(pts
+			(xy 599.44 402.59) (xy 595.63 402.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e3c5c78-e83b-4eeb-90d0-a389fa319c61")
+	)
+	(wire
+		(pts
 			(xy 110.49 270.51) (xy 110.49 274.32)
 		)
 		(stroke
@@ -10400,7 +10966,7 @@
 	)
 	(wire
 		(pts
-			(xy 494.03 340.36) (xy 513.08 340.36)
+			(xy 495.3 349.25) (xy 514.35 349.25)
 		)
 		(stroke
 			(width 0)
@@ -10500,6 +11066,16 @@
 	)
 	(wire
 		(pts
+			(xy 505.46 354.33) (xy 514.35 354.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8a3c6a4-df97-419f-a761-7e799ef833ae")
+	)
+	(wire
+		(pts
 			(xy 499.11 567.69) (xy 514.35 567.69)
 		)
 		(stroke
@@ -10530,7 +11106,7 @@
 	)
 	(wire
 		(pts
-			(xy 481.33 347.98) (xy 485.14 347.98)
+			(xy 482.6 356.87) (xy 486.41 356.87)
 		)
 		(stroke
 			(width 0)
@@ -10580,7 +11156,7 @@
 	)
 	(wire
 		(pts
-			(xy 481.33 396.24) (xy 485.14 396.24)
+			(xy 482.6 405.13) (xy 486.41 405.13)
 		)
 		(stroke
 			(width 0)
@@ -10650,7 +11226,17 @@
 	)
 	(wire
 		(pts
-			(xy 603.25 350.52) (xy 605.79 350.52)
+			(xy 504.19 402.59) (xy 514.35 402.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b48a270c-7d03-4070-baf2-3ec5a9fbbc4f")
+	)
+	(wire
+		(pts
+			(xy 604.52 359.41) (xy 607.06 359.41)
 		)
 		(stroke
 			(width 0)
@@ -10670,7 +11256,7 @@
 	)
 	(wire
 		(pts
-			(xy 494.03 335.28) (xy 513.08 335.28)
+			(xy 495.3 344.17) (xy 514.35 344.17)
 		)
 		(stroke
 			(width 0)
@@ -10830,7 +11416,7 @@
 	)
 	(wire
 		(pts
-			(xy 574.04 340.36) (xy 593.09 340.36)
+			(xy 575.31 349.25) (xy 594.36 349.25)
 		)
 		(stroke
 			(width 0)
@@ -10960,7 +11546,7 @@
 	)
 	(wire
 		(pts
-			(xy 481.33 383.54) (xy 488.95 383.54)
+			(xy 482.6 392.43) (xy 490.22 392.43)
 		)
 		(stroke
 			(width 0)
@@ -11090,7 +11676,7 @@
 	)
 	(wire
 		(pts
-			(xy 574.04 335.28) (xy 593.09 335.28)
+			(xy 575.31 344.17) (xy 594.36 344.17)
 		)
 		(stroke
 			(width 0)
@@ -11160,7 +11746,7 @@
 	)
 	(wire
 		(pts
-			(xy 574.04 396.24) (xy 579.12 396.24)
+			(xy 575.31 405.13) (xy 580.39 405.13)
 		)
 		(stroke
 			(width 0)
@@ -11440,7 +12026,7 @@
 	)
 	(wire
 		(pts
-			(xy 481.33 388.62) (xy 488.95 388.62)
+			(xy 482.6 397.51) (xy 490.22 397.51)
 		)
 		(stroke
 			(width 0)
@@ -11540,7 +12126,7 @@
 	)
 	(wire
 		(pts
-			(xy 574.04 337.82) (xy 593.09 337.82)
+			(xy 575.31 346.71) (xy 594.36 346.71)
 		)
 		(stroke
 			(width 0)
@@ -11590,7 +12176,7 @@
 	)
 	(wire
 		(pts
-			(xy 574.04 386.08) (xy 593.09 386.08)
+			(xy 575.31 394.97) (xy 594.36 394.97)
 		)
 		(stroke
 			(width 0)
@@ -11630,7 +12216,7 @@
 	)
 	(wire
 		(pts
-			(xy 605.79 383.54) (xy 598.17 383.54)
+			(xy 607.06 392.43) (xy 599.44 392.43)
 		)
 		(stroke
 			(width 0)
@@ -11680,7 +12266,7 @@
 	)
 	(wire
 		(pts
-			(xy 481.33 335.28) (xy 488.95 335.28)
+			(xy 482.6 344.17) (xy 490.22 344.17)
 		)
 		(stroke
 			(width 0)
@@ -11727,6 +12313,16 @@
 			(type default)
 		)
 		(uuid "ed97c2a0-1b83-4967-87ce-1aa2f29fc034")
+	)
+	(wire
+		(pts
+			(xy 599.44 405.13) (xy 595.63 405.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee568598-6c1b-4ccb-a689-ef7382aa2c71")
 	)
 	(wire
 		(pts
@@ -11830,7 +12426,7 @@
 	)
 	(wire
 		(pts
-			(xy 494.03 332.74) (xy 513.08 332.74)
+			(xy 495.3 341.63) (xy 514.35 341.63)
 		)
 		(stroke
 			(width 0)
@@ -11870,7 +12466,17 @@
 	)
 	(wire
 		(pts
-			(xy 485.14 396.24) (xy 513.08 396.24)
+			(xy 510.54 577.85) (xy 514.35 577.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6af9c1f-5e30-4f73-9a18-3d7756900f43")
+	)
+	(wire
+		(pts
+			(xy 486.41 405.13) (xy 514.35 405.13)
 		)
 		(stroke
 			(width 0)
@@ -11930,7 +12536,7 @@
 	)
 	(wire
 		(pts
-			(xy 494.03 337.82) (xy 513.08 337.82)
+			(xy 495.3 346.71) (xy 514.35 346.71)
 		)
 		(stroke
 			(width 0)
@@ -11940,7 +12546,7 @@
 	)
 	(wire
 		(pts
-			(xy 485.14 403.86) (xy 485.14 405.13)
+			(xy 486.41 412.75) (xy 486.41 414.02)
 		)
 		(stroke
 			(width 0)
@@ -11990,7 +12596,7 @@
 	)
 	(wire
 		(pts
-			(xy 574.04 391.16) (xy 593.09 391.16)
+			(xy 575.31 400.05) (xy 594.36 400.05)
 		)
 		(stroke
 			(width 0)
@@ -12068,6 +12674,16 @@
 		)
 		(uuid "0232fd9e-1fc3-48ee-a751-9c1ca6e5960b")
 	)
+	(label "SCN_SEL<1>_SIG"
+		(at 471.17 547.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "04e7b456-7b54-4cc5-9641-cde907bde68e")
+	)
 	(label "EN_U4"
 		(at 43.18 271.78 0)
 		(effects
@@ -12079,7 +12695,7 @@
 		(uuid "05681f95-779b-49e0-af13-9d772bbbead1")
 	)
 	(label "VCCB_DIG_LS"
-		(at 466.09 396.24 180)
+		(at 467.36 405.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12108,6 +12724,16 @@
 		)
 		(uuid "096ec900-21ae-44d7-a6e9-0ad117b73438")
 	)
+	(label "BL_SEL<0>_Q"
+		(at 618.49 486.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0b056cb9-8d47-4d65-872b-86f223b98c63")
+	)
 	(label "SA_EN_SIG"
 		(at 471.17 494.03 180)
 		(effects
@@ -12117,6 +12743,56 @@
 			(justify right bottom)
 		)
 		(uuid "106bbe0e-c46e-47ac-9612-a58e38afb3a8")
+	)
+	(label "CS<0>_Q"
+		(at 618.49 478.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "12033378-5c65-4227-9d50-ea8c83f7a708")
+	)
+	(label "SA_EN_Q"
+		(at 618.49 494.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "133019f4-0a79-4445-ab04-b4016fcfa6d2")
+	)
+	(label "IMC_DONE_SIG"
+		(at 467.36 341.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "14548f2e-5037-4762-b1ad-60a7af00e847")
+	)
+	(label "CLK_B_Q"
+		(at 618.49 572.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "18bdb722-e922-4346-80d2-10af7e04cbf9")
+	)
+	(label "TDC_RST_Q"
+		(at 618.49 549.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1d321ee8-8478-4b26-aa62-add6ff86bb1e")
 	)
 	(label "VCCA_DIG_LS"
 		(at 650.24 534.67 0)
@@ -12128,6 +12804,46 @@
 		)
 		(uuid "1ea3ad85-93ff-47ab-99af-deadcb55e9aa")
 	)
+	(label "IN_SIG"
+		(at 471.17 560.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "22f46efc-ca5c-4ec6-b05f-3c1f4bf427ea")
+	)
+	(label "CLK_B_SIG"
+		(at 471.17 572.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "23f36916-d9d8-43d4-8736-de124a661e43")
+	)
+	(label "CLK_A_Q"
+		(at 618.49 567.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "27030875-f93e-474a-ab39-bf73d54859dc")
+	)
+	(label "SCN_IN_Q"
+		(at 622.3 392.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2ac3bc93-3332-497f-a0e2-ee2cb8c34d24")
+	)
 	(label "AINxy_MUX"
 		(at 113.03 132.08 0)
 		(effects
@@ -12137,6 +12853,16 @@
 			(justify left bottom)
 		)
 		(uuid "2affb2f9-c357-43b2-8d8b-1e98747b23fd")
+	)
+	(label "PRECHARGE_SIG"
+		(at 471.17 532.13 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2ba023f6-8196-4cd8-8d2f-dff31f79c584")
 	)
 	(label "VOUT_U4"
 		(at 73.66 309.88 0)
@@ -12158,6 +12884,16 @@
 		)
 		(uuid "2c671380-e68d-4ce9-80fc-5317243ee53c")
 	)
+	(label "WL_EN_Q"
+		(at 618.49 440.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2c6a47c5-d280-44c6-805f-843ae74d53a5")
+	)
 	(label "U1_VCONTROL"
 		(at 36.83 44.45 0)
 		(effects
@@ -12168,8 +12904,18 @@
 		)
 		(uuid "340d2440-c2dd-42e1-b0dd-1a2514f7a385")
 	)
+	(label "TDC_COMPUTE_SIG"
+		(at 471.17 557.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "34b1dc5d-a825-4031-a91b-95120be43944")
+	)
 	(label "VCCA_DIG_LS"
-		(at 621.03 398.78 0)
+		(at 622.3 407.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12208,6 +12954,16 @@
 		)
 		(uuid "41df1742-ca20-4a6d-b248-c30abf9cb7ca")
 	)
+	(label "TDC_EN_SIG"
+		(at 467.36 397.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "44091c65-a796-4f11-8f81-e39a362f93ea")
+	)
 	(label "CS<1>_SIG"
 		(at 471.17 483.87 180)
 		(effects
@@ -12228,6 +12984,16 @@
 		)
 		(uuid "46e98058-787a-4908-8cfd-78366754e6cd")
 	)
+	(label "BANK_SEL_SIG"
+		(at 471.17 524.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "46efc063-c5e9-42f2-b233-611283e3b9ee")
+	)
 	(label "BANK_EN<3>_SIG"
 		(at 471.17 450.85 180)
 		(effects
@@ -12238,6 +13004,16 @@
 		)
 		(uuid "47a86822-79af-48b1-91b7-62d3ed48e2e0")
 	)
+	(label "DFF_RST_SIG"
+		(at 471.17 552.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "48bbe406-71f9-4db6-83a3-24b9e7d43bfd")
+	)
 	(label "VDD_5V"
 		(at 35.56 109.22 0)
 		(effects
@@ -12247,6 +13023,26 @@
 			(justify left bottom)
 		)
 		(uuid "4a330c3d-2c37-4056-b6e6-619fa4ac037f")
+	)
+	(label "VCCA_DIG_LS"
+		(at 599.44 354.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4b378353-878a-4c28-a58e-8028b9033fe4")
+	)
+	(label "CS<1>_Q"
+		(at 618.49 483.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "507f8d9a-c179-4bc0-ad94-d3129e87a4bb")
 	)
 	(label "AINxx_MUX"
 		(at 146.05 48.26 0)
@@ -12298,6 +13094,36 @@
 		)
 		(uuid "5bf4d012-d105-469b-be00-8bd1bb0cddfa")
 	)
+	(label "BANK_EN<1>_Q"
+		(at 618.49 448.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5f688082-c660-4929-a64c-130d514e7aa5")
+	)
+	(label "SCN_SEL<2>_Q"
+		(at 618.49 476.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "622ad3e6-9a37-485d-995d-64a4c2d85d81")
+	)
+	(label "READ_EN_Q"
+		(at 618.49 463.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6287b630-ec6d-4344-a49f-f153365bc81f")
+	)
 	(label "VDD_5V"
 		(at 96.52 327.66 0)
 		(effects
@@ -12338,6 +13164,26 @@
 		)
 		(uuid "65bfc63f-cc31-41b3-85b6-debb090cd5f8")
 	)
+	(label "SCN_SEL<1>_Q"
+		(at 618.49 547.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6760955a-915b-4ab0-9836-226863d8f677")
+	)
+	(label "VDAC_CTRL_SIG"
+		(at 467.36 392.43 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "676636fd-dd53-4fad-b86c-0e69fc902c41")
+	)
 	(label "WRITE_EN_SIG"
 		(at 471.17 471.17 180)
 		(effects
@@ -12348,6 +13194,36 @@
 		)
 		(uuid "6927cd3a-0fa0-49da-ae2a-53ab164e2640")
 	)
+	(label "CTRL_EN_SIG"
+		(at 471.17 565.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6a3c8a40-09b3-481c-8a52-969194fdf08b")
+	)
+	(label "SCN_OUT_Q"
+		(at 622.3 346.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6a7c2b50-ac01-438a-bfda-451fbcd0f82c")
+	)
+	(label "BANK_EN<3>_Q"
+		(at 618.49 450.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6de1f111-c673-48a0-8acf-07466a175371")
+	)
 	(label "EN_U5"
 		(at 148.59 271.78 0)
 		(effects
@@ -12357,6 +13233,16 @@
 			(justify left bottom)
 		)
 		(uuid "6ed89646-3f8d-4cdc-baf8-06bf64fc8a78")
+	)
+	(label "IN_Q"
+		(at 618.49 560.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6fa09f1b-d52c-42db-aff0-7f501212faea")
 	)
 	(label "VOUT_U5"
 		(at 194.31 270.51 0)
@@ -12388,6 +13274,26 @@
 		)
 		(uuid "76e4a891-70c2-4a78-ac5e-c4004ce66e80")
 	)
+	(label "DEL_RST_SIG"
+		(at 471.17 529.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "789d834e-4e3e-412e-ad58-3e4e5e97e868")
+	)
+	(label "VDAC_CTRL_Q"
+		(at 622.3 394.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "78fec55c-8c47-45ab-91c0-dac568de2219")
+	)
 	(label "WL_EN_SIG"
 		(at 471.17 440.69 180)
 		(effects
@@ -12398,6 +13304,36 @@
 		)
 		(uuid "7c5c922f-78e3-4f7f-ab4f-57140dc0f6b4")
 	)
+	(label "DEL_RST_Q"
+		(at 618.49 529.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7cdf53d3-0b9c-46b8-8a28-6a212083effe")
+	)
+	(label "ENTIME_Q"
+		(at 618.49 537.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7e84e68f-2107-4c2a-a5df-ce2ad97d0950")
+	)
+	(label "ENTIME_SIG"
+		(at 471.17 537.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7ec82765-2fb7-4bcd-8382-dee3fd1f2b05")
+	)
 	(label "AINxy_LS"
 		(at 121.92 186.69 0)
 		(effects
@@ -12407,6 +13343,66 @@
 			(justify left bottom)
 		)
 		(uuid "7f688037-bb43-47cb-a84e-e32d44574140")
+	)
+	(label "BANK_EN<2>_Q"
+		(at 618.49 455.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7fbbee59-8759-4da9-9131-8fb5de95c248")
+	)
+	(label "BANK_EN<0>_Q"
+		(at 618.49 443.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "80070b17-b695-474c-b928-70bc54273052")
+	)
+	(label "CLK_SA_Q"
+		(at 618.49 468.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "832ff9b7-4755-4cc8-af9d-317f82169ce9")
+	)
+	(label "DFF_RST_Q"
+		(at 618.49 552.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "88b4fae2-bce1-414e-8f6f-175bd773b182")
+	)
+	(label "CTRL_EN_Q"
+		(at 618.49 565.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "892f4daf-9872-47aa-a2d7-1d14132c9459")
+	)
+	(label "BANK_SEL_Q"
+		(at 618.49 524.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8b89eab5-85cf-4bf4-b6fd-c22b3b918ee7")
 	)
 	(label "CLK_SA_SIG"
 		(at 471.17 468.63 180)
@@ -12428,8 +13424,18 @@
 		)
 		(uuid "8eaa8513-1a92-43f9-862a-611e16bf2b37")
 	)
+	(label "TDC_EN_Q"
+		(at 622.3 400.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8fd85752-7232-4253-99a8-b590783ee131")
+	)
 	(label "VCCA_DIG_LS"
-		(at 621.03 350.52 0)
+		(at 622.3 359.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12437,6 +13443,16 @@
 			(justify left bottom)
 		)
 		(uuid "91b04bd9-8150-44f1-88d8-44e643db8927")
+	)
+	(label "PRECHARGE_Q"
+		(at 618.49 532.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "91c2ee7b-fbe8-4b0b-b525-5e650d71cff5")
 	)
 	(label "VDD_5V_a"
 		(at 53.34 327.66 0)
@@ -12457,6 +13473,16 @@
 			(justify left bottom)
 		)
 		(uuid "961a5132-ce7a-426c-b26d-9586ccf010cd")
+	)
+	(label "VTC_EN_Q"
+		(at 622.3 397.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "96587435-a707-4731-8d7d-949ccd8caa84")
 	)
 	(label "AINxy_MUX"
 		(at 68.58 124.46 0)
@@ -12488,6 +13514,26 @@
 		)
 		(uuid "98ca2360-432c-442d-9b51-d342a7105ad2")
 	)
+	(label "InputEN_DAC_Q"
+		(at 618.49 458.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9942fc9b-d5ec-46d4-b34a-bd09f4adbf6f")
+	)
+	(label "IN_EN_Q"
+		(at 618.49 575.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9b40dab5-a474-487b-8a17-e7c3c06bb6bb")
+	)
 	(label "VDD_5V"
 		(at 74.93 226.06 0)
 		(effects
@@ -12497,6 +13543,16 @@
 			(justify left bottom)
 		)
 		(uuid "9e787597-c0d0-46eb-93de-2f871a845d1b")
+	)
+	(label "VTC_EN_SIG"
+		(at 467.36 394.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9fec9abe-9b4c-4848-85f9-e9c77494932c")
 	)
 	(label "U1_VCONTROL"
 		(at 58.42 69.85 0)
@@ -12599,7 +13655,7 @@
 		(uuid "aecea410-0819-4f38-8538-80a7d33d7ae6")
 	)
 	(label "VCCB_DIG_LS"
-		(at 466.09 347.98 180)
+		(at 467.36 356.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12618,6 +13674,36 @@
 		)
 		(uuid "b2daf3ec-dd19-42cc-bb62-5ca4ab4f2ee5")
 	)
+	(label "CALIB_EN_Q"
+		(at 618.49 521.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b5dee2e9-3fc5-4936-a9c9-78ca1d9cc51a")
+	)
+	(label "BL_SEL<1>_Q"
+		(at 618.49 491.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b615de72-8ad7-4a64-a195-341e878359ae")
+	)
+	(label "VCCA_DIG_LS"
+		(at 599.44 356.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bc613da8-55d0-4a4f-8d64-ab1ef66bba1c")
+	)
 	(label "U1_IN"
 		(at 76.2 208.28 0)
 		(effects
@@ -12627,6 +13713,16 @@
 			(justify left bottom)
 		)
 		(uuid "bf0d1f36-7dc4-4068-a582-e9f2b92c8407")
+	)
+	(label "TDC_RST_SIG"
+		(at 471.17 549.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c156b5ba-f46d-4d19-a67e-be2809984b67")
 	)
 	(label "U1_OUT"
 		(at 124.46 194.31 0)
@@ -12658,6 +13754,26 @@
 		)
 		(uuid "c755e4c0-0847-45e3-9c74-9e5bd4fc79d1")
 	)
+	(label "IMC_DONE_Q"
+		(at 622.3 344.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c75a8066-0fdc-498c-b082-6bcded433dd8")
+	)
+	(label "ENCHG_SIG"
+		(at 471.17 539.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cb623e89-1b1a-47d9-9015-70a0c9674000")
+	)
 	(label "VFB_U5"
 		(at 190.5 281.94 0)
 		(effects
@@ -12678,6 +13794,36 @@
 		)
 		(uuid "cea00a38-d5ce-4448-9068-f87600edd7ad")
 	)
+	(label "ENCHG_Q"
+		(at 618.49 539.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d38f7d8f-2dd4-4489-8dbf-dba86d18f9c5")
+	)
+	(label "SCN_OUT_SIG"
+		(at 467.36 344.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d555eb0e-3006-4e07-abc2-40c04c6f338a")
+	)
+	(label "SCN_SEL<0>_Q"
+		(at 618.49 544.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d6f428d5-7ce4-4cd8-9d89-cc59a14a456f")
+	)
 	(label "VFB_U4"
 		(at 85.09 281.94 0)
 		(effects
@@ -12687,6 +13833,16 @@
 			(justify left bottom)
 		)
 		(uuid "dca22702-ce97-465f-bee5-adf279ceb86e")
+	)
+	(label "CLK_A_SIG"
+		(at 471.17 567.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dd475f7d-a4d0-40dd-ab50-6d7a4f817fd5")
 	)
 	(label "U1_IN"
 		(at 76.2 69.85 0)
@@ -12708,6 +13864,16 @@
 		)
 		(uuid "e1a8895e-0200-483a-a017-5b39daa49b0b")
 	)
+	(label "TDC_COMPUTE_Q"
+		(at 618.49 557.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e1bde4e9-af73-4ab2-800d-25e52dcc071d")
+	)
 	(label "AINxx"
 		(at 137.16 114.3 0)
 		(effects
@@ -12727,6 +13893,16 @@
 			(justify left bottom)
 		)
 		(uuid "e42c808f-d5e2-4fcd-a1d7-55fbb50196ba")
+	)
+	(label "WRITE_EN_Q"
+		(at 618.49 471.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e53983e3-7e97-478a-907f-c4f80071e6bc")
 	)
 	(label "BL_PCHG_SIG"
 		(at 471.17 466.09 180)
@@ -12808,6 +13984,16 @@
 		)
 		(uuid "f02065ad-0da0-4b36-a7c8-9cd36a29544e")
 	)
+	(label "SCN_SEL<0>_SIG"
+		(at 471.17 544.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f2090573-f13a-4fc8-921b-243b70a2cb8b")
+	)
 	(label "EN_U4"
 		(at 96.52 309.88 0)
 		(effects
@@ -12817,6 +14003,16 @@
 			(justify left bottom)
 		)
 		(uuid "f25cf7cb-4ee5-444b-8bbc-52b19f02897c")
+	)
+	(label "BL_PCHG_Q"
+		(at 618.49 466.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f6282bab-bbc2-4575-afb3-66138d50dde1")
 	)
 	(label "VOUT_U4"
 		(at 88.9 270.51 0)
@@ -12838,6 +14034,16 @@
 		)
 		(uuid "f7cbb260-731a-4388-94ce-4914cf2c9571")
 	)
+	(label "SCN_IN_SIG"
+		(at 467.36 389.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f8d04e38-d3ce-4a5b-8793-23c961681b2f")
+	)
 	(label "READ_EN_SIG"
 		(at 471.17 463.55 180)
 		(effects
@@ -12847,6 +14053,16 @@
 			(justify right bottom)
 		)
 		(uuid "f9f3da0e-1fb2-4a09-9879-e13ac95d19b8")
+	)
+	(label "IN_EN_SIG"
+		(at 471.17 575.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fa048888-36c0-431a-8b62-d795ced0b704")
 	)
 	(label "VDD_5V"
 		(at 58.42 87.63 0)
@@ -12858,10 +14074,20 @@
 		)
 		(uuid "fc418a70-1b39-41e7-afdd-beee6de5d728")
 	)
+	(label "CALIB_EN_SIG"
+		(at 471.17 521.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fe7beb8a-6598-4b3e-83dd-7afaeaff595b")
+	)
 	(symbol
 		(lib_name "Jumper-Device_1")
 		(lib_id "IMC_PCB-rescue:Jumper-Device")
-		(at 473.71 383.54 0)
+		(at 474.98 392.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12869,7 +14095,7 @@
 		(dnp no)
 		(uuid "011b4b24-b672-4c7e-8dd3-fdb518355d69")
 		(property "Reference" "JP111"
-			(at 473.71 379.73 0)
+			(at 474.98 388.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12878,7 +14104,7 @@
 			)
 		)
 		(property "Value" "Jumper"
-			(at 473.71 385.572 0)
+			(at 474.98 394.462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12887,7 +14113,7 @@
 			)
 		)
 		(property "Footprint" "jumper:61300211121"
-			(at 473.71 383.54 0)
+			(at 474.98 392.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12896,7 +14122,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 473.71 383.54 0)
+			(at 474.98 392.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12905,7 +14131,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 473.71 383.54 0)
+			(at 474.98 392.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13375,7 +14601,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 491.49 386.08 90)
+		(at 492.76 394.97 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13383,7 +14609,7 @@
 		(dnp no)
 		(uuid "0827c121-2d07-43f2-a03e-40a5aced3f5a")
 		(property "Reference" "R75"
-			(at 494.03 384.81 90)
+			(at 495.3 393.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13391,7 +14617,7 @@
 			)
 		)
 		(property "Value" "10 ohm 1%"
-			(at 491.49 382.27 90)
+			(at 492.76 391.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13400,7 +14626,7 @@
 			)
 		)
 		(property "Footprint" "ERJ3EKF10R0V:RES_ERJ3EKF10R0V"
-			(at 491.49 386.08 0)
+			(at 492.76 394.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13409,7 +14635,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 491.49 386.08 0)
+			(at 492.76 394.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13418,7 +14644,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 491.49 386.08 0)
+			(at 492.76 394.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13427,7 +14653,7 @@
 			)
 		)
 		(property "P. No" "ERJ3EKF10R0V"
-			(at 491.49 386.08 90)
+			(at 492.76 394.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13452,7 +14678,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 603.25 359.41 0)
+		(at 604.52 368.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13461,7 +14687,7 @@
 		(fields_autoplaced yes)
 		(uuid "08ab7c7e-f732-4f38-accb-31a51fa61a56")
 		(property "Reference" "#PWR067"
-			(at 603.25 365.76 0)
+			(at 604.52 374.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13470,7 +14696,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 603.25 364.49 0)
+			(at 604.52 373.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13478,7 +14704,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 603.25 359.41 0)
+			(at 604.52 368.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13487,7 +14713,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 603.25 359.41 0)
+			(at 604.52 368.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13496,7 +14722,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 603.25 359.41 0)
+			(at 604.52 368.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14392,7 +15618,7 @@
 	(symbol
 		(lib_name "Jumper-Device_1")
 		(lib_id "IMC_PCB-rescue:Jumper-Device")
-		(at 473.71 381 0)
+		(at 474.98 389.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14400,7 +15626,7 @@
 		(dnp no)
 		(uuid "13969d8c-16c9-42fc-9796-dda8a7578443")
 		(property "Reference" "JP110"
-			(at 473.71 377.19 0)
+			(at 474.98 386.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14409,7 +15635,7 @@
 			)
 		)
 		(property "Value" "Jumper"
-			(at 473.71 383.032 0)
+			(at 474.98 391.922 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14418,7 +15644,7 @@
 			)
 		)
 		(property "Footprint" "jumper:61300211121"
-			(at 473.71 381 0)
+			(at 474.98 389.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14427,7 +15653,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 473.71 381 0)
+			(at 474.98 389.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14436,7 +15662,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 473.71 381 0)
+			(at 474.98 389.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14453,6 +15679,73 @@
 			(project "pcb_2025"
 				(path "/a2b105cb-8b57-40fb-9e14-dfcfbf666a3f"
 					(reference "JP110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 605.79 577.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13d594b3-3b5a-4940-9f44-dd21d637b00a")
+		(property "Reference" "#PWR065"
+			(at 612.14 577.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 609.6 577.8499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 605.79 577.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 605.79 577.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 605.79 577.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "917bd3ad-3b98-484f-98b8-33d615243c17")
+		)
+		(instances
+			(project "pcb_2025"
+				(path "/a2b105cb-8b57-40fb-9e14-dfcfbf666a3f"
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -15314,8 +16607,75 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 490.22 519.43 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21434f17-9de9-4e9c-949d-6a4fc17cdfa3")
+		(property "Reference" "#PWR034"
+			(at 483.87 519.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 486.41 519.4299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 490.22 519.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 490.22 519.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 490.22 519.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2980ef47-1917-4c09-b77b-fa14384fe2eb")
+		)
+		(instances
+			(project "pcb_2025"
+				(path "/a2b105cb-8b57-40fb-9e14-dfcfbf666a3f"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 491.49 388.62 90)
+		(at 492.76 397.51 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15323,7 +16683,7 @@
 		(dnp no)
 		(uuid "21495b13-f851-451a-8cc1-c2664c69bd00")
 		(property "Reference" "R76"
-			(at 494.03 387.35 90)
+			(at 495.3 396.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15331,7 +16691,7 @@
 			)
 		)
 		(property "Value" "10 ohm 1%"
-			(at 491.49 384.81 90)
+			(at 492.76 393.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15340,7 +16700,7 @@
 			)
 		)
 		(property "Footprint" "ERJ3EKF10R0V:RES_ERJ3EKF10R0V"
-			(at 491.49 388.62 0)
+			(at 492.76 397.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15349,7 +16709,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 491.49 388.62 0)
+			(at 492.76 397.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15358,7 +16718,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 491.49 388.62 0)
+			(at 492.76 397.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15367,7 +16727,7 @@
 			)
 		)
 		(property "P. No" "ERJ3EKF10R0V"
-			(at 491.49 388.62 90)
+			(at 492.76 397.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15608,7 +16968,7 @@
 	(symbol
 		(lib_name "Jumper-Device_1")
 		(lib_id "IMC_PCB-rescue:Jumper-Device")
-		(at 473.71 396.24 0)
+		(at 474.98 405.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15616,7 +16976,7 @@
 		(dnp no)
 		(uuid "22c1e3dc-4660-4a38-af19-4e7001c66139")
 		(property "Reference" "JP118"
-			(at 473.71 392.43 0)
+			(at 474.98 401.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15625,7 +16985,7 @@
 			)
 		)
 		(property "Value" "Jumper"
-			(at 473.71 398.272 0)
+			(at 474.98 407.162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15634,7 +16994,7 @@
 			)
 		)
 		(property "Footprint" "jumper:61300211121"
-			(at 473.71 396.24 0)
+			(at 474.98 405.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15643,7 +17003,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 473.71 396.24 0)
+			(at 474.98 405.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15652,7 +17012,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 473.71 396.24 0)
+			(at 474.98 405.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15822,7 +17182,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 491.49 340.36 90)
+		(at 492.76 349.25 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15830,7 +17190,7 @@
 		(dnp no)
 		(uuid "240e0dc6-c9fe-44a5-a746-3c6c07af9028")
 		(property "Reference" "R84"
-			(at 494.03 339.09 90)
+			(at 495.3 347.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15838,7 +17198,7 @@
 			)
 		)
 		(property "Value" "10 ohm 1%"
-			(at 491.49 336.55 90)
+			(at 492.76 345.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15847,7 +17207,7 @@
 			)
 		)
 		(property "Footprint" "ERJ3EKF10R0V:RES_ERJ3EKF10R0V"
-			(at 491.49 340.36 0)
+			(at 492.76 349.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15856,7 +17216,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 491.49 340.36 0)
+			(at 492.76 349.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15865,7 +17225,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 491.49 340.36 0)
+			(at 492.76 349.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15874,7 +17234,7 @@
 			)
 		)
 		(property "P. No" "ERJ3EKF10R0V"
-			(at 491.49 340.36 90)
+			(at 492.76 349.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16045,7 +17405,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 595.63 337.82 270)
+		(at 596.9 346.71 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16053,7 +17413,7 @@
 		(dnp no)
 		(uuid "24e08d8e-4d67-4c98-b1ac-2cbe5d3dc3a9")
 		(property "Reference" "R86"
-			(at 593.09 339.09 90)
+			(at 594.36 347.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16061,7 +17421,7 @@
 			)
 		)
 		(property "Value" "10 ohm 1%"
-			(at 595.63 341.63 90)
+			(at 596.9 350.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16070,7 +17430,7 @@
 			)
 		)
 		(property "Footprint" "ERJ3EKF10R0V:RES_ERJ3EKF10R0V"
-			(at 595.63 337.82 0)
+			(at 596.9 346.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16079,7 +17439,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 595.63 337.82 0)
+			(at 596.9 346.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16088,7 +17448,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 595.63 337.82 0)
+			(at 596.9 346.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16097,7 +17457,7 @@
 			)
 		)
 		(property "P. No" "ERJ3EKF10R0V"
-			(at 595.63 337.82 90)
+			(at 596.9 346.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16406,7 +17766,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 491.49 332.74 90)
+		(at 492.76 341.63 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16414,7 +17774,7 @@
 		(dnp no)
 		(uuid "27109366-736a-48e9-8f2c-3c1b7c29f7b7")
 		(property "Reference" "R81"
-			(at 494.03 331.47 90)
+			(at 495.3 340.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16422,7 +17782,7 @@
 			)
 		)
 		(property "Value" "10 ohm 1%"
-			(at 491.49 328.93 90)
+			(at 492.76 337.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16431,7 +17791,7 @@
 			)
 		)
 		(property "Footprint" "ERJ3EKF10R0V:RES_ERJ3EKF10R0V"
-			(at 491.49 332.74 0)
+			(at 492.76 341.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16440,7 +17800,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 491.49 332.74 0)
+			(at 492.76 341.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16449,7 +17809,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 491.49 332.74 0)
+			(at 492.76 341.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16458,7 +17818,7 @@
 			)
 		)
 		(property "P. No" "ERJ3EKF10R0V"
-			(at 491.49 332.74 90)
+			(at 492.76 341.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16476,6 +17836,140 @@
 			(project "pcb_2025"
 				(path "/a2b105cb-8b57-40fb-9e14-dfcfbf666a3f"
 					(reference "R81")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 605.79 496.57 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2be48c3c-9a33-4d0d-b14d-3490eb41b952")
+		(property "Reference" "#PWR068"
+			(at 612.14 496.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 609.6 496.5699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 605.79 496.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 605.79 496.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 605.79 496.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b997c81-b01c-46db-acc9-58f1c3158fe5")
+		)
+		(instances
+			(project "pcb_2025"
+				(path "/a2b105cb-8b57-40fb-9e14-dfcfbf666a3f"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 490.22 438.15 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c515c7a-aae4-4d83-a726-367df0f6aee8")
+		(property "Reference" "#PWR028"
+			(at 483.87 438.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 486.41 438.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 490.22 438.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 490.22 438.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 490.22 438.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dbbe816c-27f3-4aa3-8393-8b353f03535f")
+		)
+		(instances
+			(project "pcb_2025"
+				(path "/a2b105cb-8b57-40fb-9e14-dfcfbf666a3f"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -16553,7 +18047,7 @@
 	(symbol
 		(lib_name "Jumper-Device_1")
 		(lib_id "IMC_PCB-rescue:Jumper-Device")
-		(at 613.41 340.36 180)
+		(at 614.68 349.25 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16561,7 +18055,7 @@
 		(dnp no)
 		(uuid "2c910c71-0546-465b-8146-46ade7719094")
 		(property "Reference" "JP127"
-			(at 613.41 344.17 0)
+			(at 614.68 353.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16570,7 +18064,7 @@
 			)
 		)
 		(property "Value" "Jumper"
-			(at 613.41 338.328 0)
+			(at 614.68 347.218 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16579,7 +18073,7 @@
 			)
 		)
 		(property "Footprint" "jumper:61300211121"
-			(at 613.41 340.36 0)
+			(at 614.68 349.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16588,7 +18082,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 613.41 340.36 0)
+			(at 614.68 349.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16597,7 +18091,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 613.41 340.36 0)
+			(at 614.68 349.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17057,15 +18551,15 @@
 	(symbol
 		(lib_name "Jumper-Device_1")
 		(lib_id "IMC_PCB-rescue:Jumper-Device")
-		(at 473.71 332.74 0)
+		(at 501.65 496.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "349bef6e-8cc6-4c8c-9214-da87dc1d5edb")
-		(property "Reference" "JP120"
-			(at 473.71 328.93 0)
+		(uuid "341bb0a0-cbe2-41a1-9d2b-56f643be04e2")
+		(property "Reference" "JP135"
+			(at 501.65 492.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17074,7 +18568,7 @@
 			)
 		)
 		(property "Value" "Jumper"
-			(at 473.71 334.772 0)
+			(at 501.65 498.602 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17083,7 +18577,7 @@
 			)
 		)
 		(property "Footprint" "jumper:61300211121"
-			(at 473.71 332.74 0)
+			(at 501.65 496.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17092,7 +18586,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 473.71 332.74 0)
+			(at 501.65 496.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17101,7 +18595,76 @@
 			)
 		)
 		(property "Description" ""
-			(at 473.71 332.74 0)
+			(at 501.65 496.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "291e47fa-199c-4dc0-8795-f09a8d7cb476")
+		)
+		(pin "2"
+			(uuid "b3dc3f12-4285-4cda-ac32-05c8034eaa72")
+		)
+		(instances
+			(project "pcb_2025"
+				(path "/a2b105cb-8b57-40fb-9e14-dfcfbf666a3f"
+					(reference "JP135")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Jumper-Device_1")
+		(lib_id "IMC_PCB-rescue:Jumper-Device")
+		(at 474.98 341.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "349bef6e-8cc6-4c8c-9214-da87dc1d5edb")
+		(property "Reference" "JP120"
+			(at 474.98 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Jumper"
+			(at 474.98 343.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "jumper:61300211121"
+			(at 474.98 341.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 474.98 341.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 474.98 341.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17187,6 +18750,75 @@
 			(project "pcb_2025"
 				(path "/a2b105cb-8b57-40fb-9e14-dfcfbf666a3f"
 					(reference "JP43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Jumper-Device_1")
+		(lib_id "IMC_PCB-rescue:Jumper-Device")
+		(at 588.01 402.59 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "37330211-a4c3-4999-916e-cfe2b5d8b9af")
+		(property "Reference" "JP139"
+			(at 588.01 406.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Jumper"
+			(at 588.01 400.558 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "jumper:61300211121"
+			(at 588.01 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 588.01 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 588.01 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b34350bf-91f5-4afd-a404-35113ac7595c")
+		)
+		(pin "2"
+			(uuid "f7a35ecc-545b-4857-8d7b-f6fadc3c4de9")
+		)
+		(instances
+			(project "pcb_2025"
+				(path "/a2b105cb-8b57-40fb-9e14-dfcfbf666a3f"
+					(reference "JP139")
 					(unit 1)
 				)
 			)
@@ -17391,6 +19023,73 @@
 			(project "pcb_2025"
 				(path "/a2b105cb-8b57-40fb-9e14-dfcfbf666a3f"
 					(reference "JP72")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 486.41 354.33 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3920fe87-7448-4e05-8657-290001ccb487")
+		(property "Reference" "#PWR070"
+			(at 480.06 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 482.6 354.3299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 486.41 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 486.41 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 486.41 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23b806e8-0cdd-4206-89af-b7cec663ab0b")
+		)
+		(instances
+			(project "pcb_2025"
+				(path "/a2b105cb-8b57-40fb-9e14-dfcfbf666a3f"
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -18041,6 +19740,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 486.41 351.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "41285b1e-7d30-42f7-8b63-366e2769eee3")
+		(property "Reference" "#PWR071"
+			(at 480.06 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 482.6 351.7899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 486.41 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 486.41 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 486.41 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4acbb599-8a0a-481d-8338-b121f4564404")
+		)
+		(instances
+			(project "pcb_2025"
+				(path "/a2b105cb-8b57-40fb-9e14-dfcfbf666a3f"
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 496.57 521.97 90)
 		(unit 1)
@@ -18119,7 +19885,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 485.14 405.13 0)
+		(at 486.41 414.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18128,7 +19894,7 @@
 		(fields_autoplaced yes)
 		(uuid "438a1a94-2091-408a-a761-021bc71e5397")
 		(property "Reference" "#PWR060"
-			(at 485.14 411.48 0)
+			(at 486.41 420.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18137,7 +19903,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 485.14 410.21 0)
+			(at 486.41 419.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18145,7 +19911,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 485.14 405.13 0)
+			(at 486.41 414.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18154,7 +19920,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 485.14 405.13 0)
+			(at 486.41 414.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18163,7 +19929,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 485.14 405.13 0)
+			(at 486.41 414.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18178,6 +19944,75 @@
 			(project "pcb_2025"
 				(path "/a2b105cb-8b57-40fb-9e14-dfcfbf666a3f"
 					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Jumper-Device_1")
+		(lib_id "IMC_PCB-rescue:Jumper-Device")
+		(at 501.65 438.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "45549ff6-72a7-407b-8f73-9095d015dbe3")
+		(property "Reference" "JP134"
+			(at 501.65 434.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Jumper"
+			(at 501.65 440.182 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "jumper:61300211121"
+			(at 501.65 438.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 501.65 438.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 501.65 438.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "717a3173-6db2-4d23-9057-cadb1a9571cf")
+		)
+		(pin "2"
+			(uuid "4ae52403-5296-4dd2-a9ac-758420cfd97f")
+		)
+		(instances
+			(project "pcb_2025"
+				(path "/a2b105cb-8b57-40fb-9e14-dfcfbf666a3f"
+					(reference "JP134")
 					(unit 1)
 				)
 			)
@@ -18331,7 +20166,7 @@
 	)
 	(symbol
 		(lib_id "SN74AVC4T245RGYR:SN74AVC4T245RGYR")
-		(at 543.56 340.36 180)
+		(at 544.83 349.25 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18340,7 +20175,7 @@
 		(fields_autoplaced yes)
 		(uuid "467d34c5-3943-40a0-ae88-fc7708addd28")
 		(property "Reference" "U10"
-			(at 543.56 320.04 0)
+			(at 544.83 328.93 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18348,7 +20183,7 @@
 			)
 		)
 		(property "Value" "SN74AVC4T245RGYR"
-			(at 543.56 322.58 0)
+			(at 544.83 331.47 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18356,7 +20191,7 @@
 			)
 		)
 		(property "Footprint" "SN74AVC4T245RGYR:RGY16_2P55X2P05"
-			(at 574.04 350.52 0)
+			(at 575.31 359.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18366,7 +20201,7 @@
 			)
 		)
 		(property "Datasheet" "SN74AVC4T245RGYR"
-			(at 574.04 350.52 0)
+			(at 575.31 359.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18376,7 +20211,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 543.56 340.36 0)
+			(at 544.83 349.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18385,7 +20220,7 @@
 			)
 		)
 		(property "P. No" "SN74AVC4T245RGYR"
-			(at 543.56 340.36 0)
+			(at 544.83 349.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18595,73 +20430,6 @@
 			(project "pcb_2025"
 				(path "/a2b105cb-8b57-40fb-9e14-dfcfbf666a3f"
 					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 579.12 396.24 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "48fba4e4-3ad3-4cdc-89e4-13005321dada")
-		(property "Reference" "#PWR049"
-			(at 585.47 396.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 582.93 396.2399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 579.12 396.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 579.12 396.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 579.12 396.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3bf08a3d-5c42-4e0b-a810-281a44c978a8")
-		)
-		(instances
-			(project "pcb_2025"
-				(path "/a2b105cb-8b57-40fb-9e14-dfcfbf666a3f"
-					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -19584,7 +21352,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 595.63 391.16 270)
+		(at 596.9 400.05 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19592,7 +21360,7 @@
 		(dnp no)
 		(uuid "51cecb00-3086-4c1a-ae10-929e6bfa1083")
 		(property "Reference" "R80"
-			(at 593.09 392.43 90)
+			(at 594.36 401.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19600,7 +21368,7 @@
 			)
 		)
 		(property "Value" "10 ohm 1%"
-			(at 595.63 394.97 90)
+			(at 596.9 403.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19609,7 +21377,7 @@
 			)
 		)
 		(property "Footprint" "ERJ3EKF10R0V:RES_ERJ3EKF10R0V"
-			(at 595.63 391.16 0)
+			(at 596.9 400.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19618,7 +21386,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 595.63 391.16 0)
+			(at 596.9 400.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19627,7 +21395,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 595.63 391.16 0)
+			(at 596.9 400.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19636,7 +21404,7 @@
 			)
 		)
 		(property "P. No" "ERJ3EKF10R0V"
-			(at 595.63 391.16 90)
+			(at 596.9 400.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19661,7 +21429,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 509.27 330.2 270)
+		(at 510.54 339.09 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19670,7 +21438,7 @@
 		(fields_autoplaced yes)
 		(uuid "51d0a562-42a0-4552-8019-7103af1b6201")
 		(property "Reference" "#PWR063"
-			(at 502.92 330.2 0)
+			(at 504.19 339.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19679,7 +21447,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 505.46 330.1999 90)
+			(at 506.73 339.0899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19688,7 +21456,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 509.27 330.2 0)
+			(at 510.54 339.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19697,7 +21465,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 509.27 330.2 0)
+			(at 510.54 339.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19706,7 +21474,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 509.27 330.2 0)
+			(at 510.54 339.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19856,6 +21624,75 @@
 			(project "pcb_2025"
 				(path "/a2b105cb-8b57-40fb-9e14-dfcfbf666a3f"
 					(reference "JP94")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Jumper-Device_1")
+		(lib_id "IMC_PCB-rescue:Jumper-Device")
+		(at 502.92 577.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "54ce7137-e2a9-478f-a89d-dda2914dd3a6")
+		(property "Reference" "JP136"
+			(at 502.92 574.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Jumper"
+			(at 502.92 579.882 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "jumper:61300211121"
+			(at 502.92 577.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 502.92 577.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 502.92 577.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ebff2995-eaed-44f5-b2db-7874d10171ea")
+		)
+		(pin "2"
+			(uuid "dd71b027-323d-4011-abcd-f7c52368d1d7")
+		)
+		(instances
+			(project "pcb_2025"
+				(path "/a2b105cb-8b57-40fb-9e14-dfcfbf666a3f"
+					(reference "JP136")
 					(unit 1)
 				)
 			)
@@ -20018,7 +21855,7 @@
 	(symbol
 		(lib_name "Jumper-Device_1")
 		(lib_id "IMC_PCB-rescue:Jumper-Device")
-		(at 613.41 337.82 180)
+		(at 614.68 346.71 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20026,7 +21863,7 @@
 		(dnp no)
 		(uuid "57acd035-50b8-4270-8301-b15a2eb05681")
 		(property "Reference" "JP126"
-			(at 613.41 341.63 0)
+			(at 614.68 350.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20035,7 +21872,7 @@
 			)
 		)
 		(property "Value" "Jumper"
-			(at 613.41 335.788 0)
+			(at 614.68 344.678 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20044,7 +21881,7 @@
 			)
 		)
 		(property "Footprint" "jumper:61300211121"
-			(at 613.41 337.82 0)
+			(at 614.68 346.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20053,7 +21890,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 613.41 337.82 0)
+			(at 614.68 346.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20062,7 +21899,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 613.41 337.82 0)
+			(at 614.68 346.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20231,6 +22068,142 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 485.14 400.05 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59c0571b-7aca-44a2-ad87-0338fa1ff0e2")
+		(property "Reference" "#PWR072"
+			(at 478.79 400.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 481.33 400.0499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 485.14 400.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 485.14 400.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 485.14 400.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8049e5ef-0987-4da5-b070-744b4a7c228b")
+		)
+		(instances
+			(project "pcb_2025"
+				(path "/a2b105cb-8b57-40fb-9e14-dfcfbf666a3f"
+					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Jumper-Device_1")
+		(lib_id "IMC_PCB-rescue:Jumper-Device")
+		(at 591.82 354.33 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "59cb3756-9fb2-4f05-bd4a-4f8e7ac08e71")
+		(property "Reference" "JP140"
+			(at 591.82 358.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Jumper"
+			(at 591.82 352.298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "jumper:61300211121"
+			(at 591.82 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 591.82 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 591.82 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "65719442-35f4-4773-9e6a-26cdcf5a5bc4")
+		)
+		(pin "2"
+			(uuid "b50de7ad-24e8-41b3-b11c-bdd75d910d68")
+		)
+		(instances
+			(project "pcb_2025"
+				(path "/a2b105cb-8b57-40fb-9e14-dfcfbf666a3f"
+					(reference "JP140")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "IMC_PCB-rescue:Jumper-Device")
 		(at 127 132.08 180)
 		(unit 1)
@@ -20343,6 +22316,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 544.83 466.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P. No" "SN74AVCH16T245GR"
 			(at 544.83 466.09 0)
 			(effects
 				(font
@@ -21095,6 +23077,75 @@
 		)
 	)
 	(symbol
+		(lib_name "Jumper-Device_1")
+		(lib_id "IMC_PCB-rescue:Jumper-Device")
+		(at 497.84 351.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "62573a1b-2949-4aa4-b9c5-b37841a0d41e")
+		(property "Reference" "JP131"
+			(at 497.84 347.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Jumper"
+			(at 497.84 353.822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "jumper:61300211121"
+			(at 497.84 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 497.84 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 497.84 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c937dd4d-acc8-4000-858b-ce8aca53e73f")
+		)
+		(pin "2"
+			(uuid "d544556d-c93d-4abe-8fa6-8bce75bd4359")
+		)
+		(instances
+			(project "pcb_2025"
+				(path "/a2b105cb-8b57-40fb-9e14-dfcfbf666a3f"
+					(reference "JP131")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 496.57 466.09 90)
 		(unit 1)
@@ -21386,7 +23437,7 @@
 	(symbol
 		(lib_name "Jumper-Device_1")
 		(lib_id "IMC_PCB-rescue:Jumper-Device")
-		(at 473.71 337.82 0)
+		(at 474.98 346.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21394,7 +23445,7 @@
 		(dnp no)
 		(uuid "67a30ecd-aef9-4a78-9d46-f348511ffe83")
 		(property "Reference" "JP122"
-			(at 473.71 334.01 0)
+			(at 474.98 342.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21403,7 +23454,7 @@
 			)
 		)
 		(property "Value" "Jumper"
-			(at 473.71 339.852 0)
+			(at 474.98 348.742 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21412,7 +23463,7 @@
 			)
 		)
 		(property "Footprint" "jumper:61300211121"
-			(at 473.71 337.82 0)
+			(at 474.98 346.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21421,7 +23472,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 473.71 337.82 0)
+			(at 474.98 346.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21430,7 +23481,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 473.71 337.82 0)
+			(at 474.98 346.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21799,7 +23850,7 @@
 	)
 	(symbol
 		(lib_id "CL10B105KO8NNNC:CL10B105KO8NNNC")
-		(at 603.25 355.6 90)
+		(at 604.52 364.49 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21808,7 +23859,7 @@
 		(fields_autoplaced yes)
 		(uuid "6d91845a-7680-4fca-b492-dd70302c8abc")
 		(property "Reference" "C27"
-			(at 607.06 353.0599 90)
+			(at 608.33 361.9499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21817,7 +23868,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 607.06 355.5999 90)
+			(at 608.33 364.4899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21826,7 +23877,7 @@
 			)
 		)
 		(property "Footprint" "CL10B105KO8NNNC:CAPC1608X90N"
-			(at 595.884 369.57 0)
+			(at 597.154 378.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21836,7 +23887,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 603.25 355.6 0)
+			(at 604.52 364.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21845,7 +23896,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 603.25 355.6 0)
+			(at 604.52 364.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21854,7 +23905,7 @@
 			)
 		)
 		(property "MF" "Samsung Electro-Mechanics"
-			(at 595.884 369.57 0)
+			(at 597.154 378.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21864,7 +23915,7 @@
 			)
 		)
 		(property "Description_1" "1 µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 595.884 369.57 0)
+			(at 597.154 378.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21874,7 +23925,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 613.41 355.6 0)
+			(at 614.68 364.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21884,7 +23935,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 613.41 355.6 0)
+			(at 614.68 364.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21894,7 +23945,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CL10B105KO8NNNC/Samsung/view-part/?ref=snap"
-			(at 595.884 369.57 0)
+			(at 597.154 378.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21904,7 +23955,7 @@
 			)
 		)
 		(property "MP" "CL10B105KO8NNNC"
-			(at 611.632 355.6 0)
+			(at 612.902 364.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21914,7 +23965,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 615.696 355.346 0)
+			(at 616.966 364.236 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21924,7 +23975,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/CL10B105KO8NNNC/Samsung/view-part/?ref=eda"
-			(at 595.884 369.57 0)
+			(at 597.154 378.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21934,7 +23985,7 @@
 			)
 		)
 		(property "P. No" "CL10B105KO8NNNC"
-			(at 603.25 355.6 0)
+			(at 604.52 364.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22485,7 +24536,7 @@
 	(symbol
 		(lib_name "Jumper-Device_1")
 		(lib_id "IMC_PCB-rescue:Jumper-Device")
-		(at 473.71 386.08 0)
+		(at 474.98 394.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22493,7 +24544,7 @@
 		(dnp no)
 		(uuid "710ad2e4-c29d-4cfa-8447-35b9b1141b05")
 		(property "Reference" "JP112"
-			(at 473.71 382.27 0)
+			(at 474.98 391.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22502,7 +24553,7 @@
 			)
 		)
 		(property "Value" "Jumper"
-			(at 473.71 388.112 0)
+			(at 474.98 397.002 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22511,7 +24562,7 @@
 			)
 		)
 		(property "Footprint" "jumper:61300211121"
-			(at 473.71 386.08 0)
+			(at 474.98 394.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22520,7 +24571,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 473.71 386.08 0)
+			(at 474.98 394.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22529,7 +24580,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 473.71 386.08 0)
+			(at 474.98 394.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22832,7 +24883,7 @@
 	)
 	(symbol
 		(lib_id "CL10B105KO8NNNC:CL10B105KO8NNNC")
-		(at 485.14 401.32 90)
+		(at 486.41 410.21 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22841,7 +24892,7 @@
 		(fields_autoplaced yes)
 		(uuid "759f509e-2841-450f-8759-0ddd109e33c0")
 		(property "Reference" "C24"
-			(at 488.95 398.7799 90)
+			(at 490.22 407.6699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22850,7 +24901,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 488.95 401.3199 90)
+			(at 490.22 410.2099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22859,7 +24910,7 @@
 			)
 		)
 		(property "Footprint" "CL10B105KO8NNNC:CAPC1608X90N"
-			(at 477.774 415.29 0)
+			(at 479.044 424.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22869,7 +24920,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 485.14 401.32 0)
+			(at 486.41 410.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22878,7 +24929,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 485.14 401.32 0)
+			(at 486.41 410.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22887,7 +24938,7 @@
 			)
 		)
 		(property "MF" "Samsung Electro-Mechanics"
-			(at 477.774 415.29 0)
+			(at 479.044 424.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22897,7 +24948,7 @@
 			)
 		)
 		(property "Description_1" "1 µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 477.774 415.29 0)
+			(at 479.044 424.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22907,7 +24958,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 495.3 401.32 0)
+			(at 496.57 410.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22917,7 +24968,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 495.3 401.32 0)
+			(at 496.57 410.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22927,7 +24978,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CL10B105KO8NNNC/Samsung/view-part/?ref=snap"
-			(at 477.774 415.29 0)
+			(at 479.044 424.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22937,7 +24988,7 @@
 			)
 		)
 		(property "MP" "CL10B105KO8NNNC"
-			(at 493.522 401.32 0)
+			(at 494.792 410.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22947,7 +24998,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 497.586 401.066 0)
+			(at 498.856 409.956 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22957,7 +25008,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/CL10B105KO8NNNC/Samsung/view-part/?ref=eda"
-			(at 477.774 415.29 0)
+			(at 479.044 424.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22967,7 +25018,7 @@
 			)
 		)
 		(property "P. No" "CL10B105KO8NNNC"
-			(at 485.14 401.32 0)
+			(at 486.41 410.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23062,73 +25113,6 @@
 			(project "pcb_2025"
 				(path "/a2b105cb-8b57-40fb-9e14-dfcfbf666a3f"
 					(reference "R37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 509.27 519.43 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "76643929-9865-48d6-919d-8b96938169a9")
-		(property "Reference" "#PWR034"
-			(at 502.92 519.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 505.46 519.4299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 509.27 519.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 509.27 519.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 509.27 519.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d533b163-08ce-418b-8721-02a3a7f4b982")
-		)
-		(instances
-			(project "pcb_2025"
-				(path "/a2b105cb-8b57-40fb-9e14-dfcfbf666a3f"
-					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -23421,17 +25405,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 579.12 345.44 90)
+		(lib_name "Jumper-Device_1")
+		(lib_id "IMC_PCB-rescue:Jumper-Device")
+		(at 496.57 402.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "777f8dbe-188c-48d7-80ed-0bf4518e22b8")
-		(property "Reference" "#PWR065"
-			(at 585.47 345.44 0)
+		(uuid "78457a60-e96f-4c63-9c05-a6c78a9044f6")
+		(property "Reference" "JP133"
+			(at 496.57 398.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23439,17 +25423,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 582.93 345.4399 90)
+		(property "Value" "Jumper"
+			(at 496.57 404.622 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 579.12 345.44 0)
+		(property "Footprint" "jumper:61300211121"
+			(at 496.57 402.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23458,7 +25442,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 579.12 345.44 0)
+			(at 496.57 402.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23466,22 +25450,24 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 579.12 345.44 0)
+		(property "Description" ""
+			(at 496.57 402.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "c64f0562-3bca-4a42-8795-a12ad8a6ad15")
+			(uuid "dc34965b-f6f4-4111-97c9-a7274a877ef7")
+		)
+		(pin "2"
+			(uuid "b5fa2f19-333c-4477-a875-e31f9d78ab00")
 		)
 		(instances
 			(project "pcb_2025"
 				(path "/a2b105cb-8b57-40fb-9e14-dfcfbf666a3f"
-					(reference "#PWR065")
+					(reference "JP133")
 					(unit 1)
 				)
 			)
@@ -23702,17 +25688,17 @@
 		)
 	)
 	(symbol
-		(lib_name "Jumper-Device_1")
-		(lib_id "IMC_PCB-rescue:Jumper-Device")
-		(at 613.41 388.62 180)
+		(lib_id "power:GND")
+		(at 605.79 438.15 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "7bbc805f-1d7e-4359-b5bf-6ae42f8bd0ab")
-		(property "Reference" "JP116"
-			(at 613.41 392.43 0)
+		(fields_autoplaced yes)
+		(uuid "7adc128e-35e8-43a6-a6bc-3314b5c60260")
+		(property "Reference" "#PWR069"
+			(at 612.14 438.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23720,17 +25706,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "Jumper"
-			(at 613.41 386.588 0)
+		(property "Value" "GND"
+			(at 609.6 438.1499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify right)
 			)
 		)
-		(property "Footprint" "jumper:61300211121"
-			(at 613.41 388.62 0)
+		(property "Footprint" ""
+			(at 605.79 438.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23739,7 +25725,74 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 613.41 388.62 0)
+			(at 605.79 438.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 605.79 438.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99b1b0d1-e686-40cb-a020-0fd31cbba4ea")
+		)
+		(instances
+			(project "pcb_2025"
+				(path "/a2b105cb-8b57-40fb-9e14-dfcfbf666a3f"
+					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Jumper-Device_1")
+		(lib_id "IMC_PCB-rescue:Jumper-Device")
+		(at 614.68 397.51 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7bbc805f-1d7e-4359-b5bf-6ae42f8bd0ab")
+		(property "Reference" "JP116"
+			(at 614.68 401.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Jumper"
+			(at 614.68 395.478 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "jumper:61300211121"
+			(at 614.68 397.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 614.68 397.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23748,7 +25801,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 613.41 388.62 0)
+			(at 614.68 397.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23765,6 +25818,142 @@
 			(project "pcb_2025"
 				(path "/a2b105cb-8b57-40fb-9e14-dfcfbf666a3f"
 					(reference "JP116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Jumper-Device_1")
+		(lib_id "IMC_PCB-rescue:Jumper-Device")
+		(at 497.84 354.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7c95c912-e337-4937-976a-ab23c113c0e3")
+		(property "Reference" "JP130"
+			(at 497.84 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Jumper"
+			(at 497.84 356.362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "jumper:61300211121"
+			(at 497.84 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 497.84 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 497.84 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b6fb4229-6a45-4b93-9578-4ba030a4f3b0")
+		)
+		(pin "2"
+			(uuid "5ff37925-94ad-4e8e-93ce-9c2d68c51090")
+		)
+		(instances
+			(project "pcb_2025"
+				(path "/a2b105cb-8b57-40fb-9e14-dfcfbf666a3f"
+					(reference "JP130")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 599.44 405.13 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7cb6413e-1f30-45c0-8cc9-3cdf33c0bfda")
+		(property "Reference" "#PWR049"
+			(at 605.79 405.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 603.25 405.1301 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 599.44 405.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 599.44 405.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 599.44 405.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f70f467c-9219-467e-b68a-4303ab1b742e")
+		)
+		(instances
+			(project "pcb_2025"
+				(path "/a2b105cb-8b57-40fb-9e14-dfcfbf666a3f"
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -24105,6 +26294,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 491.49 577.85 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80763fca-ad5e-49fa-8d29-02b6529f15bc")
+		(property "Reference" "#PWR043"
+			(at 485.14 577.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 487.68 577.8499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 491.49 577.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 491.49 577.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 491.49 577.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de9166b3-a2ac-4208-bd26-2c86e4463168")
+		)
+		(instances
+			(project "pcb_2025"
+				(path "/a2b105cb-8b57-40fb-9e14-dfcfbf666a3f"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "C_1")
 		(lib_id "Device:C")
 		(at 59.69 113.03 0)
@@ -24413,7 +26669,7 @@
 	(symbol
 		(lib_name "Jumper-Device_1")
 		(lib_id "IMC_PCB-rescue:Jumper-Device")
-		(at 613.41 386.08 180)
+		(at 614.68 394.97 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24421,7 +26677,7 @@
 		(dnp no)
 		(uuid "83b84b5d-3056-4300-851f-6082571acfd1")
 		(property "Reference" "JP115"
-			(at 613.41 389.89 0)
+			(at 614.68 398.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24430,7 +26686,7 @@
 			)
 		)
 		(property "Value" "Jumper"
-			(at 613.41 384.048 0)
+			(at 614.68 392.938 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24439,7 +26695,7 @@
 			)
 		)
 		(property "Footprint" "jumper:61300211121"
-			(at 613.41 386.08 0)
+			(at 614.68 394.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24448,7 +26704,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 613.41 386.08 0)
+			(at 614.68 394.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24457,7 +26713,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 613.41 386.08 0)
+			(at 614.68 394.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24482,7 +26738,7 @@
 	(symbol
 		(lib_name "Jumper-Device_1")
 		(lib_id "IMC_PCB-rescue:Jumper-Device")
-		(at 613.41 383.54 180)
+		(at 614.68 392.43 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24490,7 +26746,7 @@
 		(dnp no)
 		(uuid "83c129d3-453a-48ae-af1f-78175a340c8f")
 		(property "Reference" "JP114"
-			(at 613.41 387.35 0)
+			(at 614.68 396.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24499,7 +26755,7 @@
 			)
 		)
 		(property "Value" "Jumper"
-			(at 613.41 381.508 0)
+			(at 614.68 390.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24508,7 +26764,7 @@
 			)
 		)
 		(property "Footprint" "jumper:61300211121"
-			(at 613.41 383.54 0)
+			(at 614.68 392.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24517,7 +26773,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 613.41 383.54 0)
+			(at 614.68 392.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24526,7 +26782,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 613.41 383.54 0)
+			(at 614.68 392.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24695,73 +26951,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 509.27 496.57 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "84e48920-85f2-4659-b1dd-132f93e73a07")
-		(property "Reference" "#PWR033"
-			(at 502.92 496.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 505.46 496.5699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 509.27 496.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 509.27 496.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 509.27 496.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "61b72a8f-48b4-4ead-be79-efa427dac8c6")
-		)
-		(instances
-			(project "pcb_2025"
-				(path "/a2b105cb-8b57-40fb-9e14-dfcfbf666a3f"
-					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "Jumper-Device_1")
 		(lib_id "IMC_PCB-rescue:Jumper-Device")
 		(at 478.79 443.23 0)
@@ -24832,7 +27021,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 595.63 383.54 270)
+		(at 596.9 392.43 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24840,7 +27029,7 @@
 		(dnp no)
 		(uuid "87907397-af78-4d23-bd29-78baef327f03")
 		(property "Reference" "R77"
-			(at 593.09 384.81 90)
+			(at 594.36 393.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24848,7 +27037,7 @@
 			)
 		)
 		(property "Value" "10 ohm 1%"
-			(at 595.63 387.35 90)
+			(at 596.9 396.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24857,7 +27046,7 @@
 			)
 		)
 		(property "Footprint" "ERJ3EKF10R0V:RES_ERJ3EKF10R0V"
-			(at 595.63 383.54 0)
+			(at 596.9 392.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24866,7 +27055,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 595.63 383.54 0)
+			(at 596.9 392.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24875,7 +27064,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 595.63 383.54 0)
+			(at 596.9 392.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24884,7 +27073,7 @@
 			)
 		)
 		(property "P. No" "ERJ3EKF10R0V"
-			(at 595.63 383.54 90)
+			(at 596.9 392.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25133,7 +27322,7 @@
 	(symbol
 		(lib_name "Jumper-Device_1")
 		(lib_id "IMC_PCB-rescue:Jumper-Device")
-		(at 613.41 398.78 180)
+		(at 614.68 407.67 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25141,7 +27330,7 @@
 		(dnp no)
 		(uuid "8ab4e8fd-0455-4c77-8584-7f7284b6fa08")
 		(property "Reference" "JP119"
-			(at 613.41 402.59 0)
+			(at 614.68 411.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25150,7 +27339,7 @@
 			)
 		)
 		(property "Value" "Jumper"
-			(at 613.41 396.748 0)
+			(at 614.68 405.638 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25159,7 +27348,7 @@
 			)
 		)
 		(property "Footprint" "jumper:61300211121"
-			(at 613.41 398.78 0)
+			(at 614.68 407.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25168,7 +27357,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 613.41 398.78 0)
+			(at 614.68 407.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25177,7 +27366,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 613.41 398.78 0)
+			(at 614.68 407.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25268,7 +27457,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 491.49 337.82 90)
+		(at 492.76 346.71 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25276,7 +27465,7 @@
 		(dnp no)
 		(uuid "8d593994-87c0-4b57-b5b7-bae6edabd654")
 		(property "Reference" "R83"
-			(at 494.03 336.55 90)
+			(at 495.3 345.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25284,7 +27473,7 @@
 			)
 		)
 		(property "Value" "10 ohm 1%"
-			(at 491.49 334.01 90)
+			(at 492.76 342.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25293,7 +27482,7 @@
 			)
 		)
 		(property "Footprint" "ERJ3EKF10R0V:RES_ERJ3EKF10R0V"
-			(at 491.49 337.82 0)
+			(at 492.76 346.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25302,7 +27491,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 491.49 337.82 0)
+			(at 492.76 346.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25311,7 +27500,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 491.49 337.82 0)
+			(at 492.76 346.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25320,7 +27509,7 @@
 			)
 		)
 		(property "P. No" "ERJ3EKF10R0V"
-			(at 491.49 337.82 90)
+			(at 492.76 346.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25565,73 +27754,6 @@
 			(project "pcb_2025"
 				(path "/a2b105cb-8b57-40fb-9e14-dfcfbf666a3f"
 					(reference "C18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 579.12 393.7 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8e416081-fa11-43e3-b4f7-a3fb9f38a09e")
-		(property "Reference" "#PWR050"
-			(at 585.47 393.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 582.93 393.6999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 579.12 393.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 579.12 393.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 579.12 393.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1c637e2b-1a04-4b66-b2eb-0895fd0b2a11")
-		)
-		(instances
-			(project "pcb_2025"
-				(path "/a2b105cb-8b57-40fb-9e14-dfcfbf666a3f"
-					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -26218,6 +28340,75 @@
 	(symbol
 		(lib_name "Jumper-Device_1")
 		(lib_id "IMC_PCB-rescue:Jumper-Device")
+		(at 588.01 405.13 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9409b766-eef6-441a-bddd-a3c9c7a42731")
+		(property "Reference" "JP138"
+			(at 588.01 408.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Jumper"
+			(at 588.01 403.098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "jumper:61300211121"
+			(at 588.01 405.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 588.01 405.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 588.01 405.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f4d0a20b-8477-4dcd-bf57-b6b464f1992c")
+		)
+		(pin "2"
+			(uuid "017c9f9f-ebea-45a1-bece-6d1cb3451eee")
+		)
+		(instances
+			(project "pcb_2025"
+				(path "/a2b105cb-8b57-40fb-9e14-dfcfbf666a3f"
+					(reference "JP138")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Jumper-Device_1")
+		(lib_id "IMC_PCB-rescue:Jumper-Device")
 		(at 478.79 476.25 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -26345,73 +28536,6 @@
 			(project "pcb_2025"
 				(path "/a2b105cb-8b57-40fb-9e14-dfcfbf666a3f"
 					(reference "JP30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 579.12 347.98 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "96db391a-ee9f-496a-a3dd-8a4c02b6eab5")
-		(property "Reference" "#PWR066"
-			(at 585.47 347.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 582.93 347.9799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 579.12 347.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 579.12 347.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 579.12 347.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "85843df0-a5b5-49a0-b815-059d8e7f00db")
-		)
-		(instances
-			(project "pcb_2025"
-				(path "/a2b105cb-8b57-40fb-9e14-dfcfbf666a3f"
-					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -27358,7 +29482,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 485.14 356.87 0)
+		(at 486.41 365.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27367,7 +29491,7 @@
 		(fields_autoplaced yes)
 		(uuid "9d21fec6-e5c8-4bf8-bef2-32d407c4c606")
 		(property "Reference" "#PWR062"
-			(at 485.14 363.22 0)
+			(at 486.41 372.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27376,7 +29500,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 485.14 361.95 0)
+			(at 486.41 370.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27384,7 +29508,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 485.14 356.87 0)
+			(at 486.41 365.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27393,7 +29517,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 485.14 356.87 0)
+			(at 486.41 365.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27402,7 +29526,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 485.14 356.87 0)
+			(at 486.41 365.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27648,7 +29772,7 @@
 	(symbol
 		(lib_name "Jumper-Device_1")
 		(lib_id "IMC_PCB-rescue:Jumper-Device")
-		(at 473.71 347.98 0)
+		(at 474.98 356.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27656,7 +29780,7 @@
 		(dnp no)
 		(uuid "a04012d9-db01-466f-a974-95121e0f4411")
 		(property "Reference" "JP124"
-			(at 473.71 344.17 0)
+			(at 474.98 353.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27665,7 +29789,7 @@
 			)
 		)
 		(property "Value" "Jumper"
-			(at 473.71 350.012 0)
+			(at 474.98 358.902 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27674,7 +29798,7 @@
 			)
 		)
 		(property "Footprint" "jumper:61300211121"
-			(at 473.71 347.98 0)
+			(at 474.98 356.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27683,7 +29807,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 473.71 347.98 0)
+			(at 474.98 356.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27692,7 +29816,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 473.71 347.98 0)
+			(at 474.98 356.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28243,7 +30367,7 @@
 	)
 	(symbol
 		(lib_id "CL10B105KO8NNNC:CL10B105KO8NNNC")
-		(at 603.25 403.86 90)
+		(at 604.52 412.75 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28252,7 +30376,7 @@
 		(fields_autoplaced yes)
 		(uuid "a884fc07-6682-4c89-8b56-9be1a7990994")
 		(property "Reference" "C25"
-			(at 607.06 401.3199 90)
+			(at 608.33 410.2099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28261,7 +30385,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 607.06 403.8599 90)
+			(at 608.33 412.7499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28270,7 +30394,7 @@
 			)
 		)
 		(property "Footprint" "CL10B105KO8NNNC:CAPC1608X90N"
-			(at 595.884 417.83 0)
+			(at 597.154 426.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28280,7 +30404,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 603.25 403.86 0)
+			(at 604.52 412.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28289,7 +30413,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 603.25 403.86 0)
+			(at 604.52 412.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28298,7 +30422,7 @@
 			)
 		)
 		(property "MF" "Samsung Electro-Mechanics"
-			(at 595.884 417.83 0)
+			(at 597.154 426.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28308,7 +30432,7 @@
 			)
 		)
 		(property "Description_1" "1 µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 595.884 417.83 0)
+			(at 597.154 426.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28318,7 +30442,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 613.41 403.86 0)
+			(at 614.68 412.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28328,7 +30452,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 613.41 403.86 0)
+			(at 614.68 412.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28338,7 +30462,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CL10B105KO8NNNC/Samsung/view-part/?ref=snap"
-			(at 595.884 417.83 0)
+			(at 597.154 426.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28348,7 +30472,7 @@
 			)
 		)
 		(property "MP" "CL10B105KO8NNNC"
-			(at 611.632 403.86 0)
+			(at 612.902 412.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28358,7 +30482,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 615.696 403.606 0)
+			(at 616.966 412.496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28368,7 +30492,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/CL10B105KO8NNNC/Samsung/view-part/?ref=eda"
-			(at 595.884 417.83 0)
+			(at 597.154 426.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28378,7 +30502,7 @@
 			)
 		)
 		(property "P. No" "CL10B105KO8NNNC"
-			(at 603.25 403.86 0)
+			(at 604.52 412.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28885,7 +31009,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 603.25 407.67 0)
+		(at 604.52 416.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28894,7 +31018,7 @@
 		(fields_autoplaced yes)
 		(uuid "ad53eb1a-8ac1-4d7c-ae27-e71be7b8e12a")
 		(property "Reference" "#PWR061"
-			(at 603.25 414.02 0)
+			(at 604.52 422.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28903,7 +31027,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 603.25 412.75 0)
+			(at 604.52 421.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28911,7 +31035,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 603.25 407.67 0)
+			(at 604.52 416.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28920,7 +31044,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 603.25 407.67 0)
+			(at 604.52 416.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28929,7 +31053,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 603.25 407.67 0)
+			(at 604.52 416.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29029,7 +31153,7 @@
 	(symbol
 		(lib_name "Jumper-Device_1")
 		(lib_id "IMC_PCB-rescue:Jumper-Device")
-		(at 473.71 335.28 0)
+		(at 474.98 344.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29037,7 +31161,7 @@
 		(dnp no)
 		(uuid "ae8b3280-4d92-49e5-a76e-9f29af0ff3e1")
 		(property "Reference" "JP121"
-			(at 473.71 331.47 0)
+			(at 474.98 340.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29046,7 +31170,7 @@
 			)
 		)
 		(property "Value" "Jumper"
-			(at 473.71 337.312 0)
+			(at 474.98 346.202 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29055,7 +31179,7 @@
 			)
 		)
 		(property "Footprint" "jumper:61300211121"
-			(at 473.71 335.28 0)
+			(at 474.98 344.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29064,7 +31188,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 473.71 335.28 0)
+			(at 474.98 344.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29073,7 +31197,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 473.71 335.28 0)
+			(at 474.98 344.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29165,7 +31289,7 @@
 	(symbol
 		(lib_name "Jumper-Device_1")
 		(lib_id "IMC_PCB-rescue:Jumper-Device")
-		(at 613.41 350.52 180)
+		(at 614.68 359.41 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29173,7 +31297,7 @@
 		(dnp no)
 		(uuid "af77ef19-6e8d-4cfb-9f82-261e10935996")
 		(property "Reference" "JP129"
-			(at 613.41 354.33 0)
+			(at 614.68 363.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29182,7 +31306,7 @@
 			)
 		)
 		(property "Value" "Jumper"
-			(at 613.41 348.488 0)
+			(at 614.68 357.378 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29191,7 +31315,7 @@
 			)
 		)
 		(property "Footprint" "jumper:61300211121"
-			(at 613.41 350.52 0)
+			(at 614.68 359.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29200,7 +31324,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 613.41 350.52 0)
+			(at 614.68 359.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29209,7 +31333,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 613.41 350.52 0)
+			(at 614.68 359.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29391,8 +31515,9 @@
 		)
 	)
 	(symbol
+		(lib_name "SN74AVC4T245RGYR_1")
 		(lib_id "SN74AVC4T245RGYR:SN74AVC4T245RGYR")
-		(at 543.56 388.62 180)
+		(at 544.83 397.51 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29401,7 +31526,7 @@
 		(fields_autoplaced yes)
 		(uuid "b0512276-098d-4869-92aa-92bbbed33e3e")
 		(property "Reference" "U9"
-			(at 543.56 368.3 0)
+			(at 544.83 377.19 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -29409,7 +31534,7 @@
 			)
 		)
 		(property "Value" "SN74AVC4T245RGYR"
-			(at 543.56 370.84 0)
+			(at 544.83 379.73 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -29417,7 +31542,7 @@
 			)
 		)
 		(property "Footprint" "SN74AVC4T245RGYR:RGY16_2P55X2P05"
-			(at 574.04 398.78 0)
+			(at 575.31 407.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29427,7 +31552,7 @@
 			)
 		)
 		(property "Datasheet" "SN74AVC4T245RGYR"
-			(at 574.04 398.78 0)
+			(at 575.31 407.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29437,7 +31562,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 543.56 388.62 0)
+			(at 544.83 397.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29446,7 +31571,7 @@
 			)
 		)
 		(property "P. No" "SN74AVC4T245RGYR"
-			(at 543.56 388.62 0)
+			(at 544.83 397.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29509,6 +31634,73 @@
 			(project ""
 				(path "/a2b105cb-8b57-40fb-9e14-dfcfbf666a3f"
 					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 605.79 519.43 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0ada6d7-4c06-480b-83a9-666aa8441f65")
+		(property "Reference" "#PWR066"
+			(at 612.14 519.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 609.6 519.4299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 605.79 519.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 605.79 519.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 605.79 519.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "40485c2c-2c9b-4afd-8969-887297b51237")
+		)
+		(instances
+			(project "pcb_2025"
+				(path "/a2b105cb-8b57-40fb-9e14-dfcfbf666a3f"
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -29981,73 +32173,6 @@
 			(project "pcb_2025"
 				(path "/a2b105cb-8b57-40fb-9e14-dfcfbf666a3f"
 					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 509.27 438.15 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b92d64a2-6df6-40c3-82f7-05e96e4a9862")
-		(property "Reference" "#PWR028"
-			(at 502.92 438.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 505.46 438.1499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 509.27 438.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 509.27 438.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 509.27 438.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ce14b5e9-8dd7-48a1-8da0-f18df62fe9cf")
-		)
-		(instances
-			(project ""
-				(path "/a2b105cb-8b57-40fb-9e14-dfcfbf666a3f"
-					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -31016,7 +33141,7 @@
 	(symbol
 		(lib_name "Jumper-Device_1")
 		(lib_id "IMC_PCB-rescue:Jumper-Device")
-		(at 613.41 335.28 180)
+		(at 614.68 344.17 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31024,7 +33149,7 @@
 		(dnp no)
 		(uuid "c4c91085-b511-4160-a3f5-59cebf395a25")
 		(property "Reference" "JP125"
-			(at 613.41 339.09 0)
+			(at 614.68 347.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31033,7 +33158,7 @@
 			)
 		)
 		(property "Value" "Jumper"
-			(at 613.41 333.248 0)
+			(at 614.68 342.138 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31042,7 +33167,7 @@
 			)
 		)
 		(property "Footprint" "jumper:61300211121"
-			(at 613.41 335.28 0)
+			(at 614.68 344.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31051,7 +33176,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 613.41 335.28 0)
+			(at 614.68 344.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31060,7 +33185,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 613.41 335.28 0)
+			(at 614.68 344.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31500,7 +33625,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 595.63 335.28 270)
+		(at 596.9 344.17 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31508,7 +33633,7 @@
 		(dnp no)
 		(uuid "c994e6b7-508f-4d04-aaea-d2097c4d9c90")
 		(property "Reference" "R85"
-			(at 593.09 336.55 90)
+			(at 594.36 345.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31516,7 +33641,7 @@
 			)
 		)
 		(property "Value" "10 ohm 1%"
-			(at 595.63 339.09 90)
+			(at 596.9 347.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31525,7 +33650,7 @@
 			)
 		)
 		(property "Footprint" "ERJ3EKF10R0V:RES_ERJ3EKF10R0V"
-			(at 595.63 335.28 0)
+			(at 596.9 344.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31534,7 +33659,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 595.63 335.28 0)
+			(at 596.9 344.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31543,7 +33668,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 595.63 335.28 0)
+			(at 596.9 344.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31552,7 +33677,7 @@
 			)
 		)
 		(property "P. No" "ERJ3EKF10R0V"
-			(at 595.63 335.28 90)
+			(at 596.9 344.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31912,17 +34037,17 @@
 		)
 	)
 	(symbol
-		(lib_name "Jumper-Device_1")
-		(lib_id "IMC_PCB-rescue:Jumper-Device")
-		(at 473.71 340.36 0)
+		(lib_id "power:GND")
+		(at 485.14 402.59 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ce9fee15-93ee-49c0-b0a3-083ce773c11c")
-		(property "Reference" "JP123"
-			(at 473.71 336.55 0)
+		(fields_autoplaced yes)
+		(uuid "ccdc555c-9d46-4571-8899-07231daee257")
+		(property "Reference" "#PWR073"
+			(at 478.79 402.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31930,17 +34055,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "Jumper"
-			(at 473.71 342.392 0)
+		(property "Value" "GND"
+			(at 481.33 402.5899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify right)
 			)
 		)
-		(property "Footprint" "jumper:61300211121"
-			(at 473.71 340.36 0)
+		(property "Footprint" ""
+			(at 485.14 402.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31949,7 +34074,74 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 473.71 340.36 0)
+			(at 485.14 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 485.14 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "254aa07b-dc10-4066-b195-efeea5123345")
+		)
+		(instances
+			(project "pcb_2025"
+				(path "/a2b105cb-8b57-40fb-9e14-dfcfbf666a3f"
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Jumper-Device_1")
+		(lib_id "IMC_PCB-rescue:Jumper-Device")
+		(at 474.98 349.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ce9fee15-93ee-49c0-b0a3-083ce773c11c")
+		(property "Reference" "JP123"
+			(at 474.98 345.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Jumper"
+			(at 474.98 351.282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "jumper:61300211121"
+			(at 474.98 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 474.98 349.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31958,7 +34150,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 473.71 340.36 0)
+			(at 474.98 349.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32560,73 +34752,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 509.27 577.85 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d4590000-a40b-455b-b957-592efef0b3be")
-		(property "Reference" "#PWR043"
-			(at 502.92 577.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 505.46 577.8499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 509.27 577.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 509.27 577.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 509.27 577.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fad762ad-4f30-4b84-8bc4-c99e6bc56811")
-		)
-		(instances
-			(project "pcb_2025"
-				(path "/a2b105cb-8b57-40fb-9e14-dfcfbf666a3f"
-					(reference "#PWR043")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 44.45 201.93 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -32763,6 +34888,75 @@
 			(project "pcb_2025"
 				(path "/a2b105cb-8b57-40fb-9e14-dfcfbf666a3f"
 					(reference "R55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Jumper-Device_1")
+		(lib_id "IMC_PCB-rescue:Jumper-Device")
+		(at 591.82 356.87 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d7ee0ebc-c3fe-468e-a6fd-24c2c53da266")
+		(property "Reference" "JP141"
+			(at 591.82 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Jumper"
+			(at 591.82 354.838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "jumper:61300211121"
+			(at 591.82 356.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 591.82 356.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 591.82 356.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e8331a23-0da6-4e93-971d-d8329154be38")
+		)
+		(pin "2"
+			(uuid "92d1dc49-5530-42a3-8e3f-2eb2cb04460c")
+		)
+		(instances
+			(project "pcb_2025"
+				(path "/a2b105cb-8b57-40fb-9e14-dfcfbf666a3f"
+					(reference "JP141")
 					(unit 1)
 				)
 			)
@@ -33141,6 +35335,140 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 599.44 402.59 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dbd1b06f-52e2-4227-bab0-19c2c0dfa496")
+		(property "Reference" "#PWR050"
+			(at 605.79 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 603.25 402.5901 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 599.44 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 599.44 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 599.44 402.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "346b4262-db56-4eb7-b209-84c1ba2c702b")
+		)
+		(instances
+			(project "pcb_2025"
+				(path "/a2b105cb-8b57-40fb-9e14-dfcfbf666a3f"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 490.22 496.57 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dbd953e0-3e74-4069-bf22-60dd33b45f12")
+		(property "Reference" "#PWR033"
+			(at 483.87 496.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 486.41 496.5699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 490.22 496.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 490.22 496.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 490.22 496.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "939ccd4d-3c78-4e30-8744-a9e0d30f9d33")
+		)
+		(instances
+			(project "pcb_2025"
+				(path "/a2b105cb-8b57-40fb-9e14-dfcfbf666a3f"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "IMC_PCB-rescue:Jumper-Device")
 		(at 127 106.68 0)
 		(unit 1)
@@ -33274,7 +35602,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 595.63 386.08 270)
+		(at 596.9 394.97 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33282,7 +35610,7 @@
 		(dnp no)
 		(uuid "dcfc88b7-28eb-4a19-9dc8-45b480d2a975")
 		(property "Reference" "R78"
-			(at 593.09 387.35 90)
+			(at 594.36 396.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33290,7 +35618,7 @@
 			)
 		)
 		(property "Value" "10 ohm 1%"
-			(at 595.63 389.89 90)
+			(at 596.9 398.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33299,7 +35627,7 @@
 			)
 		)
 		(property "Footprint" "ERJ3EKF10R0V:RES_ERJ3EKF10R0V"
-			(at 595.63 386.08 0)
+			(at 596.9 394.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33308,7 +35636,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 595.63 386.08 0)
+			(at 596.9 394.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33317,7 +35645,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 595.63 386.08 0)
+			(at 596.9 394.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33326,7 +35654,7 @@
 			)
 		)
 		(property "P. No" "ERJ3EKF10R0V"
-			(at 595.63 386.08 90)
+			(at 596.9 394.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33351,7 +35679,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 491.49 381 90)
+		(at 492.76 389.89 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33359,7 +35687,7 @@
 		(dnp no)
 		(uuid "dd50632f-2fe0-414c-994a-21a468229857")
 		(property "Reference" "R73"
-			(at 494.03 379.73 90)
+			(at 495.3 388.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33367,7 +35695,7 @@
 			)
 		)
 		(property "Value" "10 ohm 1%"
-			(at 491.49 377.19 90)
+			(at 492.76 386.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33376,7 +35704,7 @@
 			)
 		)
 		(property "Footprint" "ERJ3EKF10R0V:RES_ERJ3EKF10R0V"
-			(at 491.49 381 0)
+			(at 492.76 389.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33385,7 +35713,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 491.49 381 0)
+			(at 492.76 389.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33394,7 +35722,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 491.49 381 0)
+			(at 492.76 389.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33403,7 +35731,7 @@
 			)
 		)
 		(property "P. No" "ERJ3EKF10R0V"
-			(at 491.49 381 90)
+			(at 492.76 389.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33624,7 +35952,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 509.27 378.46 270)
+		(at 510.54 387.35 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33633,7 +35961,7 @@
 		(fields_autoplaced yes)
 		(uuid "deb57c9c-565a-4efa-8e18-2221fe6e16f1")
 		(property "Reference" "#PWR048"
-			(at 502.92 378.46 0)
+			(at 504.19 387.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33642,7 +35970,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 505.46 378.4599 90)
+			(at 506.73 387.3499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33651,7 +35979,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 509.27 378.46 0)
+			(at 510.54 387.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33660,7 +35988,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 509.27 378.46 0)
+			(at 510.54 387.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33669,7 +35997,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 509.27 378.46 0)
+			(at 510.54 387.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33691,7 +36019,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 579.12 381 90)
+		(at 580.39 389.89 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33700,7 +36028,7 @@
 		(fields_autoplaced yes)
 		(uuid "debf8657-be1e-4c7f-8fc2-bc896ecacad5")
 		(property "Reference" "#PWR051"
-			(at 585.47 381 0)
+			(at 586.74 389.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33709,7 +36037,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 582.93 380.9999 90)
+			(at 584.2 389.8899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33718,7 +36046,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 579.12 381 0)
+			(at 580.39 389.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33727,7 +36055,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 579.12 381 0)
+			(at 580.39 389.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33736,7 +36064,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 579.12 381 0)
+			(at 580.39 389.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33759,7 +36087,7 @@
 	(symbol
 		(lib_name "Jumper-Device_1")
 		(lib_id "IMC_PCB-rescue:Jumper-Device")
-		(at 613.41 342.9 180)
+		(at 614.68 351.79 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33767,7 +36095,7 @@
 		(dnp no)
 		(uuid "df7dd0f5-ba5f-4a85-a36b-38f689a7e961")
 		(property "Reference" "JP128"
-			(at 613.41 346.71 0)
+			(at 614.68 355.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33776,7 +36104,7 @@
 			)
 		)
 		(property "Value" "Jumper"
-			(at 613.41 340.868 0)
+			(at 614.68 349.758 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33785,7 +36113,7 @@
 			)
 		)
 		(property "Footprint" "jumper:61300211121"
-			(at 613.41 342.9 0)
+			(at 614.68 351.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33794,7 +36122,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 613.41 342.9 0)
+			(at 614.68 351.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33803,7 +36131,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 613.41 342.9 0)
+			(at 614.68 351.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33828,7 +36156,7 @@
 	(symbol
 		(lib_name "Jumper-Device_1")
 		(lib_id "IMC_PCB-rescue:Jumper-Device")
-		(at 613.41 391.16 180)
+		(at 614.68 400.05 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33836,7 +36164,7 @@
 		(dnp no)
 		(uuid "e19e40d2-d0d6-407e-b4d7-055a6358c81f")
 		(property "Reference" "JP117"
-			(at 613.41 394.97 0)
+			(at 614.68 403.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33845,7 +36173,7 @@
 			)
 		)
 		(property "Value" "Jumper"
-			(at 613.41 389.128 0)
+			(at 614.68 398.018 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33854,7 +36182,7 @@
 			)
 		)
 		(property "Footprint" "jumper:61300211121"
-			(at 613.41 391.16 0)
+			(at 614.68 400.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33863,7 +36191,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 613.41 391.16 0)
+			(at 614.68 400.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33872,7 +36200,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 613.41 391.16 0)
+			(at 614.68 400.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33965,7 +36293,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 595.63 388.62 270)
+		(at 596.9 397.51 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33973,7 +36301,7 @@
 		(dnp no)
 		(uuid "e3d6f3f3-1e1c-405c-86c1-6c14aa752693")
 		(property "Reference" "R79"
-			(at 593.09 389.89 90)
+			(at 594.36 398.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33981,7 +36309,7 @@
 			)
 		)
 		(property "Value" "10 ohm 1%"
-			(at 595.63 392.43 90)
+			(at 596.9 401.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33990,7 +36318,7 @@
 			)
 		)
 		(property "Footprint" "ERJ3EKF10R0V:RES_ERJ3EKF10R0V"
-			(at 595.63 388.62 0)
+			(at 596.9 397.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33999,7 +36327,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 595.63 388.62 0)
+			(at 596.9 397.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34008,7 +36336,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 595.63 388.62 0)
+			(at 596.9 397.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34017,7 +36345,7 @@
 			)
 		)
 		(property "P. No" "ERJ3EKF10R0V"
-			(at 595.63 388.62 90)
+			(at 596.9 397.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34859,7 +37187,7 @@
 	)
 	(symbol
 		(lib_id "CL10B105KO8NNNC:CL10B105KO8NNNC")
-		(at 485.14 353.06 90)
+		(at 486.41 361.95 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -34868,7 +37196,7 @@
 		(fields_autoplaced yes)
 		(uuid "e854fa3a-09f5-49ed-a88e-608a1237cfcd")
 		(property "Reference" "C26"
-			(at 488.95 350.5199 90)
+			(at 490.22 359.4099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34877,7 +37205,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 488.95 353.0599 90)
+			(at 490.22 361.9499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34886,7 +37214,7 @@
 			)
 		)
 		(property "Footprint" "CL10B105KO8NNNC:CAPC1608X90N"
-			(at 477.774 367.03 0)
+			(at 479.044 375.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34896,7 +37224,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 485.14 353.06 0)
+			(at 486.41 361.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34905,7 +37233,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 485.14 353.06 0)
+			(at 486.41 361.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34914,7 +37242,7 @@
 			)
 		)
 		(property "MF" "Samsung Electro-Mechanics"
-			(at 477.774 367.03 0)
+			(at 479.044 375.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34924,7 +37252,7 @@
 			)
 		)
 		(property "Description_1" "1 µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 477.774 367.03 0)
+			(at 479.044 375.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34934,7 +37262,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 495.3 353.06 0)
+			(at 496.57 361.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34944,7 +37272,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 495.3 353.06 0)
+			(at 496.57 361.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34954,7 +37282,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CL10B105KO8NNNC/Samsung/view-part/?ref=snap"
-			(at 477.774 367.03 0)
+			(at 479.044 375.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34964,7 +37292,7 @@
 			)
 		)
 		(property "MP" "CL10B105KO8NNNC"
-			(at 493.522 353.06 0)
+			(at 494.792 361.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34974,7 +37302,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 497.586 352.806 0)
+			(at 498.856 361.696 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34984,7 +37312,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/CL10B105KO8NNNC/Samsung/view-part/?ref=eda"
-			(at 477.774 367.03 0)
+			(at 479.044 375.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34994,7 +37322,7 @@
 			)
 		)
 		(property "P. No" "CL10B105KO8NNNC"
-			(at 485.14 353.06 0)
+			(at 486.41 361.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35298,7 +37626,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 579.12 332.74 90)
+		(at 580.39 341.63 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -35307,7 +37635,7 @@
 		(fields_autoplaced yes)
 		(uuid "eac7b5c6-ca2d-4c09-87ce-cd3f4ed88066")
 		(property "Reference" "#PWR064"
-			(at 585.47 332.74 0)
+			(at 586.74 341.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35316,7 +37644,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 582.93 332.7399 90)
+			(at 584.2 341.6299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35325,7 +37653,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 579.12 332.74 0)
+			(at 580.39 341.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35334,7 +37662,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 579.12 332.74 0)
+			(at 580.39 341.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35343,7 +37671,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 579.12 332.74 0)
+			(at 580.39 341.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35366,7 +37694,7 @@
 	(symbol
 		(lib_name "Jumper-Device_1")
 		(lib_id "IMC_PCB-rescue:Jumper-Device")
-		(at 473.71 388.62 0)
+		(at 474.98 397.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -35374,7 +37702,7 @@
 		(dnp no)
 		(uuid "eb35ff4d-84b9-4218-bd6e-92d3646b52c9")
 		(property "Reference" "JP113"
-			(at 473.71 384.81 0)
+			(at 474.98 393.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35383,7 +37711,7 @@
 			)
 		)
 		(property "Value" "Jumper"
-			(at 473.71 390.652 0)
+			(at 474.98 399.542 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35392,7 +37720,7 @@
 			)
 		)
 		(property "Footprint" "jumper:61300211121"
-			(at 473.71 388.62 0)
+			(at 474.98 397.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35401,7 +37729,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 473.71 388.62 0)
+			(at 474.98 397.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35410,7 +37738,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 473.71 388.62 0)
+			(at 474.98 397.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35638,7 +37966,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 595.63 342.9 270)
+		(at 596.9 351.79 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -35646,7 +37974,7 @@
 		(dnp no)
 		(uuid "ee5e8ca0-af7a-486c-93ee-ef030f111710")
 		(property "Reference" "R88"
-			(at 593.09 344.17 90)
+			(at 594.36 353.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35654,7 +37982,7 @@
 			)
 		)
 		(property "Value" "10 ohm 1%"
-			(at 595.63 346.71 90)
+			(at 596.9 355.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35663,7 +37991,7 @@
 			)
 		)
 		(property "Footprint" "ERJ3EKF10R0V:RES_ERJ3EKF10R0V"
-			(at 595.63 342.9 0)
+			(at 596.9 351.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35672,7 +38000,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 595.63 342.9 0)
+			(at 596.9 351.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35681,7 +38009,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 595.63 342.9 0)
+			(at 596.9 351.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35690,7 +38018,7 @@
 			)
 		)
 		(property "P. No" "ERJ3EKF10R0V"
-			(at 595.63 342.9 90)
+			(at 596.9 351.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36072,8 +38400,77 @@
 		)
 	)
 	(symbol
+		(lib_name "Jumper-Device_1")
+		(lib_id "IMC_PCB-rescue:Jumper-Device")
+		(at 496.57 400.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f28b0381-4e5e-43ea-95ef-d71ea75dcca2")
+		(property "Reference" "JP132"
+			(at 496.57 396.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Jumper"
+			(at 496.57 402.082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "jumper:61300211121"
+			(at 496.57 400.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 496.57 400.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 496.57 400.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1fa66c8d-e10b-4bf5-9869-9674091a7766")
+		)
+		(pin "2"
+			(uuid "3b31c268-8b75-4321-888b-b1ff0b32b728")
+		)
+		(instances
+			(project "pcb_2025"
+				(path "/a2b105cb-8b57-40fb-9e14-dfcfbf666a3f"
+					(reference "JP132")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 595.63 340.36 270)
+		(at 596.9 349.25 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -36081,7 +38478,7 @@
 		(dnp no)
 		(uuid "f42c4723-9b82-4683-931d-bff771e2aa31")
 		(property "Reference" "R87"
-			(at 593.09 341.63 90)
+			(at 594.36 350.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36089,7 +38486,7 @@
 			)
 		)
 		(property "Value" "10 ohm 1%"
-			(at 595.63 344.17 90)
+			(at 596.9 353.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36098,7 +38495,7 @@
 			)
 		)
 		(property "Footprint" "ERJ3EKF10R0V:RES_ERJ3EKF10R0V"
-			(at 595.63 340.36 0)
+			(at 596.9 349.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36107,7 +38504,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 595.63 340.36 0)
+			(at 596.9 349.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36116,7 +38513,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 595.63 340.36 0)
+			(at 596.9 349.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36125,7 +38522,7 @@
 			)
 		)
 		(property "P. No" "ERJ3EKF10R0V"
-			(at 595.63 340.36 90)
+			(at 596.9 349.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36900,7 +39297,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 491.49 335.28 90)
+		(at 492.76 344.17 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -36908,7 +39305,7 @@
 		(dnp no)
 		(uuid "fb0ab435-a6ab-4f00-8ca2-9fc4258ce41d")
 		(property "Reference" "R82"
-			(at 494.03 334.01 90)
+			(at 495.3 342.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36916,7 +39313,7 @@
 			)
 		)
 		(property "Value" "10 ohm 1%"
-			(at 491.49 331.47 90)
+			(at 492.76 340.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36925,7 +39322,7 @@
 			)
 		)
 		(property "Footprint" "ERJ3EKF10R0V:RES_ERJ3EKF10R0V"
-			(at 491.49 335.28 0)
+			(at 492.76 344.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36934,7 +39331,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 491.49 335.28 0)
+			(at 492.76 344.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36943,7 +39340,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 491.49 335.28 0)
+			(at 492.76 344.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36952,7 +39349,7 @@
 			)
 		)
 		(property "P. No" "ERJ3EKF10R0V"
-			(at 491.49 335.28 90)
+			(at 492.76 344.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37039,6 +39436,75 @@
 			(project "pcb_2025"
 				(path "/a2b105cb-8b57-40fb-9e14-dfcfbf666a3f"
 					(reference "JP89")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Jumper-Device_1")
+		(lib_id "IMC_PCB-rescue:Jumper-Device")
+		(at 501.65 519.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb677f44-b4e4-4266-8a0c-0f1a8cf4cf03")
+		(property "Reference" "JP137"
+			(at 501.65 515.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Jumper"
+			(at 501.65 521.462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "jumper:61300211121"
+			(at 501.65 519.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 501.65 519.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 501.65 519.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b31f6cc2-f1c5-431c-831b-cdebbb4299e5")
+		)
+		(pin "2"
+			(uuid "be141f65-9411-4830-b46e-5ee346fa1ebc")
+		)
+		(instances
+			(project "pcb_2025"
+				(path "/a2b105cb-8b57-40fb-9e14-dfcfbf666a3f"
+					(reference "JP137")
 					(unit 1)
 				)
 			)
@@ -37248,7 +39714,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 491.49 383.54 90)
+		(at 492.76 392.43 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -37256,7 +39722,7 @@
 		(dnp no)
 		(uuid "fe42cf7f-fe8f-4d8f-8e16-b2c217c13262")
 		(property "Reference" "R74"
-			(at 494.03 382.27 90)
+			(at 495.3 391.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37264,7 +39730,7 @@
 			)
 		)
 		(property "Value" "10 ohm 1%"
-			(at 491.49 379.73 90)
+			(at 492.76 388.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37273,7 +39739,7 @@
 			)
 		)
 		(property "Footprint" "ERJ3EKF10R0V:RES_ERJ3EKF10R0V"
-			(at 491.49 383.54 0)
+			(at 492.76 392.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37282,7 +39748,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 491.49 383.54 0)
+			(at 492.76 392.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37291,7 +39757,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 491.49 383.54 0)
+			(at 492.76 392.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37300,7 +39766,7 @@
 			)
 		)
 		(property "P. No" "ERJ3EKF10R0V"
-			(at 491.49 383.54 90)
+			(at 492.76 392.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
