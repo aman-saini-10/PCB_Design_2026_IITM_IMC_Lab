@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Chip_QFN100:QFN100"
 			(at 0 -19.05 0)
 			(effects
 				(font
@@ -63,6 +63,14 @@
 			)
 		)
 		(symbol "Chip_QFN100_1_1"
+			(text "IMC_CHIP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+				)
+			)
 			(pin input line
 				(at -60.96 44.45 0)
 				(length 2.54)
@@ -516,7 +524,7 @@
 			(pin input line
 				(at -44.45 58.42 270)
 				(length 2.54)
-				(name "BL_Sel_Dec_EXT<1>"
+				(name "VDAC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -552,7 +560,7 @@
 			(pin input line
 				(at -40.64 58.42 270)
 				(length 2.54)
-				(name "BL_Sel_Dec_EXT<0>"
+				(name "VTC_VB"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -588,7 +596,7 @@
 			(pin input line
 				(at -36.83 58.42 270)
 				(length 2.54)
-				(name "CS<1>"
+				(name "CALIB_EN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -624,7 +632,7 @@
 			(pin input line
 				(at -33.02 58.42 270)
 				(length 2.54)
-				(name "CS<0>"
+				(name "BANK_SEL"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -660,7 +668,7 @@
 			(pin input line
 				(at -29.21 58.42 270)
 				(length 2.54)
-				(name "VDDQ"
+				(name "DEL_RST"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -696,7 +704,7 @@
 			(pin input line
 				(at -25.4 58.42 270)
 				(length 2.54)
-				(name "GNDA"
+				(name "PRECHARGE"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -732,7 +740,7 @@
 			(pin input line
 				(at -21.59 58.42 270)
 				(length 2.54)
-				(name "PRE_DR_EN"
+				(name "ENTIME"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -768,7 +776,7 @@
 			(pin input line
 				(at -17.78 58.42 270)
 				(length 2.54)
-				(name "MODE_R_WB"
+				(name "ENCHG"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -804,7 +812,7 @@
 			(pin input line
 				(at -13.97 58.42 270)
 				(length 2.54)
-				(name "VDDA"
+				(name "VDAC_CTRL"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -840,7 +848,7 @@
 			(pin input line
 				(at -10.16 58.42 270)
 				(length 2.54)
-				(name "GNDA"
+				(name "VTC_EN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -876,7 +884,7 @@
 			(pin input line
 				(at -6.35 58.42 270)
 				(length 2.54)
-				(name "Reset_SARLOGIC_EXT"
+				(name "TDC_EN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -909,10 +917,10 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -2.54 58.42 270)
 				(length 2.54)
-				(name "DataResis_EN"
+				(name "vdda"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -948,7 +956,7 @@
 			(pin input line
 				(at 1.27 58.42 270)
 				(length 2.54)
-				(name "RefResis_EN"
+				(name "TDC_RST"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -984,7 +992,7 @@
 			(pin input line
 				(at 5.08 58.42 270)
 				(length 2.54)
-				(name "VPROT_RBL"
+				(name "DFF_RST"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1020,7 +1028,7 @@
 			(pin input line
 				(at 8.89 58.42 270)
 				(length 2.54)
-				(name "IMC_RBL_EXT"
+				(name "TDC_COMPUTE"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1056,7 +1064,7 @@
 			(pin input line
 				(at 12.7 58.42 270)
 				(length 2.54)
-				(name "RefIMC_RBL_EXT"
+				(name "IN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1092,7 +1100,7 @@
 			(pin input line
 				(at 16.51 58.42 270)
 				(length 2.54)
-				(name "VbpCM"
+				(name "CTRL_EN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1128,7 +1136,7 @@
 			(pin input line
 				(at 20.32 58.42 270)
 				(length 2.54)
-				(name "SC_QOUT"
+				(name "gnda"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1164,7 +1172,7 @@
 			(pin input line
 				(at 24.13 58.42 270)
 				(length 2.54)
-				(name "IMC_VOut_EXT"
+				(name "VDAC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1200,7 +1208,7 @@
 			(pin input line
 				(at 27.94 58.42 270)
 				(length 2.54)
-				(name "RefIMC_VOut_EXT"
+				(name "CLK_POS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1236,7 +1244,7 @@
 			(pin input line
 				(at 31.75 58.42 270)
 				(length 2.54)
-				(name "SubVOLT_TOP_EXT"
+				(name "CLK_NEG"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1272,7 +1280,7 @@
 			(pin input line
 				(at 35.56 58.42 270)
 				(length 2.54)
-				(name "LeftTrackSUB"
+				(name "CLK_A"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1308,7 +1316,7 @@
 			(pin input line
 				(at 39.37 58.42 270)
 				(length 2.54)
-				(name "LEAK_OFF_NEG"
+				(name "CLK_B"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1344,7 +1352,7 @@
 			(pin input line
 				(at 43.18 58.42 270)
 				(length 2.54)
-				(name "VREF"
+				(name "IN_EN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1380,7 +1388,7 @@
 			(pin input line
 				(at 46.99 58.42 270)
 				(length 2.54)
-				(name "VCM_p"
+				(name "SCN_IN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1416,7 +1424,7 @@
 			(pin input line
 				(at 59.69 44.45 180)
 				(length 2.54)
-				(name "GNDA"
+				(name "vdda"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1452,7 +1460,7 @@
 			(pin input line
 				(at 59.69 36.83 180)
 				(length 2.54)
-				(name "NC"
+				(name "gnda"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1488,7 +1496,7 @@
 			(pin input line
 				(at 59.69 29.21 180)
 				(length 2.54)
-				(name "NC"
+				(name "SA_EN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1524,7 +1532,7 @@
 			(pin input line
 				(at 59.69 21.59 180)
 				(length 2.54)
-				(name "VDDH"
+				(name "BL_SEL<0>"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1542,7 +1550,7 @@
 			(pin input line
 				(at 59.69 17.78 180)
 				(length 2.54)
-				(name "VDDQ"
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1560,7 +1568,7 @@
 			(pin input line
 				(at 59.69 13.97 180)
 				(length 2.54)
-				(name "CLK_SARLOGIC_IN_EXT"
+				(name "BL_SEL<1>"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1578,7 +1586,7 @@
 			(pin input line
 				(at 59.69 10.16 180)
 				(length 2.54)
-				(name "SA_EN_EXT"
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1596,7 +1604,7 @@
 			(pin input line
 				(at 59.69 6.35 180)
 				(length 2.54)
-				(name "AllVIN_n_EXT"
+				(name "CS<0>"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1614,7 +1622,7 @@
 			(pin input line
 				(at 59.69 2.54 180)
 				(length 2.54)
-				(name "VDDA"
+				(name "CS<1>"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1632,7 +1640,7 @@
 			(pin input line
 				(at 59.69 -1.27 180)
 				(length 2.54)
-				(name "VDDQ"
+				(name "SCN_SEL<0>"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1650,7 +1658,7 @@
 			(pin input line
 				(at 59.69 -5.08 180)
 				(length 2.54)
-				(name "VDDA"
+				(name "SCN_SEL<1>"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1668,7 +1676,7 @@
 			(pin input line
 				(at 59.69 -8.89 180)
 				(length 2.54)
-				(name "GNDA"
+				(name "SCN_SEL<2>"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1686,7 +1694,7 @@
 			(pin input line
 				(at 59.69 -12.7 180)
 				(length 2.54)
-				(name "PRE_VCM_EXT"
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1704,7 +1712,7 @@
 			(pin input line
 				(at 59.69 -16.51 180)
 				(length 2.54)
-				(name "ADCSTART_EXT"
+				(name "WRITE_EN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1740,7 +1748,7 @@
 			(pin input line
 				(at 59.69 -24.13 180)
 				(length 2.54)
-				(name "GNDL"
+				(name "CLK_SA"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1776,7 +1784,7 @@
 			(pin input line
 				(at 59.69 -31.75 180)
 				(length 2.54)
-				(name "NC"
+				(name "vddq"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1812,7 +1820,7 @@
 			(pin input line
 				(at 59.69 -39.37 180)
 				(length 2.54)
-				(name "NC"
+				(name "vdda"
 					(effects
 						(font
 							(size 1.27 1.27)
