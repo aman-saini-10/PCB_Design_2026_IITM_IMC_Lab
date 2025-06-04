@@ -9,4 +9,5 @@
   (lib (name "R 10ohm 1%")(type "KiCad")(uri "${KIPRJMOD}/Comp_Lib/Symbols/ERJ3EKF10R0V.kicad_sym")(options "")(descr ""))
   (lib (name "SN74AVC4T245RGYR")(type "KiCad")(uri "${KIPRJMOD}/Comp_Lib/Symbols/SN74AVC4T245RGYR.kicad_sym")(options "")(descr ""))
   (lib (name "CL10B105KO8NNNC")(type "KiCad")(uri "${KIPRJMOD}/Comp_Lib/Symbols/CL10B105KO8NNNC.kicad_sym")(options "")(descr ""))
+  (lib (name "ASP-134603-01")(type "KiCad")(uri "${KIPRJMOD}/Comp_Lib/Symbols/ASP-134603-01.kicad_sym")(options "")(descr ""))
 )

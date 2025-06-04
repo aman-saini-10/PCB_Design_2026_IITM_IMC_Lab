@@ -14,4 +14,5 @@
   (lib (name "ERJ3EKF10R0V")(type "KiCad")(uri "${KIPRJMOD}/Comp_Lib/Footprints/ERJ-3EKF10R0V.pretty")(options "")(descr ""))
   (lib (name "SN74AVC4T245RGYR")(type "KiCad")(uri "${KIPRJMOD}/Comp_Lib/Footprints/SN74AVC4T245RGYR.pretty")(options "")(descr ""))
   (lib (name "CL10B105KO8NNNC")(type "KiCad")(uri "${KIPRJMOD}/Comp_Lib/Footprints/CL10B105KO8NNNC.pretty")(options "")(descr ""))
+  (lib (name "ASP-134603-01")(type "KiCad")(uri "${KIPRJMOD}/Comp_Lib/Footprints/ASP-134603-01.pretty")(options "")(descr ""))
 )
