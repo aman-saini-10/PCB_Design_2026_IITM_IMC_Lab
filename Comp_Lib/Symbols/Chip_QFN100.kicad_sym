@@ -1730,7 +1730,7 @@
 			(pin input line
 				(at 59.69 -20.32 180)
 				(length 2.54)
-				(name "VDDQ"
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
