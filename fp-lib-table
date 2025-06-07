@@ -17,4 +17,5 @@
   (lib (name "ASP-134603-01")(type "KiCad")(uri "${KIPRJMOD}/Comp_Lib/Footprints/ASP-134603-01.pretty")(options "")(descr ""))
   (lib (name "C0603C103K5RACTU")(type "KiCad")(uri "${KIPRJMOD}/Comp_Lib/Footprints/C0603C103K5RACTU.pretty")(options "")(descr ""))
   (lib (name "Connectors")(type "KiCad")(uri "${KIPRJMOD}/Comp_Lib/Footprints/142-0701-201.pretty")(options "")(descr ""))
+  (lib (name "CRCW06031R00FKEA")(type "KiCad")(uri "${KIPRJMOD}/Comp_Lib/Footprints/CRCW06031R00FKEA.pretty")(options "")(descr ""))
 )

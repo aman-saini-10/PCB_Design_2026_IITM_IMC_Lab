@@ -17546,12 +17546,6 @@
 		(uuid "2c19de9b-c2ce-4bc2-9734-693977be2476")
 	)
 	(junction
-		(at 129.54 753.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2c288bd9-fd9b-4481-a80d-122cb7e48e7d")
-	)
-	(junction
 		(at 668.02 186.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -19050,12 +19044,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8f8a04fd-c2dc-4d80-ab9c-77df553840c0")
-	)
-	(junction
-		(at 134.62 753.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8fcfb228-3712-49ec-9312-788c09667b5c")
 	)
 	(junction
 		(at 762 608.33)
@@ -29099,6 +29087,16 @@
 	)
 	(wire
 		(pts
+			(xy 798.83 684.53) (xy 805.18 684.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "459ac64f-5142-429b-9c07-e351eae34e56")
+	)
+	(wire
+		(pts
 			(xy 565.15 373.38) (xy 567.69 373.38)
 		)
 		(stroke
@@ -31236,16 +31234,6 @@
 			(type default)
 		)
 		(uuid "56e39d0d-7bca-4d32-86cd-88856175b79b")
-	)
-	(wire
-		(pts
-			(xy 129.54 753.11) (xy 134.62 753.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56ea958f-bf27-4a75-a377-e08e81b299e9")
 	)
 	(wire
 		(pts
@@ -55257,7 +55245,7 @@
 		)
 		(uuid "a6f02c53-f3f2-401c-96f2-173055bba7c9")
 	)
-	(label "VDD_5V_b"
+	(label "VDD_5V_a"
 		(at 707.39 367.03 0)
 		(effects
 			(font
@@ -55726,6 +55714,16 @@
 			(justify left bottom)
 		)
 		(uuid "be6db509-9ea4-4168-85d4-e9c84a49e19d")
+	)
+	(label "InputEN_DAC_Q"
+		(at 798.83 684.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bec0e333-0d29-41c9-af26-6f781b796338")
 	)
 	(label "U3_IN"
 		(at 76.2 208.28 0)
@@ -56537,7 +56535,7 @@
 		)
 		(uuid "e1bde4e9-af73-4ab2-800d-25e52dcc071d")
 	)
-	(label "VDD_5V_b"
+	(label "VDD_5V_c"
 		(at 707.39 402.59 0)
 		(effects
 			(font
@@ -57846,7 +57844,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "1 ohm 0603"
 			(at 817.88 751.84 90)
 			(effects
 				(font
@@ -58082,7 +58080,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "1 ohm 0603"
 			(at 853.44 732.79 90)
 			(effects
 				(font
@@ -58159,7 +58157,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "1 ohm 0603"
 			(at 850.9 751.84 90)
 			(effects
 				(font
@@ -64878,7 +64876,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "1 ohm 0603"
 			(at 900.43 532.13 90)
 			(effects
 				(font
@@ -67544,7 +67542,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "1 ohm 0603"
 			(at 786.13 604.52 90)
 			(effects
 				(font
@@ -68429,7 +68427,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "1 ohm 0603"
 			(at 819.15 530.86 90)
 			(effects
 				(font
@@ -75244,7 +75242,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "1 ohm 0603"
 			(at 948.69 772.16 90)
 			(effects
 				(font
@@ -77910,7 +77908,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "1 ohm 0603"
 			(at 854.71 713.74 90)
 			(effects
 				(font
@@ -80555,7 +80553,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "1 ohm 0603"
 			(at 708.66 642.62 90)
 			(effects
 				(font
@@ -81435,7 +81433,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "1 ohm 0603"
 			(at 982.98 734.06 90)
 			(effects
 				(font
@@ -82850,7 +82848,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "1 ohm 0603"
 			(at 948.69 589.28 90)
 			(effects
 				(font
@@ -83962,7 +83960,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "1 ohm 0603"
 			(at 814.07 551.18 90)
 			(effects
 				(font
@@ -86635,7 +86633,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "1 ohm 0603"
 			(at 815.34 732.79 90)
 			(effects
 				(font
@@ -87792,7 +87790,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "1 ohm 0603"
 			(at 953.77 673.1 90)
 			(effects
 				(font
@@ -89660,7 +89658,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "1 ohm 0603"
 			(at 784.86 675.64 90)
 			(effects
 				(font
@@ -91984,7 +91982,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "1 ohm 0603"
 			(at 822.96 772.16 90)
 			(effects
 				(font
@@ -98140,7 +98138,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "1 ohm 0603"
 			(at 826.77 793.75 90)
 			(effects
 				(font
@@ -100488,7 +100486,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "1 ohm 0603"
 			(at 867.41 563.88 90)
 			(effects
 				(font
@@ -105524,7 +105522,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "1 ohm 0603"
 			(at 982.98 792.48 90)
 			(effects
 				(font
@@ -107948,7 +107946,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "1 ohm 0603"
 			(at 982.98 754.38 90)
 			(effects
 				(font
@@ -108954,7 +108952,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "1 ohm 0603"
 			(at 784.86 657.86 90)
 			(effects
 				(font
@@ -110579,7 +110577,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "1 ohm 0603"
 			(at 948.69 791.21 90)
 			(effects
 				(font
@@ -110869,7 +110867,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "1 ohm 0603"
 			(at 750.57 650.24 90)
 			(effects
 				(font
@@ -124996,7 +124994,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "1 ohm 0603"
 			(at 948.69 753.11 90)
 			(effects
 				(font
@@ -130793,7 +130791,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "1 ohm 0603"
 			(at 666.75 638.81 90)
 			(effects
 				(font
@@ -134150,7 +134148,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "1 ohm 0603"
 			(at 843.28 793.75 90)
 			(effects
 				(font
@@ -134615,7 +134613,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "1 ohm 0603"
 			(at 786.13 589.28 90)
 			(effects
 				(font
@@ -137971,7 +137969,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "1 ohm 0603"
 			(at 847.09 772.16 90)
 			(effects
 				(font
@@ -139819,7 +139817,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "1 ohm 0603"
 			(at 948.69 734.06 90)
 			(effects
 				(font
@@ -145119,7 +145117,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "1 ohm 0603"
 			(at 989.33 665.48 90)
 			(effects
 				(font
@@ -146695,7 +146693,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "1 ohm 0603"
 			(at 902.97 713.74 90)
 			(effects
 				(font
@@ -154392,7 +154390,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "1 ohm 0603"
 			(at 982.98 773.43 90)
 			(effects
 				(font

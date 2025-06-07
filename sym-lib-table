@@ -12,4 +12,5 @@
   (lib (name "ASP-134603-01")(type "KiCad")(uri "${KIPRJMOD}/Comp_Lib/Symbols/ASP-134603-01.kicad_sym")(options "")(descr ""))
   (lib (name "C0603C103K5RACTU")(type "KiCad")(uri "${KIPRJMOD}/Comp_Lib/Symbols/C0603C103K5RACTU.kicad_sym")(options "")(descr ""))
   (lib (name "Connectors")(type "KiCad")(uri "${KIPRJMOD}/Comp_Lib/Symbols/142-0701-201.kicad_sym")(options "")(descr ""))
+  (lib (name "CRCW06031R00FKEA")(type "KiCad")(uri "${KIPRJMOD}/Comp_Lib/Symbols/CRCW06031R00FKEA.kicad_sym")(options "")(descr ""))
 )
