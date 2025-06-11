@@ -1,4 +1,11 @@
-25611563126171586
+25636049484902436
+ASP-134603-01
+CONN160_4603-01_SAI
+
+ASP-134603-01 
+0
+162
+162
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2666,7 +2673,21 @@ speaker CUI
 0
 2
 2
+C0603C103K5RACTU
+CAPC1608X90N
+
+
+0
+2
+2
 CL10A106KP8NNNC
+CAPC1608X90N
+
+
+0
+2
+2
+CL10B105KO8NNNC
 CAPC1608X90N
 
 
@@ -2675,6 +2696,20 @@ CAPC1608X90N
 2
 CL31A107MQHNNNE
 CAPC3216X180N
+
+
+0
+2
+2
+CRCW06031K00JNEA
+RESC1508X50N
+
+
+0
+2
+2
+CRCW06031R00FKEA
+RESC1508X50N
 
 
 0
@@ -6572,6 +6607,13 @@ capacitor tantalum
 0
 2
 2
+Chip_QFN100
+QFN100
+
+
+0
+101
+101
 Connector
 BJB_Pico_46.110.1001_Receptacle_Horizontal
 BJB Pico, single terminal block/receptacle, uninsulated, SMD, 6.9x2.3x2.7mm, https://www.bjb.com/media/7a/b3/df/1740905546/DM-6265102-v6_BJB_Datasheet_46.110.1001-0_SMD_Terminal_block_without_housing_Update_03_2022.PDF
@@ -54802,6 +54844,20 @@ connector Wuerth WR-WTB vertical
 0
 10
 10
+Connectors
+BJACK
+
+
+0
+1
+1
+Connectors
+CONN_142-0701-201_CIN
+
+142-0701-201 
+0
+5
+5
 Converter_ACDC
 Converter_ACDC_CUI_PBO-3-Sxx_THT_Vertical
 ACDC-Converter, 3W, CUI PBO-3, THT https://www.cui.com/product/resource/pbo-3.pdf
@@ -59170,6 +59226,13 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
+ERJ3EKF10R0V
+RES_ERJ3EKF10R0V
+
+
+0
+2
+2
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -93792,6 +93855,34 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+SN74AVC4T245RGYR
+RGY16_2P55X2P05
+
+SN74AVC4T245RGYR 
+0
+23
+18
+SN74AVCH16T245GR
+DGG48
+
+SN74AVCH16T245GR 
+0
+48
+48
+SN74AVCH16T245GR
+DGG48-L
+
+SN74AVCH16T245GR 
+0
+48
+48
+SN74AVCH16T245GR
+DGG48-M
+
+SN74AVCH16T245GR 
+0
+48
+48
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
@@ -95892,6 +95983,13 @@ TMUX1072RUTR
 0
 12
 12
+TPS74401RGWT
+RGW0020A
+
+TPS74401RGWT 
+0
+26
+22
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
