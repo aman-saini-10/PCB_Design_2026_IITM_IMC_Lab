@@ -521,6 +521,24 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at -48.26 58.42 270)
+				(length 2.54)
+				(name "THERM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "101"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin input line
 				(at -44.45 58.42 270)
 				(length 2.54)
