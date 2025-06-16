@@ -26073,6 +26073,12 @@
 		(uuid "13523186-539b-42ab-805e-990aeb234786")
 	)
 	(junction
+		(at 688.34 384.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1383e786-e157-4167-9276-57e07e534967")
+	)
+	(junction
 		(at 119.38 408.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -26107,6 +26113,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "162d6228-b0b2-4fa1-9fb5-9ee3d0b1051a")
+	)
+	(junction
+		(at 703.58 402.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16319ff5-d1a8-4269-83a0-b7f206a41c8f")
 	)
 	(junction
 		(at 645.16 189.23)
@@ -26155,6 +26167,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "18a483fa-652f-4214-97ba-7a78fd62c502")
+	)
+	(junction
+		(at 703.58 384.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "196c3a09-d534-48f1-85bb-addc29dc6c80")
 	)
 	(junction
 		(at 998.22 806.45)
@@ -27001,6 +27019,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4c2f84a0-8135-4869-97db-b6e331bb719c")
+	)
+	(junction
+		(at 688.34 367.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d15b002-0d68-470c-a306-10bb0ecd20c5")
 	)
 	(junction
 		(at 1008.38 679.45)
@@ -29367,6 +29391,12 @@
 		(uuid "e0fb5638-94d3-4efb-b98f-c5ea9a432132")
 	)
 	(junction
+		(at 703.58 367.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e11e9d13-ded0-4c28-9f8d-eccc26e035c5")
+	)
+	(junction
 		(at 251.46 267.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -29605,6 +29635,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f463048f-b31f-4d24-afd1-b0b7a574a477")
+	)
+	(junction
+		(at 688.34 402.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f465c30e-400e-42c2-b37f-867ab7f8130a")
 	)
 	(junction
 		(at 521.97 48.26)
@@ -31036,6 +31072,16 @@
 	)
 	(wire
 		(pts
+			(xy 688.34 384.81) (xy 688.34 387.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b1dbf52-c1fd-4f97-9254-9685451d0573")
+	)
+	(wire
+		(pts
 			(xy 855.98 692.15) (xy 855.98 698.5)
 		)
 		(stroke
@@ -32363,6 +32409,16 @@
 			(type default)
 		)
 		(uuid "161af4ed-f229-4e21-b65e-216926d7cf89")
+	)
+	(wire
+		(pts
+			(xy 688.34 367.03) (xy 688.34 369.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16480f84-a62b-4f2c-ab55-12cbde0bf011")
 	)
 	(wire
 		(pts
@@ -43036,6 +43092,16 @@
 	)
 	(wire
 		(pts
+			(xy 688.34 402.59) (xy 688.34 405.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a31ebb8-0d38-46f3-a07b-236f630e6021")
+	)
+	(wire
+		(pts
 			(xy 115.57 275.59) (xy 119.38 275.59)
 		)
 		(stroke
@@ -46896,6 +46962,16 @@
 	)
 	(wire
 		(pts
+			(xy 703.58 384.81) (xy 703.58 387.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "895151ef-e1e3-4beb-8403-a9f40bc566b4")
+	)
+	(wire
+		(pts
 			(xy 118.11 191.77) (xy 121.92 191.77)
 		)
 		(stroke
@@ -48723,6 +48799,16 @@
 			(type default)
 		)
 		(uuid "9795e2cd-8e10-4230-b332-5d0fc027a77c")
+	)
+	(wire
+		(pts
+			(xy 703.58 367.03) (xy 703.58 369.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97a27d38-b18e-4cb3-b00c-ec7071f30a90")
 	)
 	(wire
 		(pts
@@ -53543,6 +53629,16 @@
 			(type default)
 		)
 		(uuid "c148c42f-aeb2-4750-a96c-49bdaa544a9a")
+	)
+	(wire
+		(pts
+			(xy 703.58 402.59) (xy 703.58 405.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c15fb747-715c-48ab-9217-f3d4583fb7b4")
 	)
 	(wire
 		(pts
@@ -61484,7 +61580,7 @@
 		)
 		(uuid "05ce39b8-98e2-4b60-8677-1d0907736196")
 	)
-	(label "CLK_POS"
+	(label "CLK_+"
 		(at 894.08 574.04 90)
 		(effects
 			(font
@@ -61634,7 +61730,7 @@
 		)
 		(uuid "0da981de-bc2b-4389-87e1-05c6dc5f25b6")
 	)
-	(label "CLK_NEG"
+	(label "CLK_-"
 		(at 660.4 303.53 0)
 		(effects
 			(font
@@ -62593,6 +62689,16 @@
 			(justify right bottom)
 		)
 		(uuid "3609d632-9561-421b-8180-ba46b4ddc3b0")
+	)
+	(label "CLK_conn_-"
+		(at 674.37 303.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3644c76c-6c02-42b6-b58e-3543854b49b2")
 	)
 	(label "VB1_LS"
 		(at 119.38 406.4 0)
@@ -64634,6 +64740,16 @@
 		)
 		(uuid "883140ab-7cd1-4722-87a2-1f137b7a140e")
 	)
+	(label "CLK_conn_+"
+		(at 674.37 276.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8837207a-8851-4599-9d67-553bf64988c7")
+	)
 	(label "CTRL_VBP"
 		(at 317.5 772.16 180)
 		(effects
@@ -65864,7 +65980,7 @@
 		)
 		(uuid "bb3a19f8-8bd2-406d-ad68-2f5552e779d8")
 	)
-	(label "CLK_NEG"
+	(label "CLK_-"
 		(at 897.89 574.04 90)
 		(effects
 			(font
@@ -67364,7 +67480,7 @@
 		)
 		(uuid "fa048888-36c0-431a-8b62-d795ced0b704")
 	)
-	(label "CLK_POS"
+	(label "CLK_+"
 		(at 660.4 276.86 0)
 		(effects
 			(font
@@ -120054,6 +120170,72 @@
 		)
 	)
 	(symbol
+		(lib_id "IMC_PCB-rescue:Jumper-Device")
+		(at 695.96 369.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "81ead649-c01d-462b-b2ba-1b5b9dc93c35")
+		(property "Reference" "JP6"
+			(at 695.96 365.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper"
+			(at 695.96 371.602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "jumper:61300211121"
+			(at 695.96 369.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 695.96 369.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 695.96 369.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9642d0a6-ee26-4088-8b2e-28b990f67195")
+		)
+		(pin "2"
+			(uuid "3f875a39-a1e5-4872-afcb-8c5d8f35d75a")
+		)
+		(instances
+			(project "pcb_2025"
+				(path "/a2b105cb-8b57-40fb-9e14-dfcfbf666a3f"
+					(reference "JP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 797.56 767.08 0)
 		(unit 1)
@@ -124215,6 +124397,72 @@
 			(project "pcb_2025"
 				(path "/a2b105cb-8b57-40fb-9e14-dfcfbf666a3f"
 					(reference "C178")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "IMC_PCB-rescue:Jumper-Device")
+		(at 695.96 387.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8d3a3e1f-4621-4508-95cc-5eeb0ce76642")
+		(property "Reference" "JP7"
+			(at 695.96 383.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper"
+			(at 695.96 389.382 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "jumper:61300211121"
+			(at 695.96 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 695.96 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 695.96 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a7c57ce1-a6ae-4364-9a34-73e9fe5d0cb0")
+		)
+		(pin "2"
+			(uuid "70de4ded-dad6-4472-9256-0d6011dc2d4e")
+		)
+		(instances
+			(project "pcb_2025"
+				(path "/a2b105cb-8b57-40fb-9e14-dfcfbf666a3f"
+					(reference "JP7")
 					(unit 1)
 				)
 			)
@@ -145378,6 +145626,72 @@
 			(project "pcb_2025"
 				(path "/a2b105cb-8b57-40fb-9e14-dfcfbf666a3f"
 					(reference "R105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "IMC_PCB-rescue:Jumper-Device")
+		(at 695.96 405.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c2866f69-88d4-4232-8f01-dbe942069a09")
+		(property "Reference" "JP143"
+			(at 695.96 401.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper"
+			(at 695.96 407.162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "jumper:61300211121"
+			(at 695.96 405.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 695.96 405.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 695.96 405.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "88ac2dca-c2ca-437e-937d-30e6aabd2195")
+		)
+		(pin "2"
+			(uuid "f85f049a-65ed-4c25-bb72-f7762ffcdfd7")
+		)
+		(instances
+			(project "pcb_2025"
+				(path "/a2b105cb-8b57-40fb-9e14-dfcfbf666a3f"
+					(reference "JP143")
 					(unit 1)
 				)
 			)
