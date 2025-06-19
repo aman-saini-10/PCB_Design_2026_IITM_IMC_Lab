@@ -54584,7 +54584,7 @@
 	)
 	(wire
 		(pts
-			(xy 652.78 184.15) (xy 652.78 186.69)
+			(xy 652.78 181.61) (xy 652.78 186.69)
 		)
 		(stroke
 			(width 0)
@@ -56244,7 +56244,7 @@
 	)
 	(wire
 		(pts
-			(xy 668.02 184.15) (xy 668.02 186.69)
+			(xy 668.02 181.61) (xy 668.02 186.69)
 		)
 		(stroke
 			(width 0)
@@ -61682,7 +61682,7 @@
 		)
 		(uuid "05e4b332-b629-4a92-a6d0-dc039e6ea229")
 	)
-	(label "FREQOUT_POS"
+	(label "FREQOUT_P"
 		(at 707.39 276.86 180)
 		(effects
 			(font
@@ -63412,7 +63412,7 @@
 		)
 		(uuid "535bb9a4-6b43-46c6-bf31-f3bb39191e62")
 	)
-	(label "FREQOUT_POS"
+	(label "FREQOUT_P"
 		(at 855.98 698.5 270)
 		(effects
 			(font
@@ -63991,6 +63991,16 @@
 			(justify left bottom)
 		)
 		(uuid "6566d776-0d90-46c8-aa55-e4bd99bc6f02")
+	)
+	(label "CTRL_AIN_SIG"
+		(at 332.74 789.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "65a1a00e-7bbb-49d0-a7eb-7aae70ddcb03")
 	)
 	(label "AIN0_MUX"
 		(at 113.03 106.68 0)
@@ -64821,6 +64831,16 @@
 			(justify left bottom)
 		)
 		(uuid "85bedd01-d11c-47d2-b77d-1c91eb138858")
+	)
+	(label "CTRL_AIN"
+		(at 317.5 789.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "865c97a3-28c9-454e-bda8-f4cf78d10d5b")
 	)
 	(label "U12_IN"
 		(at 175.26 52.07 0)
@@ -65952,7 +65972,7 @@
 		)
 		(uuid "b01267ef-b7c6-4e55-928b-3a0e54cf04e7")
 	)
-	(label "FREQOUT_NEG"
+	(label "FREQOUT_N"
 		(at 707.39 303.53 180)
 		(effects
 			(font
@@ -66202,7 +66222,7 @@
 		)
 		(uuid "bab968aa-fbcd-4e41-ae61-866f89a6c8db")
 	)
-	(label "FREQOUT_NEG"
+	(label "FREQOUT_N"
 		(at 859.79 698.5 270)
 		(effects
 			(font
@@ -66622,7 +66642,7 @@
 		)
 		(uuid "ca1a1e60-3a3e-4a18-bebd-f255b9351823")
 	)
-	(label "VBN1_LS"
+	(label "VBN1_MUX"
 		(at 636.27 132.08 0)
 		(effects
 			(font
@@ -97731,7 +97751,7 @@
 	)
 	(symbol
 		(lib_id "IMC_PCB-rescue:Jumper-Device")
-		(at 660.4 184.15 0)
+		(at 660.4 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -97739,7 +97759,7 @@
 		(dnp no)
 		(uuid "4893f0eb-6c17-413a-ba3d-21a345d9be0b")
 		(property "Reference" "JP230"
-			(at 660.4 180.34 0)
+			(at 660.4 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -97747,7 +97767,7 @@
 			)
 		)
 		(property "Value" "Jumper"
-			(at 660.4 186.182 0)
+			(at 660.4 183.642 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -97755,7 +97775,7 @@
 			)
 		)
 		(property "Footprint" "jumper:61300211121"
-			(at 660.4 184.15 0)
+			(at 660.4 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -97764,7 +97784,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 660.4 184.15 0)
+			(at 660.4 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -97773,7 +97793,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 660.4 184.15 0)
+			(at 660.4 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -121954,6 +121974,75 @@
 			(project "pcb_2025"
 				(path "/a2b105cb-8b57-40fb-9e14-dfcfbf666a3f"
 					(reference "R153")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Jumper-Device_1")
+		(lib_id "IMC_PCB-rescue:Jumper-Device")
+		(at 325.12 789.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "853394ae-c879-4e3b-9679-081c43fac538")
+		(property "Reference" "JP144"
+			(at 325.12 786.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Jumper"
+			(at 325.12 791.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "jumper:61300211121"
+			(at 325.12 789.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 325.12 789.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 325.12 789.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9f3b651b-2e69-4e26-a26e-f381e45fd013")
+		)
+		(pin "2"
+			(uuid "e603cae5-e990-472c-b744-bdcec9d09b5b")
+		)
+		(instances
+			(project "pcb_2025"
+				(path "/a2b105cb-8b57-40fb-9e14-dfcfbf666a3f"
+					(reference "JP144")
 					(unit 1)
 				)
 			)

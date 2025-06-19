@@ -198,7 +198,7 @@
           "corner_radius_percentage": 80,
           "corner_style": 1,
           "max_amplitude": 1.0,
-          "min_amplitude": 0.2,
+          "min_amplitude": 0.5,
           "single_sided": false,
           "spacing": 1.0
         },
@@ -231,6 +231,10 @@
         {
           "diameter": 0.3,
           "drill": 0.15
+        },
+        {
+          "diameter": 0.4,
+          "drill": 0.2
         },
         {
           "diameter": 0.6,
