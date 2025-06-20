@@ -63952,16 +63952,6 @@
 		)
 		(uuid "644f1c6d-3c9e-4c20-96d7-e4c8a2e51e6f")
 	)
-	(label "CTRL_AIN"
-		(at 317.5 784.86 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "64de8a68-c706-43bf-a7d6-125dd0ade241")
-	)
 	(label "VBP0"
 		(at 924.56 114.3 0)
 		(effects
@@ -63991,16 +63981,6 @@
 			(justify left bottom)
 		)
 		(uuid "6566d776-0d90-46c8-aa55-e4bd99bc6f02")
-	)
-	(label "CTRL_AIN_SIG"
-		(at 332.74 789.94 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "65a1a00e-7bbb-49d0-a7eb-7aae70ddcb03")
 	)
 	(label "AIN0_MUX"
 		(at 113.03 106.68 0)
@@ -64702,16 +64682,6 @@
 		)
 		(uuid "832ff9b7-4755-4cc8-af9d-317f82169ce9")
 	)
-	(label "CTRL_AIN_SIG"
-		(at 332.74 784.86 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "833784e1-8b21-4617-9e59-412d2e567674")
-	)
 	(label "BANK_EN<1>_SIG"
 		(at 119.38 656.59 180)
 		(effects
@@ -64831,16 +64801,6 @@
 			(justify left bottom)
 		)
 		(uuid "85bedd01-d11c-47d2-b77d-1c91eb138858")
-	)
-	(label "CTRL_AIN"
-		(at 317.5 789.94 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "865c97a3-28c9-454e-bda8-f4cf78d10d5b")
 	)
 	(label "U12_IN"
 		(at 175.26 52.07 0)
@@ -114915,75 +114875,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Jumper-Device_1")
-		(lib_id "IMC_PCB-rescue:Jumper-Device")
-		(at 325.12 784.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "73d330b5-ee1b-4159-9641-3c5c85e28028")
-		(property "Reference" "JP406"
-			(at 325.12 781.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Jumper"
-			(at 325.12 786.892 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "jumper:61300211121"
-			(at 325.12 784.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 325.12 784.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 325.12 784.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3060fca8-772d-4a39-82c6-78e955fb1d3b")
-		)
-		(pin "2"
-			(uuid "e7e63d65-b961-472f-82e4-29490488afc0")
-		)
-		(instances
-			(project "pcb_2025"
-				(path "/a2b105cb-8b57-40fb-9e14-dfcfbf666a3f"
-					(reference "JP406")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "GND_3")
 		(lib_id "power:GND")
 		(at 378.46 148.59 0)
@@ -121980,75 +121871,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Jumper-Device_1")
-		(lib_id "IMC_PCB-rescue:Jumper-Device")
-		(at 325.12 789.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "853394ae-c879-4e3b-9679-081c43fac538")
-		(property "Reference" "JP144"
-			(at 325.12 786.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Jumper"
-			(at 325.12 791.972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "jumper:61300211121"
-			(at 325.12 789.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 325.12 789.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 325.12 789.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9f3b651b-2e69-4e26-a26e-f381e45fd013")
-		)
-		(pin "2"
-			(uuid "e603cae5-e990-472c-b744-bdcec9d09b5b")
-		)
-		(instances
-			(project "pcb_2025"
-				(path "/a2b105cb-8b57-40fb-9e14-dfcfbf666a3f"
-					(reference "JP144")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "C_17")
 		(lib_id "Device:C")
 		(at 924.56 742.95 0)
@@ -122273,7 +122095,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8673ebb5-1ba9-4972-b0e4-4cdf4a4d8445")
 		(property "Reference" "C271"
 			(at 861.314 536.702 0)
