@@ -62222,6 +62222,16 @@
 		)
 		(uuid "1dfea05a-6c6b-48e6-af7a-e385807e041a")
 	)
+	(label "VDDA_chip"
+		(at 929.64 676.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1e05ff82-7a21-47a6-b026-f80f3ab2bf01")
+	)
 	(label "VBN0_q"
 		(at 957.58 737.87 0)
 		(effects
@@ -64672,6 +64682,16 @@
 		)
 		(uuid "8191900d-a025-4313-9454-1ca32af7688e")
 	)
+	(label "VDDA_chip"
+		(at 863.6 576.58 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "821d8cc4-1f73-4983-bf2b-f7e19cf460f0")
+	)
 	(label "CLK_SA_Q"
 		(at 472.44 629.92 0)
 		(effects
@@ -66412,6 +66432,16 @@
 		)
 		(uuid "c3383f1e-e4d7-4d9b-910c-d8b1518cce77")
 	)
+	(label "VDDA_chip"
+		(at 793.75 608.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c3de7375-d76d-497d-84ec-82897057b1b8")
+	)
 	(label "U30_SET"
 		(at 1037.59 45.72 0)
 		(effects
@@ -66982,6 +67012,16 @@
 		)
 		(uuid "d844b89b-5148-48e1-873f-80e540b885aa")
 	)
+	(label "VDDA_chip"
+		(at 928.37 593.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d895159c-8039-4f34-b5ed-452fc1a1d9c8")
+	)
 	(label "H17"
 		(at 355.6 561.34 180)
 		(effects
@@ -67361,6 +67401,16 @@
 			(justify left bottom)
 		)
 		(uuid "e82bb754-8bab-4402-b2aa-52afeb8e3458")
+	)
+	(label "VDDA_chip"
+		(at 793.75 676.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e8446751-7f26-450f-9030-ee7edf5ab61f")
 	)
 	(label "VDD_5V_b"
 		(at 204.47 445.77 0)
@@ -67891,6 +67941,16 @@
 			(justify right bottom)
 		)
 		(uuid "fdcdb326-b010-40d0-b9e0-8ef4704c19cb")
+	)
+	(label "VDDA_chip"
+		(at 852.17 702.31 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fdf2539c-c6ab-4ebc-b4f0-003d9cea992d")
 	)
 	(label "VBN0_MUX"
 		(at 636.27 106.68 0)
