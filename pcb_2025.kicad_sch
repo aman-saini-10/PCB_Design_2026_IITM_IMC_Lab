@@ -29792,6 +29792,15 @@
 		(color 0 0 0 0)
 		(uuid "ffbb13e6-a87e-463e-b6d9-a89ceb1bed4f")
 	)
+	(bus_entry
+		(at 104.14 52.07)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e27576f4-ca05-4084-b907-ee1806e7ddd1")
+	)
 	(wire
 		(pts
 			(xy 384.81 40.64) (xy 387.35 40.64)
@@ -39701,6 +39710,16 @@
 			(type default)
 		)
 		(uuid "4d740697-107e-490b-a0c3-6c0b4b1bf3fe")
+	)
+	(wire
+		(pts
+			(xy 340.36 624.84) (xy 347.98 624.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d74e00e-a9fe-46ae-ae3c-a0bd942d60ac")
 	)
 	(wire
 		(pts
@@ -52154,6 +52173,16 @@
 	)
 	(wire
 		(pts
+			(xy 353.06 624.84) (xy 368.3 624.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b38de2b6-db48-4ac2-b3f9-da6c9561d680")
+	)
+	(wire
+		(pts
 			(xy 383.54 40.64) (xy 383.54 45.72)
 		)
 		(stroke
@@ -57134,16 +57163,6 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 624.84) (xy 368.3 624.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "daa40022-be0a-4b9d-80d0-3ccdf9f92cb5")
-	)
-	(wire
-		(pts
 			(xy 942.34 756.92) (xy 946.15 756.92)
 		)
 		(stroke
@@ -59571,16 +59590,6 @@
 			(type default)
 		)
 		(uuid "f02e42a9-feff-4a9a-9178-1b11c67a2caf")
-	)
-	(wire
-		(pts
-			(xy 340.36 624.84) (xy 347.98 624.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0304398-a8c4-4882-b78a-ec92a65c1260")
 	)
 	(wire
 		(pts
@@ -63342,16 +63351,6 @@
 		)
 		(uuid "4ed2b8fa-e044-4218-969d-adffc4055389")
 	)
-	(label "VBN1_LS"
-		(at 591.82 124.46 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "50060065-53ab-427d-aacd-fbec5e9ccc29")
-	)
 	(label "VDD_5V_c"
 		(at 713.74 87.63 0)
 		(effects
@@ -63851,6 +63850,16 @@
 			(justify left bottom)
 		)
 		(uuid "619ec96e-49b0-4764-ada7-af6a2ac1edaa")
+	)
+	(label "VBN1_MUX"
+		(at 591.82 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "61cf414b-3b22-4ac3-b485-a4fa64c677ae")
 	)
 	(label "SCN_SEL<2>_Q"
 		(at 472.44 637.54 0)
@@ -65572,6 +65581,16 @@
 		)
 		(uuid "9ed03c3d-c538-42ba-b496-1957ad4e59dc")
 	)
+	(label "CTRL_AIN"
+		(at 317.5 784.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9ee2bfce-b84c-4d85-adec-4551a6e09352")
+	)
 	(label "U22_OUT"
 		(at 647.7 194.31 0)
 		(effects
@@ -65581,6 +65600,16 @@
 			(justify left bottom)
 		)
 		(uuid "9f257bac-7e8f-46de-b331-e54289231f34")
+	)
+	(label "CTRL_AIN_SIG"
+		(at 332.74 784.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9f734812-a64d-4147-8857-721591d80548")
 	)
 	(label "VTC_EN_SIG"
 		(at 106.68 753.11 180)
@@ -67151,6 +67180,16 @@
 			(justify right bottom)
 		)
 		(uuid "de15f62e-330e-4a5f-98fd-df369973aed4")
+	)
+	(label "VCCA_DIG_LS"
+		(at 588.01 328.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "df9ae875-4e75-45c0-b7f8-8035bd146bc8")
 	)
 	(label "VBP3_LS"
 		(at 970.28 196.85 0)
@@ -155099,6 +155138,75 @@
 			(project "pcb_2025"
 				(path "/a2b105cb-8b57-40fb-9e14-dfcfbf666a3f"
 					(reference "C263")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Jumper-Device_1")
+		(lib_id "IMC_PCB-rescue:Jumper-Device")
+		(at 325.12 784.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d8ed9880-8544-43ec-a696-9f0b90a40b62")
+		(property "Reference" "JP144"
+			(at 325.12 781.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Jumper"
+			(at 325.12 786.892 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "jumper:61300211121"
+			(at 325.12 784.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 325.12 784.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 325.12 784.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7a47614e-323e-4070-b98d-572cc4b7f94a")
+		)
+		(pin "2"
+			(uuid "b3f72131-24e5-4dc8-ae66-c0f5af298654")
+		)
+		(instances
+			(project "pcb_2025"
+				(path "/a2b105cb-8b57-40fb-9e14-dfcfbf666a3f"
+					(reference "JP144")
 					(unit 1)
 				)
 			)
