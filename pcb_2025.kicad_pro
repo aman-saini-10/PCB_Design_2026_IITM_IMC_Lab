@@ -258,6 +258,14 @@
         {
           "diameter": 1.5,
           "drill": 1.0
+        },
+        {
+          "diameter": 1.65,
+          "drill": 1.1
+        },
+        {
+          "diameter": 4.572,
+          "drill": 3.81
         }
       ],
       "zones_allow_external_fillets": false
@@ -538,8 +546,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
-      "pos_files": "",
+      "plot": "D:/KICAD/Projects/pcb_2025/pcb_2025/Fabrication_Outputs_v1",
+      "pos_files": "Fabrication_Outputs_v1/Placement_Files/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
