@@ -6,16 +6,16 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
-			(at 16.51 -66.04 0)
+		(property "Reference" "U6"
+			(at 59.69 49.6002 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 -19.05 0)
+		(property "Value" "~"
+			(at 59.69 47.6951 0)
 			(effects
 				(font
 					(size 1.27 1.27)
