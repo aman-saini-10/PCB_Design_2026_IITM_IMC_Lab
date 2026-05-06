@@ -16434,145 +16434,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "C_52"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "CL10A106KP8NNNC:CAPC1608X90N"
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_52_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_52_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "C_53"
 			(pin_numbers
 				(hide yes)
@@ -27986,12 +27847,6 @@
 		(uuid "056b3f97-05eb-468d-85e5-75866a002e57")
 	)
 	(junction
-		(at 614.68 392.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "058aded2-64db-48bb-b9d3-81cc29241874")
-	)
-	(junction
 		(at 364.49 378.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -28742,12 +28597,6 @@
 		(uuid "3031ae97-3ec4-47e9-9f24-2197a8396c0f")
 	)
 	(junction
-		(at 938.53 657.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "30a3248e-17c2-4a8d-802d-ddb38ddc01f1")
-	)
-	(junction
 		(at 1035.05 229.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -28854,6 +28703,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "394e2d6d-1a86-417a-8069-93c4f2dacc89")
+	)
+	(junction
+		(at 626.11 396.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a27eb51-3b73-4862-8099-6337c9570619")
 	)
 	(junction
 		(at 320.04 87.63)
@@ -29238,18 +29093,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "55bf44c4-0e68-4e39-a162-7e3011985243")
-	)
-	(junction
-		(at 920.75 657.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5601f6b2-f921-4857-a66c-8caaef926612")
-	)
-	(junction
-		(at 929.64 668.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "57b0b7d7-5060-4096-891c-215e01065836")
 	)
 	(junction
 		(at 264.16 411.48)
@@ -29750,12 +29593,6 @@
 		(uuid "771969e0-9571-450a-9225-318e3f36ddd4")
 	)
 	(junction
-		(at 933.45 668.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "772a2fa9-cb5f-4934-b332-1bfee0b3b7dc")
-	)
-	(junction
 		(at 393.7 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -29940,12 +29777,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "848b739b-2512-4258-8ad4-253c29b98075")
-	)
-	(junction
-		(at 929.64 657.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "84bf6c8e-63f3-4060-8ad9-1970323097b1")
 	)
 	(junction
 		(at 440.69 374.65)
@@ -30546,12 +30377,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a69675d9-24bd-44d7-8c0a-0318eb16b0b5")
-	)
-	(junction
-		(at 938.53 668.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a6f9ea5f-ed14-406b-b454-67a77aab8ee7")
 	)
 	(junction
 		(at 283.21 403.86)
@@ -35001,16 +34826,6 @@
 	)
 	(wire
 		(pts
-			(xy 929.64 657.86) (xy 929.64 659.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a700b96-3f46-43c1-a454-bc4a4b6d1e27")
-	)
-	(wire
-		(pts
 			(xy 723.9 585.47) (xy 730.25 585.47)
 		)
 		(stroke
@@ -35931,6 +35746,16 @@
 	)
 	(wire
 		(pts
+			(xy 614.68 391.16) (xy 614.68 396.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21ed3b85-da25-44d5-a4a5-dc315b140d91")
+	)
+	(wire
+		(pts
 			(xy 873.76 421.64) (xy 873.76 424.18)
 		)
 		(stroke
@@ -36268,16 +36093,6 @@
 			(type default)
 		)
 		(uuid "24bb2834-b5f2-4cb0-8a3b-b2fff86c3337")
-	)
-	(wire
-		(pts
-			(xy 938.53 668.02) (xy 947.42 668.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24bcf204-389f-408c-b9ba-4255bf106a0e")
 	)
 	(wire
 		(pts
@@ -36781,16 +36596,6 @@
 	)
 	(wire
 		(pts
-			(xy 938.53 657.86) (xy 938.53 659.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "288e2c90-0789-40e8-91e0-faeac6dd5649")
-	)
-	(wire
-		(pts
 			(xy 60.96 398.78) (xy 60.96 400.05)
 		)
 		(stroke
@@ -36948,16 +36753,6 @@
 			(type default)
 		)
 		(uuid "29ac4a81-19f5-4e1c-a731-e76479e16e32")
-	)
-	(wire
-		(pts
-			(xy 614.68 392.43) (xy 614.68 391.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29b32dd9-b9df-45c1-b345-2636a27fbc02")
 	)
 	(wire
 		(pts
@@ -37948,16 +37743,6 @@
 			(type default)
 		)
 		(uuid "31e695f8-e8ae-46b1-a10d-4f1c0af5bf00")
-	)
-	(wire
-		(pts
-			(xy 850.9 657.86) (xy 911.86 657.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31eba8d9-0e16-4304-8ebb-270d60fa81fa")
 	)
 	(wire
 		(pts
@@ -40858,16 +40643,6 @@
 			(type default)
 		)
 		(uuid "494f165b-681d-42ff-b196-2d6f9babd008")
-	)
-	(wire
-		(pts
-			(xy 920.75 668.02) (xy 929.64 668.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "495e65e1-1f48-4b82-b9a8-003189bf740c")
 	)
 	(wire
 		(pts
@@ -45781,7 +45556,7 @@
 	)
 	(wire
 		(pts
-			(xy 626.11 379.73) (xy 626.11 392.43)
+			(xy 626.11 379.73) (xy 626.11 396.24)
 		)
 		(stroke
 			(width 0)
@@ -47161,16 +46936,6 @@
 	)
 	(wire
 		(pts
-			(xy 933.45 668.02) (xy 933.45 669.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7fd5a779-e484-4a8b-9db1-fd23ae0255e6")
-	)
-	(wire
-		(pts
 			(xy 901.7 87.63) (xy 904.24 87.63)
 		)
 		(stroke
@@ -47778,16 +47543,6 @@
 			(type default)
 		)
 		(uuid "84360745-b530-4ef9-8fc9-717d79956914")
-	)
-	(wire
-		(pts
-			(xy 920.75 666.75) (xy 920.75 668.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "843f568e-b69c-4f23-bb37-85f61e062128")
 	)
 	(wire
 		(pts
@@ -50201,16 +49956,6 @@
 	)
 	(wire
 		(pts
-			(xy 595.63 370.84) (xy 596.9 370.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97c8c7cf-234a-46c2-96a0-332665245069")
-	)
-	(wire
-		(pts
 			(xy 95.25 651.51) (xy 100.33 651.51)
 		)
 		(stroke
@@ -50591,16 +50336,6 @@
 	)
 	(wire
 		(pts
-			(xy 614.68 396.24) (xy 632.46 396.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9badf8d0-c0f8-4e52-9f8c-fdcba3edcad4")
-	)
-	(wire
-		(pts
 			(xy 762 546.1) (xy 762 571.5)
 		)
 		(stroke
@@ -50778,16 +50513,6 @@
 			(type default)
 		)
 		(uuid "9d415394-d0fb-4a1d-8f4c-7a50dffdeb12")
-	)
-	(wire
-		(pts
-			(xy 920.75 657.86) (xy 929.64 657.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d4d0e51-9f9a-4f73-bfd4-3ad8a4fa1953")
 	)
 	(wire
 		(pts
@@ -51078,16 +50803,6 @@
 			(type default)
 		)
 		(uuid "9fb509d0-76b8-47cd-ac90-14b9ae4bd1eb")
-	)
-	(wire
-		(pts
-			(xy 920.75 659.13) (xy 920.75 657.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9fb57020-195d-44c3-8dfb-35a9cfc96b4b")
 	)
 	(wire
 		(pts
@@ -52241,7 +51956,7 @@
 	)
 	(wire
 		(pts
-			(xy 614.68 392.43) (xy 626.11 392.43)
+			(xy 614.68 396.24) (xy 626.11 396.24)
 		)
 		(stroke
 			(width 0)
@@ -52901,16 +52616,6 @@
 	)
 	(wire
 		(pts
-			(xy 929.64 666.75) (xy 929.64 668.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0f84674-d4b0-4304-a741-fad288429d4f")
-	)
-	(wire
-		(pts
 			(xy 1050.29 321.31) (xy 1046.48 321.31)
 		)
 		(stroke
@@ -53011,6 +52716,16 @@
 	)
 	(wire
 		(pts
+			(xy 626.11 396.24) (xy 632.46 396.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1a74f82-9416-4d41-9ece-45cf2f0ae710")
+	)
+	(wire
+		(pts
 			(xy 1017.27 143.51) (xy 1023.62 143.51)
 		)
 		(stroke
@@ -53038,16 +52753,6 @@
 			(type default)
 		)
 		(uuid "b2306c58-ede0-4457-8a26-13c31ab37d8d")
-	)
-	(wire
-		(pts
-			(xy 938.53 657.86) (xy 947.42 657.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b275105a-a5a4-47ba-bdb0-06e8abc3946e")
 	)
 	(wire
 		(pts
@@ -54148,16 +53853,6 @@
 			(type default)
 		)
 		(uuid "bac34fab-712f-4386-b184-a6c5350e450c")
-	)
-	(wire
-		(pts
-			(xy 938.53 666.75) (xy 938.53 668.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bad02bfb-5037-4f45-b5e3-b89552011f35")
 	)
 	(wire
 		(pts
@@ -55701,16 +55396,6 @@
 	)
 	(wire
 		(pts
-			(xy 933.45 668.02) (xy 938.53 668.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca8213cf-6d39-4e1e-826a-6f890a074ee2")
-	)
-	(wire
-		(pts
 			(xy 712.47 778.51) (xy 721.36 778.51)
 		)
 		(stroke
@@ -55868,16 +55553,6 @@
 			(type default)
 		)
 		(uuid "cbbb0c9e-1d35-4ee9-9774-f3042aab6625")
-	)
-	(wire
-		(pts
-			(xy 614.68 392.43) (xy 614.68 396.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc23b0b4-5b6e-4434-8475-c4e5ec90c53b")
 	)
 	(wire
 		(pts
@@ -56558,16 +56233,6 @@
 			(type default)
 		)
 		(uuid "d13f2d48-31ee-4923-b408-61dd5d292704")
-	)
-	(wire
-		(pts
-			(xy 929.64 668.02) (xy 933.45 668.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d15680b9-a05f-4b01-b112-090ca774cb95")
 	)
 	(wire
 		(pts
@@ -57621,16 +57286,6 @@
 	)
 	(wire
 		(pts
-			(xy 947.42 666.75) (xy 947.42 668.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d97c0f87-9f8f-4f42-b772-3f553220dcaa")
-	)
-	(wire
-		(pts
 			(xy 96.52 441.96) (xy 96.52 443.23)
 		)
 		(stroke
@@ -57788,16 +57443,6 @@
 			(type default)
 		)
 		(uuid "dad0e343-bbfb-430e-9a13-7fb0bc1663eb")
-	)
-	(wire
-		(pts
-			(xy 916.94 657.86) (xy 920.75 657.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dae580a0-d002-45e9-8984-403ae7532458")
 	)
 	(wire
 		(pts
@@ -59461,16 +59106,6 @@
 	)
 	(wire
 		(pts
-			(xy 947.42 657.86) (xy 947.42 659.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec06d756-83fe-42ed-bf27-98dc58d8ecc7")
-	)
-	(wire
-		(pts
 			(xy 840.74 148.59) (xy 853.44 148.59)
 		)
 		(stroke
@@ -59638,6 +59273,16 @@
 			(type default)
 		)
 		(uuid "ed3f12b4-f394-46c5-9ac7-0d4948094b7e")
+	)
+	(wire
+		(pts
+			(xy 850.9 657.86) (xy 857.25 657.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed5764bb-b71e-4535-9767-3249dd180eba")
 	)
 	(wire
 		(pts
@@ -61088,16 +60733,6 @@
 			(type default)
 		)
 		(uuid "f90c167b-b879-4dcf-b7a3-30a7ca7ddb3e")
-	)
-	(wire
-		(pts
-			(xy 929.64 657.86) (xy 938.53 657.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f91113b8-f778-44ca-a642-77aeff3596e5")
 	)
 	(wire
 		(pts
@@ -62829,6 +62464,16 @@
 		)
 		(uuid "2ff84361-c39d-442b-9c70-0b9d3c32ac5f")
 	)
+	(label "VDDQ_chip"
+		(at 853.44 689.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "30081d9d-0843-46a7-9df9-f12d55199fcd")
+	)
 	(label "SCN_SEL<2>_SIG"
 		(at 302.26 601.98 180)
 		(effects
@@ -64119,6 +63764,16 @@
 		)
 		(uuid "6b0bcfa9-5a78-4ac3-b111-fd2ce9c29ad8")
 	)
+	(label "VDDQ_chip"
+		(at 853.44 596.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6b1cfe65-5255-4f43-8a8a-594d7560b939")
+	)
 	(label "VDD_5V"
 		(at 88.9 314.96 0)
 		(effects
@@ -64529,16 +64184,6 @@
 		)
 		(uuid "7c79cac2-dff9-4d9a-9385-f38f021e0fbc")
 	)
-	(label "VDDQ_1.8V"
-		(at 947.42 657.86 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7c8679ba-ca46-409a-a29d-39fb90cf5cc5")
-	)
 	(label "CLK_SA_Q"
 		(at 857.25 650.24 0)
 		(effects
@@ -64878,6 +64523,16 @@
 			(justify left bottom)
 		)
 		(uuid "89166c48-02c8-40df-821e-ff4856ad86a3")
+	)
+	(label "VDDQ_chip"
+		(at 712.47 701.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "893c8d5a-c34d-4029-af17-e1ae37bda5e8")
 	)
 	(label "VBN0_LS"
 		(at 561.34 69.85 0)
@@ -66660,7 +66315,7 @@
 		(uuid "d2081139-28b1-45fe-9665-911f39ad0c11")
 	)
 	(label "VIN_U44"
-		(at 595.63 370.84 0)
+		(at 596.9 370.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -67728,6 +67383,16 @@
 			(justify left bottom)
 		)
 		(uuid "feb746e5-85c9-4b45-b2c8-166a9feed797")
+	)
+	(label "VDDQ_chip"
+		(at 718.82 581.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ff475ee2-a77c-4f5d-8318-3948ff031e7f")
 	)
 	(label "SCN_SEL<3>_Q"
 		(at 857.25 635 0)
@@ -78533,6 +78198,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 857.25 657.86 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d718227-5840-4254-9534-402380385858")
+		(property "Reference" "#PWR06"
+			(at 863.6 657.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 861.06 657.8599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 857.25 657.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 857.25 657.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 857.25 657.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b892b758-6e29-4125-a58e-c3440a6220dc")
+		)
+		(instances
+			(project "PCB_2026"
+				(path "/a2b105cb-8b57-40fb-9e14-dfcfbf666a3f"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Variable_US")
 		(at 772.16 71.12 0)
 		(unit 1)
@@ -83063,72 +82795,6 @@
 			(project "pcb_2025"
 				(path "/a2b105cb-8b57-40fb-9e14-dfcfbf666a3f"
 					(reference "#PWR0359")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 933.45 669.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "27a30a1d-b88d-46e7-ad06-6c683154bec5")
-		(property "Reference" "#PWR0460"
-			(at 933.45 675.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 933.45 674.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 933.45 669.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 933.45 669.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 933.45 669.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "865f175d-00eb-49e5-88db-4ef54d2994cf")
-		)
-		(instances
-			(project "pcb_2025_v2"
-				(path "/a2b105cb-8b57-40fb-9e14-dfcfbf666a3f"
-					(reference "#PWR0460")
 					(unit 1)
 				)
 			)
@@ -120361,86 +120027,6 @@
 		)
 	)
 	(symbol
-		(lib_name "C_52")
-		(lib_id "Device:C")
-		(at 929.64 662.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "85ba8327-0af9-44e9-a9e4-1ddae2a8e90d")
-		(property "Reference" "C401"
-			(at 926.592 660.146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 923.544 664.718 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "CL10A106KP8NNNC:CAPC1608X90N"
-			(at 930.6052 666.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 929.64 662.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 929.64 662.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P. No" "C0603C104K3RACTU"
-			(at 929.64 662.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b546aa0a-fe1c-4188-adb7-1eb990b70c82")
-		)
-		(pin "2"
-			(uuid "67604de8-427a-4675-8059-c13fcda8f18c")
-		)
-		(instances
-			(project "pcb_2025_v2"
-				(path "/a2b105cb-8b57-40fb-9e14-dfcfbf666a3f"
-					(reference "C401")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "C_24")
 		(lib_id "Device:C")
 		(at 928.37 694.69 0)
@@ -129557,83 +129143,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 914.4 657.86 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9bf80503-4ce1-4fe9-af05-a2364bcf5d55")
-		(property "Reference" "R211"
-			(at 916.94 656.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1 ohm 0603"
-			(at 914.4 654.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "ERJ-3EKF10R0V:RES_ERJ3EKF10R0V"
-			(at 914.4 657.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 914.4 657.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 914.4 657.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P. No" "ERJ3EKF10R0V"
-			(at 914.4 657.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dc83f04b-23af-4fe3-8959-6ce03f17e505")
-		)
-		(pin "2"
-			(uuid "51fc5912-c8a0-4b67-96dc-d62496890129")
-		)
-		(instances
-			(project "pcb_2025_v2"
-				(path "/a2b105cb-8b57-40fb-9e14-dfcfbf666a3f"
-					(reference "R211")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 857.25 593.09 90)
 		(unit 1)
@@ -133627,165 +133136,6 @@
 			(project "pcb_2025"
 				(path "/a2b105cb-8b57-40fb-9e14-dfcfbf666a3f"
 					(reference "#PWR0333")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CL10B105KO8NNNC:CL10B105KO8NNNC")
-		(at 947.42 664.21 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a567982c-98cd-47db-9f9d-a93ed1f615a0")
-		(property "Reference" "C411"
-			(at 944.88 660.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1u"
-			(at 942.594 665.226 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "CL10B105KO8NNNC:CAPC1608X90N"
-			(at 940.054 678.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 947.42 664.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 947.42 664.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Samsung Electro-Mechanics"
-			(at 940.054 678.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "1 µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 940.054 678.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 957.58 664.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 957.58 664.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CL10B105KO8NNNC/Samsung/view-part/?ref=snap"
-			(at 940.054 678.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "CL10B105KO8NNNC"
-			(at 955.802 664.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 959.866 663.956 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/CL10B105KO8NNNC/Samsung/view-part/?ref=eda"
-			(at 940.054 678.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "P. No" "CL10B105KO8NNNC"
-			(at 947.42 664.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c141bb4a-4dcd-4f51-a984-fce38f2edae9")
-		)
-		(pin "1"
-			(uuid "2c40bb47-9494-46a7-8b57-c3f8e81608dc")
-		)
-		(instances
-			(project "pcb_2025_v2"
-				(path "/a2b105cb-8b57-40fb-9e14-dfcfbf666a3f"
-					(reference "C411")
 					(unit 1)
 				)
 			)
@@ -139273,84 +138623,6 @@
 			(project "pcb_2025"
 				(path "/a2b105cb-8b57-40fb-9e14-dfcfbf666a3f"
 					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 938.53 662.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b4a0b20d-bad3-47be-b339-5a691000abb5")
-		(property "Reference" "C406"
-			(at 935.99 660.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1n"
-			(at 934.974 664.972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "CL10A106KP8NNNC:CAPC1608X90N"
-			(at 939.4952 666.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 938.53 662.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 938.53 662.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "P. No" "CL10B102KB8NNNC"
-			(at 938.53 662.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "57ea58e5-81dd-4752-8364-597ecd6a8fc4")
-		)
-		(pin "1"
-			(uuid "e56d7c6b-444c-4931-aa0e-ad1a3137d430")
-		)
-		(instances
-			(project "pcb_2025_v2"
-				(path "/a2b105cb-8b57-40fb-9e14-dfcfbf666a3f"
-					(reference "C406")
 					(unit 1)
 				)
 			)
@@ -160160,195 +159432,6 @@
 			(project "pcb_2025"
 				(path "/a2b105cb-8b57-40fb-9e14-dfcfbf666a3f"
 					(reference "C110")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "C0603C103K5RACTU:C0603C103K5RACTU")
-		(at 920.75 661.67 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f055f69e-4d66-47b1-bc08-69d66a388ecd")
-		(property "Reference" "C396"
-			(at 918.21 660.146 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10n"
-			(at 914.908 664.972 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "C0603C103K5RACTU:CAPC1608X90N"
-			(at 920.75 661.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 920.75 661.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 920.75 661.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey_Part_Number" "399-C0603C103K5RACTUTR-ND"
-			(at 920.75 661.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/C0603C103K5RACTU/KEMET/view-part/?ref=snap"
-			(at 920.75 661.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "0.9mm"
-			(at 920.75 661.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "603-2 KEMET"
-			(at 920.75 661.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/C0603C103K5RACTU/KEMET/view-part/?ref=eda"
-			(at 920.75 661.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "IPC-7351B"
-			(at 920.75 661.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "2/20/2025"
-			(at 920.75 661.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "KEMET"
-			(at 920.75 661.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "C0603C103K5RACTU"
-			(at 920.75 661.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Capacitor, Ceramic, .010uF, 10%, 50V | KEMET C0603C103K5RACTU"
-			(at 920.75 661.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Kemet"
-			(at 920.75 661.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "P. No" "C0603C103K5RACTU"
-			(at 920.75 661.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "335177c7-afc4-4b68-9df1-fd09a0f4d9dc")
-		)
-		(pin "1"
-			(uuid "fe79029f-e601-43ea-b8ce-dd19e3c32273")
-		)
-		(instances
-			(project "pcb_2025_v2"
-				(path "/a2b105cb-8b57-40fb-9e14-dfcfbf666a3f"
-					(reference "C396")
 					(unit 1)
 				)
 			)
