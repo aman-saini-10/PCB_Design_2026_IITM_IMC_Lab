@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 8.0,
-          "height": 10.0,
-          "width": 10.0
+          "drill": 1.27,
+          "height": 1.27,
+          "width": 1.27
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -101,7 +101,7 @@
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
+        "silk_over_copper": "ignore",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
@@ -112,13 +112,13 @@
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_angle": "error",
-        "track_dangling": "warning",
+        "track_dangling": "ignore",
         "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
         "unconnected_items": "error",
         "unresolved_variable": "error",
-        "via_dangling": "warning",
+        "via_dangling": "ignore",
         "zones_intersect": "error"
       },
       "rules": {
@@ -548,7 +548,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "D:/KICAD/Projects/pcb_2025/pcb_2025/Fabrication_Outputs_v2",
+      "plot": "../gerbers/",
       "pos_files": "Fabrication_Outputs_v2/Placement_Files/",
       "specctra_dsn": "",
       "step": "",

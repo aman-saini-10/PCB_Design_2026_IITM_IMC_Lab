@@ -1,0 +1,59 @@
+PCB statistics report
+=====================
+- Date: 18-05-2026 20:53:37
+- Project: PCB_2026
+- Board name: PCB_2026
+
+Board
+-----
+- Width: 310.0000 mm
+- Height: 210.0000 mm
+- Area: 65100.0000 mm²
+
+Pads
+----
+- Through hole: 940
+- SMD: 1589
+- Connector: 0
+- NPTH: 2
+
+Vias
+----
+- Through vias: 1157
+- Blind/buried: 0
+- Micro vias: 0
+
+Components
+----------
+
+|              | Front Side | Back Side | Total |
+|--------------|------------|-----------|-------|
+|THT:          |        432 |         0 |   432 |
+|SMD:          |        324 |       103 |   427 |
+|Unspecified:  |          0 |         0 |     0 |
+|Total:        |        756 |       103 |   859 |
+
+Drill holes
+-----------
+
+| Count | Shape |    X Size |    Y Size | Plated | Via/Pad | Start Layer | Stop Layer |
+|-------|-------|-----------|-----------|--------|---------|-------------|------------|
+|   750 | Round | 1.1000 mm | 1.1000 mm |    PTH |     Pad |        F.Cu |       B.Cu |
+|   596 | Round | 0.2286 mm | 0.2286 mm |    PTH |     Via |        F.Cu |       B.Cu |
+|   183 | Round | 0.5000 mm | 0.5000 mm |    PTH |     Via |        F.Cu |       B.Cu |
+|   169 | Round | 0.3000 mm | 0.3000 mm |    PTH |     Via |        F.Cu |       B.Cu |
+|   132 | Round | 1.0000 mm | 1.0000 mm |    PTH |     Pad |        F.Cu |       B.Cu |
+|    85 | Round | 0.2500 mm | 0.2500 mm |    PTH |     Via |        F.Cu |       B.Cu |
+|    70 | Round | 1.1000 mm | 1.1000 mm |    PTH |     Via |        F.Cu |       B.Cu |
+|    25 | Round | 0.3500 mm | 0.3500 mm |    PTH |     Via |        F.Cu |       B.Cu |
+|    20 | Round | 0.2032 mm | 0.2032 mm |    PTH |     Pad |        F.Cu |       B.Cu |
+|    19 | Round | 1.0000 mm | 1.0000 mm |    PTH |     Via |        F.Cu |       B.Cu |
+|    16 | Round | 1.7780 mm | 1.7780 mm |    PTH |     Pad |        F.Cu |       B.Cu |
+|     6 | Round | 8.0000 mm | 8.0000 mm |    PTH |     Pad |        F.Cu |       B.Cu |
+|     6 | Round | 0.2540 mm | 0.2540 mm |    PTH |     Pad |        F.Cu |       B.Cu |
+|     6 | Round | 3.8100 mm | 3.8100 mm |    PTH |     Via |        F.Cu |       B.Cu |
+|     4 | Round | 1.6510 mm | 1.6510 mm |    PTH |     Pad |        F.Cu |       B.Cu |
+|     4 | Round | 0.4500 mm | 0.4500 mm |    PTH |     Via |        F.Cu |       B.Cu |
+|     3 | Round | 0.8636 mm | 0.8636 mm |    PTH |     Pad |        F.Cu |       B.Cu |
+|     3 | Round | 0.9652 mm | 0.9652 mm |    PTH |     Pad |        F.Cu |       B.Cu |
+|     2 | Round | 1.2700 mm | 1.2700 mm |   NPTH |     Pad |        F.Cu |       B.Cu |
