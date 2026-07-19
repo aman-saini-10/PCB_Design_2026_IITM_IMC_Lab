@@ -27405,6 +27405,18 @@
 		)
 		(uuid "12dbaf0e-d1fb-438b-8807-e7f42e06ccae")
 	)
+	(text "D"
+		(exclude_from_sim no)
+		(at 147.32 699.77 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "134e7fb3-cd8e-42da-a30e-78faa5a65bae")
+	)
 	(text "VDAC_0.9"
 		(exclude_from_sim no)
 		(at 437.896 417.576 0)
@@ -27504,6 +27516,18 @@
 			)
 		)
 		(uuid "5249264e-5334-494b-81fc-b9cd59d9ddb7")
+	)
+	(text "G\n"
+		(exclude_from_sim no)
+		(at 186.69 700.024 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "54aedfae-3b30-4a41-b7c0-51c2a0d42d07")
 	)
 	(text "VBP2_LS"
 		(exclude_from_sim no)
@@ -27695,6 +27719,18 @@
 		)
 		(uuid "b7fe846c-2fe1-4137-bdc2-933cabcd00c0")
 	)
+	(text "C"
+		(exclude_from_sim no)
+		(at 108.966 699.77 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "b995b52d-1868-4be2-a1a6-71a3c1927278")
+	)
 	(text "MUX-VB2&3\n\n"
 		(exclude_from_sim no)
 		(at 274.574 381 0)
@@ -27725,6 +27761,18 @@
 			(justify left bottom)
 		)
 		(uuid "c872c322-22c5-4cc3-8505-f102c44b5613")
+	)
+	(text "H"
+		(exclude_from_sim no)
+		(at 224.536 699.77 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "cbcabcf6-2cb3-4c26-bae8-e792b765300b")
 	)
 	(text "Set to 1.2K\n"
 		(exclude_from_sim no)
@@ -67599,6 +67647,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 962.66 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4d0d4e4f-273d-42fc-8804-6510004117a4")
 		)
@@ -67766,7 +67823,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "10 ohms"
 			(at 422.91 570.23 90)
 			(effects
 				(font
@@ -67802,7 +67859,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 422.91 574.04 90)
 			(effects
 				(font
@@ -67877,6 +67934,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 609.6 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b5e6b845-68da-461c-80ee-24e181117bcd")
 		)
@@ -67946,6 +68012,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 473.71 668.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ad999d7d-196b-40d3-a014-1d72866ed018")
 		)
@@ -67979,7 +68054,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "10 ohms"
 			(at 327.66 674.37 90)
 			(effects
 				(font
@@ -68015,7 +68090,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 327.66 678.18 90)
 			(effects
 				(font
@@ -68056,7 +68131,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "10 ohms"
 			(at 327.66 577.85 90)
 			(effects
 				(font
@@ -68092,7 +68167,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 327.66 581.66 90)
 			(effects
 				(font
@@ -68133,7 +68208,7 @@
 				)
 			)
 		)
-		(property "Value" "1 ohm 0603"
+		(property "Value" "1 ohm"
 			(at 905.51 718.82 90)
 			(effects
 				(font
@@ -68169,7 +68244,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "RC0603FR-101RL "
 			(at 905.51 722.63 90)
 			(effects
 				(font
@@ -68344,7 +68419,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C100u"
+		(property "Value" "100u"
 			(at 288.29 297.1799 0)
 			(effects
 				(font
@@ -68522,6 +68597,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 454.66 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b7eda990-1ddb-4b13-bc29-166b61e00425")
 		)
@@ -68554,7 +68638,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "10 ohms"
 			(at 422.91 623.57 90)
 			(effects
 				(font
@@ -68590,7 +68674,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 422.91 627.38 90)
 			(effects
 				(font
@@ -68663,6 +68747,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 273.05 336.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -68798,6 +68891,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 151.13 405.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ff282b1a-dc94-4d8b-bb37-51243e1f1cd3")
 		)
@@ -68867,6 +68969,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 483.87 586.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fc79c12e-10de-422b-a880-72f666726959")
 		)
@@ -68931,6 +69042,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 215.9 341.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -69395,6 +69515,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 379.73 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "34b6e66e-ece6-4ecb-8d8a-c3a188314000")
 		)
@@ -69620,6 +69749,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 575.31 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d7ba7137-f40d-40a2-8eaa-c94ee6c09184")
 		)
@@ -69820,6 +69958,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 408.94 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "406cfd4b-5d2c-481e-b18f-842497c265ef")
 		)
@@ -69884,6 +70031,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 410.21 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -70309,6 +70465,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 330.2 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "329c16d2-23b0-4195-b4b8-905702948990")
 		)
@@ -70409,7 +70574,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "PV36W203C01B00"
+		(property "Value" "20k ohms"
 			(at 612.14 381.635 90)
 			(effects
 				(font
@@ -70444,6 +70609,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "PV36W203C01B00"
+			(at 614.68 369.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -70513,6 +70687,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 910.59 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -70650,6 +70833,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 316.23 529.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c316f8f2-c962-4a2a-8791-1c16b8675b2f")
 		)
@@ -70682,7 +70874,7 @@
 				)
 			)
 		)
-		(property "Value" "1 ohm 0603"
+		(property "Value" "1 ohm"
 			(at 765.81 543.56 90)
 			(effects
 				(font
@@ -70718,7 +70910,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "RC0603FR-101RL "
 			(at 762 543.56 90)
 			(effects
 				(font
@@ -70796,6 +70988,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 302.26 750.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3fcbcbb6-b388-477a-9816-dce83378447b")
 		)
@@ -70860,6 +71061,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 876.3 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -70929,6 +71139,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 808.99 765.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -71076,6 +71295,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 284.48 411.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "39e2a1f6-fedd-4648-8c53-f63918951266")
 		)
@@ -71140,6 +71368,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 379.73 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -71212,7 +71449,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "CL10A106KP8NNNC"
+		(property "P. No" "CL10A106KQ8NNNC"
 			(at 58.42 414.02 0)
 			(effects
 				(font
@@ -71254,7 +71491,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5kOhms"
+		(property "Value" "5k ohms"
 			(at 772.668 212.852 0)
 			(effects
 				(font
@@ -71371,6 +71608,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 441.96 706.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f9609c97-b03f-4f1d-9e13-f001a04f834a")
 		)
@@ -71484,7 +71730,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1u"
 			(at 468.63 701.0399 90)
 			(effects
 				(font
@@ -71643,7 +71889,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "10 ohms"
 			(at 327.66 694.69 90)
 			(effects
 				(font
@@ -71679,7 +71925,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 327.66 698.5 90)
 			(effects
 				(font
@@ -71824,6 +72070,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 309.88 693.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f4514f76-7953-47be-a3bb-2d00bbd6c624")
 		)
@@ -71890,6 +72145,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 375.92 412.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "17099fde-f5b6-4dca-a66e-6f40acde83b3")
 		)
@@ -71922,7 +72186,7 @@
 				)
 			)
 		)
-		(property "Value" "1 ohm 0603"
+		(property "Value" "1 ohm"
 			(at 739.14 543.56 90)
 			(effects
 				(font
@@ -71958,7 +72222,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "RC0603FR-101RL "
 			(at 739.14 547.37 90)
 			(effects
 				(font
@@ -72033,6 +72297,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 811.53 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "877d8431-a56f-469f-a4e1-73c7791910da")
 		)
@@ -72097,6 +72370,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 1041.4 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -72165,6 +72447,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 284.48 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "334ea4bb-1289-4d6a-9a62-1156a66c94f1")
 		)
@@ -72198,7 +72489,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "25kOhms"
+		(property "Value" "25k ohms"
 			(at 443.738 372.872 0)
 			(effects
 				(font
@@ -72279,7 +72570,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5kOhms"
+		(property "Value" "5k ohms"
 			(at 922.528 50.292 0)
 			(effects
 				(font
@@ -72315,7 +72606,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "PV36W253C01B00"
+		(property "P. No" "PV36W502C01B00"
 			(at 922.02 46.99 0)
 			(effects
 				(font
@@ -72393,6 +72684,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 210.82 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a763627e-96da-4cd4-8ab8-7e0dede8404d")
 		)
@@ -72427,7 +72727,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1u"
 			(at 279.4 591.8199 90)
 			(effects
 				(font
@@ -72749,6 +73049,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 721.36 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c5808a1e-c746-4da7-b023-851018757aed")
 		)
@@ -72781,7 +73090,7 @@
 				)
 			)
 		)
-		(property "Value" "5k ohm"
+		(property "Value" "5k ohms"
 			(at 141.478 59.436 90)
 			(effects
 				(font
@@ -72816,7 +73125,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "RT0603BRE075KL"
 			(at 138.43 60.96 90)
 			(effects
 				(font
@@ -72955,6 +73264,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 204.47 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -73122,7 +73440,7 @@
 				)
 			)
 		)
-		(property "Value" "1 ohm 0603"
+		(property "Value" "1 ohm"
 			(at 765.81 786.13 90)
 			(effects
 				(font
@@ -73158,7 +73476,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "RC0603FR-101RL "
 			(at 765.81 789.94 90)
 			(effects
 				(font
@@ -73231,6 +73549,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 383.54 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -73488,6 +73815,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 219.71 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6c994312-9d37-4f1b-b5e8-afd85b8f7c68")
 		)
@@ -73554,6 +73890,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 273.05 346.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "963fb751-4ff9-426d-85d8-66fb500c675b")
 		)
@@ -73586,7 +73931,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "10 ohms"
 			(at 422.91 659.13 90)
 			(effects
 				(font
@@ -73622,7 +73967,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 422.91 662.94 90)
 			(effects
 				(font
@@ -73831,6 +74176,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 539.75 344.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9b4b8c52-fd74-4492-a04e-9f74d8368cd4")
 		)
@@ -74027,6 +74381,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 88.9 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -74384,7 +74747,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5kOhms"
+		(property "Value" "5k ohms"
 			(at 144.018 187.452 0)
 			(effects
 				(font
@@ -74498,6 +74861,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 160.02 411.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "789bd7bb-0438-4713-8105-a6029107551c")
 		)
@@ -74562,6 +74934,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 275.59 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -74982,7 +75363,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "CL10A106KP8NNNC"
+		(property "P. No" "CL10A106KQ8NNNC"
 			(at 443.23 393.7 0)
 			(effects
 				(font
@@ -75023,7 +75404,7 @@
 				)
 			)
 		)
-		(property "Value" "1 ohm 0603"
+		(property "Value" "10 ohms"
 			(at 422.91 666.75 90)
 			(effects
 				(font
@@ -75059,7 +75440,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 422.91 670.56 90)
 			(effects
 				(font
@@ -75134,6 +75515,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 1037.59 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fa3dd8b6-8b56-4301-be4d-6b559a144ea7")
 		)
@@ -75198,6 +75588,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 97.79 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -75311,7 +75710,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "10 ohms"
 			(at 422.91 585.47 90)
 			(effects
 				(font
@@ -75347,7 +75746,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 422.91 589.28 90)
 			(effects
 				(font
@@ -75422,6 +75821,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 792.48 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "324fc068-bbbd-4ab6-99d1-0557243b4088")
 		)
@@ -75454,7 +75862,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm"
+		(property "Value" "10 ohms"
 			(at 413.512 98.044 0)
 			(effects
 				(font
@@ -75489,7 +75897,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 408.94 93.98 90)
 			(effects
 				(font
@@ -75657,7 +76065,7 @@
 				)
 			)
 		)
-		(property "Value" "1 ohm 0603"
+		(property "Value" "1 ohm"
 			(at 633.73 631.19 90)
 			(effects
 				(font
@@ -75693,7 +76101,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "RC0603FR-101RL "
 			(at 633.73 635 90)
 			(effects
 				(font
@@ -75768,6 +76176,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 1031.24 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "85b9a233-bdd8-469a-95a8-23c5b10326a4")
 		)
@@ -75832,6 +76249,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 166.37 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -76384,6 +76810,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 441.96 627.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0a56603c-92ed-4552-966c-8c6fe596cccd")
 		)
@@ -76665,7 +77100,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "CL10A106KP8NNNC"
+		(property "P. No" "CL10A106KQ8NNNC"
 			(at 397.51 179.07 0)
 			(effects
 				(font
@@ -76902,7 +77337,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "CL10A106KP8NNNC"
+		(property "P. No" "CL10A106KQ8NNNC"
 			(at 271.78 176.53 0)
 			(effects
 				(font
@@ -77166,6 +77601,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 80.01 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ac76ae7d-d255-4ed5-9832-f3010cd04a20")
 		)
@@ -77265,7 +77709,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "10 ohms"
 			(at 327.66 613.41 90)
 			(effects
 				(font
@@ -77301,7 +77745,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 327.66 617.22 90)
 			(effects
 				(font
@@ -77971,6 +78415,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 151.13 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fbca634e-5407-48f3-9d9c-48242200879f")
 		)
@@ -78037,6 +78490,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 986.79 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0403f7bf-9c40-4a5d-91a9-f6bcec6798c4")
 		)
@@ -78071,7 +78533,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C100u"
+		(property "Value" "100u"
 			(at 1022.35 360.6799 0)
 			(effects
 				(font
@@ -78282,7 +78744,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5kOhms"
+		(property "Value" "5k ohms"
 			(at 772.668 74.422 0)
 			(effects
 				(font
@@ -78543,6 +79005,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 149.86 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dbe07295-a343-4deb-b552-205c0aad2275")
 		)
@@ -78675,6 +79146,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 647.7 363.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1716eb14-9ba1-44d7-adde-5db655340e0c")
 		)
@@ -78707,7 +79187,7 @@
 				)
 			)
 		)
-		(property "Value" "1 ohm 0603"
+		(property "Value" "1 ohm"
 			(at 740.41 744.22 90)
 			(effects
 				(font
@@ -78743,7 +79223,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "RC0603FR-101RL "
 			(at 740.41 748.03 90)
 			(effects
 				(font
@@ -78816,6 +79296,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 636.27 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -79172,7 +79661,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "10 ohms"
 			(at 422.91 600.71 90)
 			(effects
 				(font
@@ -79208,7 +79697,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 422.91 604.52 90)
 			(effects
 				(font
@@ -79363,6 +79852,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 1013.46 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "98c417f7-424b-4cd3-ad40-bc279a800e63")
 		)
@@ -79427,6 +79925,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 942.34 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -79496,6 +80003,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 805.18 789.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -79665,7 +80181,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5kOhms"
+		(property "Value" "5k ohms"
 			(at 269.748 418.592 0)
 			(effects
 				(font
@@ -79779,6 +80295,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 273.05 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7e7f10df-508c-4f8a-b716-246ed6c63f4c")
 		)
@@ -79846,6 +80371,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 309.88 599.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -79917,6 +80451,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 309.88 678.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fbb9bc5c-86dd-470f-8679-1c3f32f37079")
 		)
@@ -79949,7 +80492,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "10 ohms"
 			(at 422.91 694.69 90)
 			(effects
 				(font
@@ -79985,7 +80528,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 422.91 698.5 90)
 			(effects
 				(font
@@ -80063,7 +80606,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "CL10A106KP8NNNC"
+		(property "P. No" "CL10A106KQ8NNNC"
 			(at 398.78 100.33 0)
 			(effects
 				(font
@@ -80250,7 +80793,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "10 ohms"
 			(at 327.66 570.23 90)
 			(effects
 				(font
@@ -80286,7 +80829,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 327.66 574.04 90)
 			(effects
 				(font
@@ -80586,6 +81129,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 441.96 665.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "73b776a3-9f1e-4443-bd7e-8dc005466f09")
 		)
@@ -80655,6 +81207,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 309.88 591.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "adecfac8-a33f-4499-a0af-cb618747a54d")
 		)
@@ -80688,7 +81249,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ASP-134603-01"
+		(property "Value" "FMC Conn Arr"
 			(at 213.36 591.566 0)
 			(effects
 				(font
@@ -80718,6 +81279,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 215.9 595.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P. No" "ASP-134603-01"
 			(at 215.9 595.63 0)
 			(effects
 				(font
@@ -81232,7 +81802,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "10 ohms"
 			(at 109.22 546.1 90)
 			(effects
 				(font
@@ -81268,7 +81838,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 109.22 549.91 90)
 			(effects
 				(font
@@ -81377,7 +81947,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "10 ohms"
 			(at 327.66 697.23 90)
 			(effects
 				(font
@@ -81413,7 +81983,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 327.66 701.04 90)
 			(effects
 				(font
@@ -81486,6 +82056,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 463.55 389.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -81587,7 +82166,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5kOhms"
+		(property "Value" "5k ohms"
 			(at 403.098 176.022 0)
 			(effects
 				(font
@@ -81734,7 +82313,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "10 ohms"
 			(at 213.36 551.18 90)
 			(effects
 				(font
@@ -81770,7 +82349,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 213.36 547.37 90)
 			(effects
 				(font
@@ -81846,6 +82425,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 473.71 614.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -82182,6 +82770,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 80.01 434.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e9421035-bd1f-4591-909e-876e9317ada8")
 		)
@@ -82281,7 +82878,7 @@
 				)
 			)
 		)
-		(property "Value" "1 ohm 0603"
+		(property "Value" "1 ohm"
 			(at 905.51 739.14 90)
 			(effects
 				(font
@@ -82317,7 +82914,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "RC0603FR-101RL "
 			(at 905.51 742.95 90)
 			(effects
 				(font
@@ -82392,6 +82989,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 646.43 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b4cb8e40-64e3-4f13-8b27-5f633538ecfc")
 		)
@@ -82461,6 +83067,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 441.96 601.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7b6492e4-be6e-47b4-a971-46aac3f61a8d")
 		)
@@ -82493,7 +83108,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "10 ohms"
 			(at 109.22 538.48 90)
 			(effects
 				(font
@@ -82529,7 +83144,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 109.22 542.29 90)
 			(effects
 				(font
@@ -82570,7 +83185,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "10 ohms"
 			(at 327.66 593.09 90)
 			(effects
 				(font
@@ -82606,7 +83221,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 327.66 596.9 90)
 			(effects
 				(font
@@ -82851,6 +83466,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 422.91 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a89b7055-c9f5-4f05-8375-985fcde13753")
 		)
@@ -82917,6 +83541,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 196.85 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e881b2d6-f52e-4338-b63d-a843fd9577fa")
 		)
@@ -82950,7 +83583,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "25kOhms"
+		(property "Value" "25k ohms"
 			(at 264.668 394.462 0)
 			(effects
 				(font
@@ -83064,6 +83697,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 1007.11 373.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ebf8d7aa-d1f5-4a7c-b673-b591eccfbc1d")
 		)
@@ -83128,6 +83770,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 1041.4 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -83262,6 +83913,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 778.51 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "80ba944b-d1ae-4c33-bc08-563ccb385b82")
 		)
@@ -83329,6 +83989,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 805.18 787.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -83442,7 +84111,7 @@
 				)
 			)
 		)
-		(property "Value" "1 ohm 0603"
+		(property "Value" "1 ohm"
 			(at 709.93 646.43 90)
 			(effects
 				(font
@@ -83478,7 +84147,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "RC0603FR-101RL "
 			(at 709.93 650.24 90)
 			(effects
 				(font
@@ -83553,6 +84222,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 354.33 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c76e10ab-ee26-4b16-b5b7-9f74226020a9")
 		)
@@ -83617,6 +84295,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 121.92 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -83956,6 +84643,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 441.96 690.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5098828e-f4af-4e04-861f-05b598b2c7ab")
 		)
@@ -84023,6 +84719,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 231.14 549.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -84370,6 +85075,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 400.05 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "83899576-bcd2-46ed-9b5c-06efd28ed8e3")
 		)
@@ -84503,6 +85217,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 910.59 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "04074d4a-2840-4fb6-b1b8-b1d60673f7cd")
 		)
@@ -84567,6 +85290,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 87.63 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -84638,7 +85370,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "CL10A106KP8NNNC"
+		(property "P. No" "CL10A106KQ8NNNC"
 			(at 139.7 287.02 0)
 			(effects
 				(font
@@ -84711,6 +85443,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 151.13 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -84889,7 +85630,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm"
+		(property "Value" "10 ohms"
 			(at 147.32 171.45 90)
 			(effects
 				(font
@@ -84925,7 +85666,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 151.13 171.45 90)
 			(effects
 				(font
@@ -85033,7 +85774,7 @@
 				)
 			)
 		)
-		(property "Value" "1 ohm 0603"
+		(property "Value" "1 ohm"
 			(at 871.22 745.49 90)
 			(effects
 				(font
@@ -85069,7 +85810,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "RC0603FR-101RL "
 			(at 871.22 749.3 90)
 			(effects
 				(font
@@ -85110,7 +85851,7 @@
 				)
 			)
 		)
-		(property "Value" "1 ohm 0603"
+		(property "Value" "1 ohm"
 			(at 711.2 577.85 90)
 			(effects
 				(font
@@ -85146,7 +85887,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "RC0603FR-101RL "
 			(at 711.2 581.66 90)
 			(effects
 				(font
@@ -85286,6 +86027,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 1013.46 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -85589,7 +86339,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C100u"
+		(property "Value" "100u"
 			(at 166.37 107.696 0)
 			(effects
 				(font
@@ -85700,6 +86450,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 204.47 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3cc18347-0052-45e4-aa21-1fca3f375ffe")
 		)
@@ -85734,7 +86493,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "5kOhms"
+		(property "Value" "5k ohms"
 			(at 448.818 333.502 0)
 			(effects
 				(font
@@ -85852,7 +86611,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "CL10A106KP8NNNC"
+		(property "P. No" "CL10A106KQ8NNNC"
 			(at 553.72 69.85 0)
 			(effects
 				(font
@@ -86117,7 +86876,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "10 ohms"
 			(at 422.91 608.33 90)
 			(effects
 				(font
@@ -86153,7 +86912,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 422.91 612.14 90)
 			(effects
 				(font
@@ -86423,6 +87182,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 441.96 576.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -86696,7 +87464,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "10 ohms"
 			(at 422.91 697.23 90)
 			(effects
 				(font
@@ -86732,7 +87500,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 422.91 701.04 90)
 			(effects
 				(font
@@ -86807,6 +87575,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 646.43 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c032416a-40af-49fb-8d0d-75f741a057a5")
 		)
@@ -86873,6 +87650,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 83.82 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fcfe1b34-dca0-461e-8afb-f5c932278b27")
 		)
@@ -86937,6 +87723,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 900.43 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -87085,6 +87880,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 194.31 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bd1217bc-7447-4df8-bfad-8192a4335f60")
 		)
@@ -87149,6 +87953,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 711.2 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -87406,6 +88219,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 904.24 448.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1a95098e-2a3d-4e01-a0f6-8d580662aaee")
 		)
@@ -87572,7 +88394,7 @@
 				)
 			)
 		)
-		(property "Value" "1 ohm 0603"
+		(property "Value" "1 ohm"
 			(at 873.76 577.85 90)
 			(effects
 				(font
@@ -87608,7 +88430,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "RC0603FR-101RL "
 			(at 873.76 581.66 90)
 			(effects
 				(font
@@ -87749,6 +88571,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 1007.11 347.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cfd0b437-4900-46ec-ad95-a58b1e868bca")
 		)
@@ -87781,7 +88612,7 @@
 				)
 			)
 		)
-		(property "Value" "1 ohm 0603"
+		(property "Value" "1 ohm"
 			(at 905.51 758.19 90)
 			(effects
 				(font
@@ -87817,7 +88648,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "RC0603FR-101RL "
 			(at 905.51 762 90)
 			(effects
 				(font
@@ -87858,7 +88689,7 @@
 				)
 			)
 		)
-		(property "Value" "1 ohm 0603"
+		(property "Value" "1 ohm"
 			(at 905.51 777.24 90)
 			(effects
 				(font
@@ -87894,7 +88725,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "RC0603FR-101RL "
 			(at 905.51 781.05 90)
 			(effects
 				(font
@@ -87967,6 +88798,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 1031.24 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -88105,6 +88945,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 332.74 629.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "291e47fa-199c-4dc0-8795-f09a8d7cb476")
 		)
@@ -88172,6 +89021,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 91.44 542.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -88490,6 +89348,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 882.65 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f640ce4f-ac3b-47a7-b11e-a5a60b5120a0")
 		)
@@ -88625,6 +89492,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 309.88 604.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3db9fd94-0df4-495c-a824-701d11f7d698")
 		)
@@ -88657,7 +89533,7 @@
 				)
 			)
 		)
-		(property "Value" "1 ohm 0603"
+		(property "Value" "1 ohm"
 			(at 711.2 593.09 90)
 			(effects
 				(font
@@ -88693,7 +89569,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "RC0603FR-101RL "
 			(at 711.2 596.9 90)
 			(effects
 				(font
@@ -88771,7 +89647,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "CL10A106KP8NNNC"
+		(property "P. No" "CL10A106KQ8NNNC"
 			(at 899.16 73.66 0)
 			(effects
 				(font
@@ -88813,7 +89689,7 @@
 				)
 			)
 		)
-		(property "Value" "1 ohm 0603"
+		(property "Value" "1 ohm"
 			(at 876.3 599.44 90)
 			(effects
 				(font
@@ -88849,7 +89725,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "RC0603FR-101RL "
 			(at 876.3 603.25 90)
 			(effects
 				(font
@@ -88890,7 +89766,7 @@
 				)
 			)
 		)
-		(property "Value" "1 ohm 0603"
+		(property "Value" "1 ohm"
 			(at 737.87 725.17 90)
 			(effects
 				(font
@@ -88926,7 +89802,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "RC0603FR-101RL "
 			(at 737.87 728.98 90)
 			(effects
 				(font
@@ -89070,6 +89946,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 309.88 617.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "88302348-0ffe-4282-abe1-0b8d45916346")
 		)
@@ -89205,6 +90090,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 309.88 670.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f3633de7-5980-4129-b14f-148b6597fae0")
 		)
@@ -89238,7 +90132,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ASP-134603-01"
+		(property "Value" "FMC Conn Arr"
 			(at 101.092 591.312 0)
 			(effects
 				(font
@@ -89268,6 +90162,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 100.33 595.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P. No" "ASP-134603-01"
 			(at 100.33 595.63 0)
 			(effects
 				(font
@@ -89819,7 +90722,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "CL10A106KP8NNNC"
+		(property "P. No" "CL10A106KQ8NNNC"
 			(at 264.16 287.02 0)
 			(effects
 				(font
@@ -89974,6 +90877,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 919.48 448.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "95394af0-d685-4dbe-a7ed-9d7f48869ec6")
 		)
@@ -90038,6 +90950,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 158.75 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -90317,6 +91238,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 227.33 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dcc2fe0f-111f-4f1b-bc3d-842fbb779543")
 		)
@@ -90449,6 +91379,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 778.51 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "990ed692-43a4-4f91-a9ca-c81aca91f5be")
 		)
@@ -90513,6 +91452,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 843.28 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -90584,6 +91532,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 340.36 529.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "879656d0-84fe-4ef4-aadd-86822ae00973")
 		)
@@ -90616,7 +91573,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "10 ohms"
 			(at 327.66 580.39 90)
 			(effects
 				(font
@@ -90652,7 +91609,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 327.66 584.2 90)
 			(effects
 				(font
@@ -90775,7 +91732,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C100u"
+		(property "Value" "100u"
 			(at 923.29 219.7099 0)
 			(effects
 				(font
@@ -90919,7 +91876,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "10 ohms"
 			(at 422.91 595.63 90)
 			(effects
 				(font
@@ -90955,7 +91912,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 422.91 599.44 90)
 			(effects
 				(font
@@ -91102,7 +92059,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "CL10A106KP8NNNC"
+		(property "P. No" "CL10A106KQ8NNNC"
 			(at 316.23 171.45 0)
 			(effects
 				(font
@@ -91725,6 +92682,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 309.88 665.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bb6cbffc-1fa3-43e4-986b-df28635717ff")
 		)
@@ -91789,6 +92755,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 986.79 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -92191,7 +93166,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "CL10A106KP8NNNC"
+		(property "P. No" "CL10A106KQ8NNNC"
 			(at 948.69 69.85 0)
 			(effects
 				(font
@@ -92477,6 +93452,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 441.96 619.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -92767,7 +93751,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm"
+		(property "Value" "10 ohms"
 			(at 1038.86 208.28 90)
 			(effects
 				(font
@@ -92803,7 +93787,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 1042.67 208.28 90)
 			(effects
 				(font
@@ -92976,7 +93960,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "10 ohms"
 			(at 422.91 654.05 90)
 			(effects
 				(font
@@ -93012,7 +93996,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 422.91 657.86 90)
 			(effects
 				(font
@@ -93087,6 +94071,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 283.21 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5bd424fe-5927-4d19-8100-3710f02bcc5c")
 		)
@@ -93119,7 +94112,7 @@
 				)
 			)
 		)
-		(property "Value" "1 ohm 0603"
+		(property "Value" "1 ohm"
 			(at 773.43 744.22 90)
 			(effects
 				(font
@@ -93155,7 +94148,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "RC0603FR-101RL "
 			(at 773.43 748.03 90)
 			(effects
 				(font
@@ -93196,7 +94189,7 @@
 				)
 			)
 		)
-		(property "Value" "142-0701-201"
+		(property "Value" "CONN SMA JACK"
 			(at 1040.13 288.798 0)
 			(effects
 				(font
@@ -93226,6 +94219,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 1041.4 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P. No" "132134"
 			(at 1041.4 284.48 0)
 			(effects
 				(font
@@ -93575,7 +94577,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5kOhms"
+		(property "Value" "5k ohms"
 			(at 401.828 65.532 0)
 			(effects
 				(font
@@ -93611,7 +94613,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "PV36W253C01B00"
+		(property "P. No" "PV36W502C01B00"
 			(at 401.32 62.23 0)
 			(effects
 				(font
@@ -93768,6 +94770,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 843.28 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a168665b-3dc8-4d71-9954-0894aa195e67")
 		)
@@ -93801,7 +94812,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "10 ohms"
 			(at 327.66 651.51 90)
 			(effects
 				(font
@@ -93837,7 +94848,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 327.66 655.32 90)
 			(effects
 				(font
@@ -94043,6 +95054,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 121.92 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -94710,6 +95730,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 721.36 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2735cf0b-699e-4322-99ec-24e25d4064c8")
 		)
@@ -94888,7 +95917,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1kOhms"
+		(property "Value" "1k ohms"
 			(at 279.908 146.812 0)
 			(effects
 				(font
@@ -94924,7 +95953,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "PV36W253C01B00"
+		(property "P. No" "PV36W102C01B00"
 			(at 279.4 143.51 0)
 			(effects
 				(font
@@ -95003,6 +96032,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 332.74 571.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -95170,7 +96208,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "10 ohms"
 			(at 422.91 704.85 90)
 			(effects
 				(font
@@ -95206,7 +96244,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 422.91 708.66 90)
 			(effects
 				(font
@@ -95247,7 +96285,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm"
+		(property "Value" "10 ohms"
 			(at 281.94 95.25 90)
 			(effects
 				(font
@@ -95283,7 +96321,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 285.75 95.25 90)
 			(effects
 				(font
@@ -95325,7 +96363,7 @@
 				)
 			)
 		)
-		(property "Value" "SN74AVC4T245RGYR"
+		(property "Value" "IC TRANSLATION"
 			(at 161.29 532.13 0)
 			(effects
 				(font
@@ -95628,6 +96666,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 88.9 434.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7e1bb037-65c9-4bac-9db1-405a6981225f")
 		)
@@ -95695,6 +96742,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 309.88 574.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -96022,7 +97078,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "CL10A106KP8NNNC"
+		(property "P. No" "CL10A106KQ8NNNC"
 			(at 270.51 102.87 0)
 			(effects
 				(font
@@ -96256,6 +97312,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 885.19 448.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c1dac4d3-1bd3-4481-95e0-18e6ec681033")
 		)
@@ -96455,6 +97520,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 646.43 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8ce48b80-9eca-4b49-a257-4309ed5d826f")
 		)
@@ -96519,6 +97593,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 275.59 405.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -96838,6 +97921,15 @@
 				)
 			)
 		)
+		(property "P. No" "CL31A107MQHNNNE"
+			(at 647.7 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2a55ce12-21de-4363-9141-a51598f90613")
 		)
@@ -97041,7 +98133,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "25kOhms"
+		(property "Value" "25k ohms"
 			(at 635.508 50.292 0)
 			(effects
 				(font
@@ -97221,6 +98313,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 825.5 448.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "63264149-6aba-44e4-8412-6510305619bf")
 		)
@@ -97351,6 +98452,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 215.9 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -97632,6 +98742,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 81.28 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ac23579e-49f7-4465-bc5a-7f651e09d0bf")
 		)
@@ -97732,7 +98851,7 @@
 				)
 			)
 		)
-		(property "Value" "SN74AVCH16T245GR"
+		(property "Value" "IC TRANSLATION"
 			(at 375.92 645.16 0)
 			(effects
 				(font
@@ -97761,6 +98880,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 375.92 680.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P. No" "SN74AVCH16T245GR"
 			(at 375.92 680.72 0)
 			(effects
 				(font
@@ -97973,6 +99101,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 1042.67 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3ca5efcc-09cf-49f5-bfa8-c1c67a837aed")
 		)
@@ -98040,6 +99177,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 302.26 744.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -98174,6 +99320,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 140.97 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "72061bb5-b050-49ce-b7b4-59db87892dd1")
 		)
@@ -98244,7 +99399,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "CL10A106KP8NNNC"
+		(property "P. No" "CL10A106KQ8NNNC"
 			(at 685.8 69.85 0)
 			(effects
 				(font
@@ -98320,6 +99475,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 441.96 617.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -98920,6 +100084,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 689.61 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8ffa7a77-0fc1-4bef-adc5-bd053c748e9b")
 		)
@@ -99123,7 +100296,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C100u"
+		(property "Value" "100u"
 			(at 1054.1 219.7099 0)
 			(effects
 				(font
@@ -99361,7 +100534,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1u"
 			(at 472.44 591.8199 90)
 			(effects
 				(font
@@ -99553,6 +100726,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 383.54 412.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9a7719a9-f49b-4a56-9c74-39fbac0effee")
 		)
@@ -99664,7 +100846,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "10 ohms"
 			(at 422.91 669.29 90)
 			(effects
 				(font
@@ -99700,7 +100882,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 422.91 673.1 90)
 			(effects
 				(font
@@ -99818,7 +101000,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CL31A107MQHNNNE:CAPC3216X180N"
+		(property "Footprint" "CL10A106KP8NNNC:CAPC1608X90N"
 			(at 633.4252 364.49 0)
 			(effects
 				(font
@@ -99842,6 +101024,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "CL10A106KQ8NNNC"
+			(at 632.46 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -100451,7 +101642,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C100u"
+		(property "Value" "100u"
 			(at 467.36 403.8599 0)
 			(effects
 				(font
@@ -100972,6 +102163,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 220.98 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "77125f42-8cbc-47ad-8f49-a08fa01a5f01")
 		)
@@ -101040,6 +102240,15 @@
 				(hide yes)
 			)
 		)
+		(property "P. No" "3267"
+			(at 1050.29 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a8bc6d72-944b-4bef-aad2-2ac024c199d0")
 		)
@@ -101071,7 +102280,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C100u"
+		(property "Value" "100u"
 			(at 162.56 182.8799 0)
 			(effects
 				(font
@@ -101185,6 +102394,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 441.96 683.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7628ae3d-ea1c-4338-8821-736273bbc9ba")
 		)
@@ -101251,6 +102469,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 699.77 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ce9c1a9c-302d-4191-a55a-776cc452bd08")
 		)
@@ -101284,7 +102511,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5kOhms"
+		(property "Value" "5k ohms"
 			(at 1054.608 50.292 0)
 			(effects
 				(font
@@ -101320,7 +102547,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "PV36W253C01B00"
+		(property "P. No" "PV36W502C01B00"
 			(at 1054.1 46.99 0)
 			(effects
 				(font
@@ -101365,7 +102592,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5kOhms"
+		(property "Value" "5k ohms"
 			(at 1027.43 80.772 0)
 			(effects
 				(font
@@ -101479,6 +102706,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 72.39 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b67e19eb-88ac-4a77-b852-8e4d1e261202")
 		)
@@ -101548,6 +102784,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 332.74 713.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ebff2995-eaed-44f5-b2db-7874d10171ea")
 		)
@@ -101612,6 +102857,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 151.13 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -102064,6 +103318,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 1040.13 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f086a776-4a20-40f7-8f11-d9058ea9fe5f")
 		)
@@ -102197,6 +103460,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 679.45 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "551dafe1-7b52-4caf-8e1d-c49cb54271ba")
 		)
@@ -102229,7 +103501,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "10 ohms"
 			(at 422.91 588.01 90)
 			(effects
 				(font
@@ -102265,7 +103537,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 422.91 591.82 90)
 			(effects
 				(font
@@ -102306,7 +103578,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "10 ohms"
 			(at 327.66 572.77 90)
 			(effects
 				(font
@@ -102342,7 +103614,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 327.66 576.58 90)
 			(effects
 				(font
@@ -102420,6 +103692,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 231.14 547.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a423aa74-8e01-4f4d-85b9-b13ad412c9cd")
 		)
@@ -102486,6 +103767,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 256.54 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cf651440-bc07-4f7d-80fc-020cf4aaa173")
 		)
@@ -102518,7 +103808,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "10 ohms"
 			(at 327.66 598.17 90)
 			(effects
 				(font
@@ -102554,7 +103844,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 327.66 601.98 90)
 			(effects
 				(font
@@ -102695,6 +103985,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 655.32 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d9cdb4b5-3dcd-4389-a6aa-3198e5a9a495")
 		)
@@ -102827,6 +104126,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 96.52 434.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2418b6ab-67ae-4de6-90ec-dd1a88eb3731")
 		)
@@ -102896,6 +104204,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 420.37 629.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f656e250-0b0d-4830-9ccf-c8e09e237ed2")
 		)
@@ -102963,6 +104280,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 316.23 533.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -103167,6 +104493,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 208.28 554.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "65719442-35f4-4773-9e6a-26cdcf5a5bc4")
 		)
@@ -103227,6 +104562,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 990.6 353.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P. No" "3267"
 			(at 990.6 353.06 0)
 			(effects
 				(font
@@ -103344,7 +104688,7 @@
 				)
 			)
 		)
-		(property "Value" "SN74AVCH16T245GR"
+		(property "Value" "IC TRANSLATION"
 			(at 375.92 563.88 0)
 			(effects
 				(font
@@ -103626,7 +104970,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "10 ohms"
 			(at 422.91 687.07 90)
 			(effects
 				(font
@@ -103662,7 +105006,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 422.91 690.88 90)
 			(effects
 				(font
@@ -103704,7 +105048,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "10 ohms"
 			(at 327.66 654.05 90)
 			(effects
 				(font
@@ -103740,7 +105084,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 327.66 657.86 90)
 			(effects
 				(font
@@ -103849,7 +105193,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5kOhms"
+		(property "Value" "5k ohms"
 			(at 276.098 100.838 0)
 			(effects
 				(font
@@ -104322,6 +105666,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 885.19 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "46a1a1ef-4cc6-468b-b9f1-51c419098009")
 		)
@@ -104354,7 +105707,7 @@
 				)
 			)
 		)
-		(property "Value" "1 ohm 0603"
+		(property "Value" "1 ohm"
 			(at 829.31 706.12 90)
 			(effects
 				(font
@@ -104390,7 +105743,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "RC0603FR-101RL "
 			(at 829.31 709.93 90)
 			(effects
 				(font
@@ -104465,6 +105818,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 584.2 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "98ec529f-b57e-4516-bdd3-c047999f45d0")
 		)
@@ -104532,6 +105894,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 309.88 685.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -104604,7 +105975,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "CL10A106KP8NNNC"
+		(property "P. No" "CL10A106KQ8NNNC"
 			(at 948.69 208.28 0)
 			(effects
 				(font
@@ -105195,7 +106566,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "10 ohms"
 			(at 327.66 669.29 90)
 			(effects
 				(font
@@ -105231,7 +106602,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 327.66 673.1 90)
 			(effects
 				(font
@@ -105613,6 +106984,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 896.62 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f49a94ea-5e96-4980-adab-f79004466f60")
 		)
@@ -105682,6 +107062,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 309.88 673.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "01a4b5c7-c33a-454f-a655-93e4a8591534")
 		)
@@ -105748,6 +107137,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 812.8 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "47fd7dd4-4db0-41d4-a80d-409d9bc8a75a")
 		)
@@ -105812,6 +107210,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 213.36 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -105914,7 +107321,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5kOhms"
+		(property "Value" "5k ohms"
 			(at 1050.798 189.992 0)
 			(effects
 				(font
@@ -105950,7 +107357,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "PV36W253C01B00"
+		(property "P. No" "PV36W502C01B00"
 			(at 1050.29 186.69 0)
 			(effects
 				(font
@@ -106127,7 +107534,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5kOhms"
+		(property "Value" "5k ohms"
 			(at 640.588 74.422 0)
 			(effects
 				(font
@@ -106244,6 +107651,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 316.23 521.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "336a2b78-f5dd-482a-9604-d962eb3cea9b")
 		)
@@ -106276,7 +107692,7 @@
 				)
 			)
 		)
-		(property "Value" "1 ohm 0603"
+		(property "Value" "1 ohm"
 			(at 769.62 764.54 90)
 			(effects
 				(font
@@ -106312,7 +107728,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "RC0603FR-101RL "
 			(at 769.62 768.35 90)
 			(effects
 				(font
@@ -106391,7 +107807,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "CL10A106KP8NNNC"
+		(property "P. No" "CL10A106KQ8NNNC"
 			(at 190.5 171.45 0)
 			(effects
 				(font
@@ -106469,6 +107885,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 114.3 552.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c937dd4d-acc8-4000-858b-ce8aca53e73f")
 		)
@@ -106501,7 +107926,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "10 ohms"
 			(at 327.66 595.63 90)
 			(effects
 				(font
@@ -106537,7 +107962,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 327.66 599.44 90)
 			(effects
 				(font
@@ -106804,6 +108229,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 721.36 355.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "98fecf78-6741-43e6-9d9c-8ff68426eaaf")
 		)
@@ -106870,6 +108304,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 904.24 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d694ebd2-acf6-4a40-bada-bc0df5423c5e")
 		)
@@ -106902,7 +108345,7 @@
 				)
 			)
 		)
-		(property "Value" "142-0701-201"
+		(property "Value" "CONN SMA JACK"
 			(at 1008.38 288.798 0)
 			(effects
 				(font
@@ -106932,6 +108375,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 1009.65 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P. No" "132134"
 			(at 1009.65 284.48 0)
 			(effects
 				(font
@@ -107145,6 +108597,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 716.28 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -107432,7 +108893,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C100u"
+		(property "Value" "100u"
 			(at 424.18 182.8799 0)
 			(effects
 				(font
@@ -107757,7 +109218,7 @@
 				)
 			)
 		)
-		(property "Value" "3k ohm"
+		(property "Value" "3k ohms"
 			(at 262.636 57.658 90)
 			(effects
 				(font
@@ -107792,7 +109253,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "RMCF0603FT3K00"
 			(at 262.89 59.69 90)
 			(effects
 				(font
@@ -107932,6 +109393,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 882.65 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -108294,6 +109764,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 151.13 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4cede8a6-eadc-4f35-8897-1c143d03dc23")
 		)
@@ -108358,6 +109837,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 454.66 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -108461,7 +109949,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C100u"
+		(property "Value" "100u"
 			(at 1022.35 421.6399 0)
 			(effects
 				(font
@@ -108756,6 +110244,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 441.96 678.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d9d6bff9-61fb-44c4-9e8d-3a3420d35725")
 		)
@@ -108788,7 +110285,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "10 ohms"
 			(at 422.91 681.99 90)
 			(effects
 				(font
@@ -108824,7 +110321,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 422.91 685.8 90)
 			(effects
 				(font
@@ -108900,6 +110397,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 91.44 547.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -109134,7 +110640,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5kOhms"
+		(property "Value" "5k ohms"
 			(at 272.034 182.372 0)
 			(effects
 				(font
@@ -109607,6 +111113,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 768.35 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e517d2d1-fc29-4d54-a00c-1a393924c234")
 		)
@@ -109962,7 +111477,7 @@
 				)
 			)
 		)
-		(property "Value" "1 ohm 0603"
+		(property "Value" "1 ohm"
 			(at 781.05 706.12 90)
 			(effects
 				(font
@@ -109998,7 +111513,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "RC0603FR-101RL "
 			(at 781.05 709.93 90)
 			(effects
 				(font
@@ -110073,6 +111588,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 1007.11 410.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e42bef4b-d411-48a3-9288-55f2f3c5da1f")
 		)
@@ -110106,7 +111630,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "25kOhms"
+		(property "Value" "25k ohms"
 			(at 140.208 266.192 0)
 			(effects
 				(font
@@ -110289,6 +111813,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 441.96 673.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c4781280-3470-4d67-97b9-05a62c4fc2fd")
 		)
@@ -110390,7 +111923,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C100u"
+		(property "Value" "100u"
 			(at 288.29 425.4499 0)
 			(effects
 				(font
@@ -110577,6 +112110,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 347.98 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -110848,7 +112390,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1u"
 			(at 224.79 565.1499 90)
 			(effects
 				(font
@@ -111007,7 +112549,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5kOhms"
+		(property "Value" "5k ohms"
 			(at 895.096 82.296 0)
 			(effects
 				(font
@@ -111124,6 +112666,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 473.71 695.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "756067b8-7996-413e-a623-898570bb2f53")
 		)
@@ -111188,6 +112739,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 530.86 344.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -111291,7 +112851,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C100u"
+		(property "Value" "100u"
 			(at 422.91 105.4099 0)
 			(effects
 				(font
@@ -111405,7 +112965,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "CL10A106KP8NNNC"
+		(property "P. No" "CL10A106KQ8NNNC"
 			(at 635 209.55 0)
 			(effects
 				(font
@@ -111480,6 +113040,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 203.2 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "17bd0a01-543a-41a4-b007-87f6430911bf")
 		)
@@ -111546,6 +113115,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 591.82 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "891028f1-ca59-4dd9-a0bc-e987303ec4cb")
 		)
@@ -111610,6 +113188,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 707.39 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -111679,6 +113266,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 420.37 571.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -111781,7 +113377,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "10 ohms"
 			(at 327.66 659.13 90)
 			(effects
 				(font
@@ -111817,7 +113413,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 327.66 662.94 90)
 			(effects
 				(font
@@ -112138,7 +113734,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "10 ohms"
 			(at 327.66 676.91 90)
 			(effects
 				(font
@@ -112174,7 +113770,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 327.66 680.72 90)
 			(effects
 				(font
@@ -112332,7 +113928,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "CL10A106KP8NNNC"
+		(property "P. No" "CL10A106KQ8NNNC"
 			(at 361.95 392.43 0)
 			(effects
 				(font
@@ -112545,7 +114141,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "CL10A106KP8NNNC"
+		(property "P. No" "CL10A106KQ8NNNC"
 			(at 817.88 69.85 0)
 			(effects
 				(font
@@ -112690,6 +114286,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 808.99 768.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f7348c56-d9a0-434f-a526-8b29511284c1")
 		)
@@ -112756,6 +114361,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 831.85 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ea76433d-7f21-46f6-b19b-bea4b68f1697")
 		)
@@ -112789,7 +114403,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "10 ohms"
 			(at 327.66 666.75 90)
 			(effects
 				(font
@@ -112825,7 +114439,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 327.66 670.56 90)
 			(effects
 				(font
@@ -112901,6 +114515,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 441.96 655.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -113003,7 +114626,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ASP-134603-01"
+		(property "Value" "FMC Conn Arr"
 			(at 175.768 591.566 0)
 			(effects
 				(font
@@ -113033,6 +114656,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 177.8 595.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P. No" "ASP-134603-01"
 			(at 177.8 595.63 0)
 			(effects
 				(font
@@ -113581,6 +115213,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 979.17 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f778c76b-a43d-4f93-b44c-d73bbe9887f5")
 		)
@@ -113613,7 +115254,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm"
+		(property "Value" "10 ohms"
 			(at 147.32 93.98 90)
 			(effects
 				(font
@@ -113649,7 +115290,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 151.13 93.98 90)
 			(effects
 				(font
@@ -113724,6 +115365,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 1007.11 358.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f602ed51-cc56-4842-a5c1-bde9f9d382e4")
 		)
@@ -113788,6 +115438,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 787.4 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -113926,6 +115585,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 721.36 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c3c29ae2-cdf9-4732-8a29-fd64d31c41af")
 		)
@@ -113996,7 +115664,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "CL10A106KP8NNNC"
+		(property "P. No" "CL10A106KQ8NNNC"
 			(at 361.95 328.93 0)
 			(effects
 				(font
@@ -114574,7 +116242,7 @@
 				)
 			)
 		)
-		(property "Value" "1 ohm 0603"
+		(property "Value" "1 ohm"
 			(at 871.22 764.54 90)
 			(effects
 				(font
@@ -114610,7 +116278,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "RC0603FR-101RL "
 			(at 871.22 768.35 90)
 			(effects
 				(font
@@ -114685,6 +116353,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 1031.24 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2be37f8a-3c7e-44e2-8689-52e63823f92c")
 		)
@@ -114749,6 +116426,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 160.02 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -114820,7 +116506,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "CL10A106KP8NNNC"
+		(property "P. No" "CL10A106KQ8NNNC"
 			(at 1029.97 72.39 0)
 			(effects
 				(font
@@ -114898,6 +116584,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 340.36 533.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3796f66b-3d7e-4db8-80e6-f5ad31dec115")
 		)
@@ -114930,7 +116625,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "10 ohms"
 			(at 422.91 613.41 90)
 			(effects
 				(font
@@ -114966,7 +116661,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 422.91 617.22 90)
 			(effects
 				(font
@@ -115042,6 +116737,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 309.88 655.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -115272,6 +116976,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 309.88 708.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2346aff3-1ab1-499f-b0e1-21b990ef50f9")
 		)
@@ -115342,7 +117055,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "CL10A106KP8NNNC"
+		(property "P. No" "CL10A106KQ8NNNC"
 			(at 317.5 93.98 0)
 			(effects
 				(font
@@ -115417,6 +117130,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 285.75 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "292a03ae-dbb0-422f-b66f-3bb79fcd0808")
 		)
@@ -115486,6 +117208,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 309.88 584.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0d8ea280-3bf0-457c-8837-994b9e57e7df")
 		)
@@ -115519,7 +117250,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "25kOhms"
+		(property "Value" "25k ohms"
 			(at 264.668 266.192 0)
 			(effects
 				(font
@@ -115665,7 +117396,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm"
+		(property "Value" "10 ohms"
 			(at 908.05 208.28 90)
 			(effects
 				(font
@@ -115701,7 +117432,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 911.86 208.28 90)
 			(effects
 				(font
@@ -115742,7 +117473,7 @@
 				)
 			)
 		)
-		(property "Value" "2k ohm"
+		(property "Value" "2k ohms"
 			(at 908.812 180.34 90)
 			(effects
 				(font
@@ -115777,7 +117508,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF2001V"
 			(at 906.78 177.8 90)
 			(effects
 				(font
@@ -115919,6 +117650,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 71.12 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "86011880-8167-474a-a89f-422b57b3d199")
 		)
@@ -115953,7 +117693,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C100u"
+		(property "Value" "100u"
 			(at 923.29 81.2799 0)
 			(effects
 				(font
@@ -116031,7 +117771,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5kOhms"
+		(property "Value" "5k ohms"
 			(at 269.748 290.322 0)
 			(effects
 				(font
@@ -116148,7 +117888,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "CL10A106KP8NNNC"
+		(property "P. No" "CL10A106KQ8NNNC"
 			(at 767.08 209.55 0)
 			(effects
 				(font
@@ -116326,6 +118066,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 96.52 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0cfa1f2d-b7cd-454b-9d26-ac4cee6a172f")
 		)
@@ -116359,7 +118108,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5kOhms"
+		(property "Value" "5k ohms"
 			(at 140.462 104.14 0)
 			(effects
 				(font
@@ -116474,6 +118223,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 309.88 701.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -116610,6 +118368,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 812.8 748.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -116878,6 +118645,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 974.09 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3f7eb18d-7685-42bf-bcaf-8643d1df8694")
 		)
@@ -117013,6 +118789,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 441.96 596.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9352ef95-4571-49ed-8482-f1ebfcdc42ea")
 		)
@@ -117112,7 +118897,7 @@
 				)
 			)
 		)
-		(property "Value" "1 ohm 0603"
+		(property "Value" "1 ohm"
 			(at 904.24 685.8 90)
 			(effects
 				(font
@@ -117148,7 +118933,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "RC0603FR-101RL "
 			(at 904.24 689.61 90)
 			(effects
 				(font
@@ -117226,6 +119011,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 114.3 554.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b6fb4229-6a45-4b93-9578-4ba030a4f3b0")
 		)
@@ -117292,6 +119086,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 375.92 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cb28a98e-9edc-4cc6-aa29-244a75cb7653")
 		)
@@ -117356,6 +119159,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 1038.86 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -117491,6 +119303,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 228.6 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9b04c70b-2521-4c5c-83b7-04bacbb435a3")
 		)
@@ -117557,6 +119378,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 184.15 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "22d38f20-060b-4fe2-b7d1-b513cee94fdd")
 		)
@@ -117589,7 +119419,7 @@
 				)
 			)
 		)
-		(property "Value" "1 ohm 0603"
+		(property "Value" "1 ohm"
 			(at 706.12 697.23 90)
 			(effects
 				(font
@@ -117625,7 +119455,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "RC0603FR-101RL "
 			(at 706.12 701.04 90)
 			(effects
 				(font
@@ -118124,6 +119954,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 810.26 448.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f3cbd545-e571-45d2-b5d8-0ee68e2d38bb")
 		)
@@ -118323,6 +120162,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 711.2 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "33341e0b-4a48-4094-b966-3f0fa823e062")
 		)
@@ -118390,6 +120238,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 309.88 690.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -118671,6 +120528,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 383.54 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7638f2de-69ea-4abf-8220-ccfb2cc2cef8")
 		)
@@ -118735,6 +120601,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 1007.11 387.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -118806,6 +120681,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 721.36 345.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cf0a2976-4db6-44cc-bf1d-8ea0deed3f8d")
 		)
@@ -118840,7 +120724,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1u"
 			(at 468.63 619.7599 90)
 			(effects
 				(font
@@ -118998,7 +120882,7 @@
 				)
 			)
 		)
-		(property "Value" "1 ohm 0603"
+		(property "Value" "1 ohm"
 			(at 878.84 661.67 90)
 			(effects
 				(font
@@ -119034,7 +120918,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "RC0603FR-101RL "
 			(at 878.84 665.48 90)
 			(effects
 				(font
@@ -119296,6 +121180,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 283.21 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -119594,7 +121487,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C100u"
+		(property "Value" "100u"
 			(at 295.91 110.236 0)
 			(effects
 				(font
@@ -119752,7 +121645,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C100u"
+		(property "Value" "100u"
 			(at 659.13 81.2799 0)
 			(effects
 				(font
@@ -119897,7 +121790,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5kOhms"
+		(property "Value" "5k ohms"
 			(at 146.558 139.192 0)
 			(effects
 				(font
@@ -119933,7 +121826,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "PV36W253C01B00"
+		(property "P. No" "PV36W502C01B00"
 			(at 146.05 135.89 0)
 			(effects
 				(font
@@ -120320,6 +122213,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 309.88 576.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "91a764ea-33c8-42f8-9345-af31ca0095d6")
 		)
@@ -120588,7 +122490,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CL31A107MQHNNNE:CAPC3216X180N"
+		(property "Footprint" "CL10A106KP8NNNC:CAPC1608X90N"
 			(at 540.7152 359.41 0)
 			(effects
 				(font
@@ -120612,6 +122514,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "CL10A106KQ8NNNC"
+			(at 539.75 355.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -120751,7 +122662,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "CL10A106KP8NNNC"
+		(property "P. No" "CL10A106KQ8NNNC"
 			(at 58.42 285.75 0)
 			(effects
 				(font
@@ -120826,6 +122737,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 95.25 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "34b2e5a1-afd3-409a-8b91-aea7abeb547e")
 		)
@@ -120892,6 +122812,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 1041.4 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3a95b1a2-fdef-4c6c-a84a-e5103e2c23fd")
 		)
@@ -120956,6 +122885,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 655.32 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -121057,7 +122995,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5kOhms"
+		(property "Value" "5k ohms"
 			(at 448.818 397.002 0)
 			(effects
 				(font
@@ -121401,6 +123339,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 309.88 657.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "53fddbc8-4546-4ed9-b821-9ab987f76a11")
 		)
@@ -121433,7 +123380,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "10 ohms"
 			(at 327.66 608.33 90)
 			(effects
 				(font
@@ -121469,7 +123416,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 327.66 612.14 90)
 			(effects
 				(font
@@ -121544,6 +123491,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 646.43 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b27f5d2d-6759-4c0a-9e44-e13322ac07ad")
 		)
@@ -121608,6 +123564,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 910.59 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -121676,6 +123641,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 896.62 448.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1cbc6d69-7df5-4589-9c7a-e5f59753c82c")
 		)
@@ -121740,6 +123714,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 1031.24 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -121874,6 +123857,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 220.98 434.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a00f790e-4934-4e5a-ac91-c2eda64cd8d7")
 		)
@@ -121973,7 +123965,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "10 ohms"
 			(at 327.66 615.95 90)
 			(effects
 				(font
@@ -122009,7 +124001,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 327.66 619.76 90)
 			(effects
 				(font
@@ -122231,6 +124223,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 1050.29 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8e506735-e78b-45e5-be2f-77cf97e2e69b")
 		)
@@ -122264,7 +124265,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5kOhms"
+		(property "Value" "5k ohms"
 			(at 933.958 399.542 0)
 			(effects
 				(font
@@ -122512,6 +124513,15 @@
 				(hide yes)
 			)
 		)
+		(property "P. No" "3267"
+			(at 990.6 441.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fcaa4e47-ddc5-423e-acd1-9579c8dc037f")
 		)
@@ -122575,6 +124585,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 1013.46 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b8c8bdf4-367c-4669-a122-78d03a90d572")
 		)
@@ -122607,7 +124626,7 @@
 				)
 			)
 		)
-		(property "Value" "1 ohm 0603"
+		(property "Value" "1 ohm"
 			(at 871.22 783.59 90)
 			(effects
 				(font
@@ -122643,7 +124662,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "RC0603FR-101RL "
 			(at 871.22 787.4 90)
 			(effects
 				(font
@@ -122785,6 +124804,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 575.31 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bc84ec19-515a-4fc1-9723-a0531229480f")
 		)
@@ -122893,7 +124921,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Chip_QFN80:QFN80"
+		(property "Footprint" "Chip_QFN100:QFN100"
 			(at 791.21 648.97 0)
 			(effects
 				(font
@@ -123283,6 +125311,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 1050.29 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "525219fd-a0db-4aa3-b0cb-63eeb16f977c")
 		)
@@ -123415,6 +125452,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 1007.11 419.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a7c57ce1-a6ae-4364-9a34-73e9fe5d0cb0")
 		)
@@ -123447,7 +125493,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "10 ohms"
 			(at 109.22 543.56 90)
 			(effects
 				(font
@@ -123483,7 +125529,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 109.22 547.37 90)
 			(effects
 				(font
@@ -123747,6 +125793,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 557.53 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "81c704a3-cb9e-49e9-9bac-0261e1243c59")
 		)
@@ -123926,7 +125981,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1u"
 			(at 468.63 673.0999 90)
 			(effects
 				(font
@@ -124118,6 +126173,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 821.69 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "69fecdfa-1c8e-41cd-a521-0be12416f888")
 		)
@@ -124262,6 +126326,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 196.85 434.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -124461,6 +126534,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 410.21 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -124751,7 +126833,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "10 ohms"
 			(at 327.66 679.45 90)
 			(effects
 				(font
@@ -124787,7 +126869,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 327.66 683.26 90)
 			(effects
 				(font
@@ -124931,7 +127013,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "CL10A106KP8NNNC"
+		(property "P. No" "CL10A106KQ8NNNC"
 			(at 767.08 71.12 0)
 			(effects
 				(font
@@ -125004,6 +127086,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 723.9 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -125155,6 +127246,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 420.37 711.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b0ef3c89-839a-4bf2-bca7-97ff394f2ee9")
 		)
@@ -125188,7 +127288,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1kOhm"
+		(property "Value" "1k ohms"
 			(at 942.086 415.29 90)
 			(effects
 				(font
@@ -125545,7 +127645,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "10 ohms"
 			(at 327.66 605.79 90)
 			(effects
 				(font
@@ -125581,7 +127681,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 327.66 609.6 90)
 			(effects
 				(font
@@ -125622,7 +127722,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "10 ohms"
 			(at 422.91 676.91 90)
 			(effects
 				(font
@@ -125658,7 +127758,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 422.91 680.72 90)
 			(effects
 				(font
@@ -125865,7 +127965,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "10 ohms"
 			(at 422.91 580.39 90)
 			(effects
 				(font
@@ -125901,7 +128001,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 422.91 584.2 90)
 			(effects
 				(font
@@ -125976,6 +128076,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 52.07 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "98f536f3-7fd2-47fe-8efe-2bf5721d0950")
 		)
@@ -126040,6 +128149,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 83.82 341.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -126239,6 +128357,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 636.27 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4b3b02ed-3b8a-4045-a214-d699699cdeb5")
 		)
@@ -126308,6 +128435,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 309.88 589.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "16eeb81c-72d8-40ed-9638-f5e67aaec2a3")
 		)
@@ -126340,7 +128476,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm"
+		(property "Value" "10 ohms"
 			(at 1038.86 69.85 90)
 			(effects
 				(font
@@ -126376,7 +128512,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 1042.67 69.85 90)
 			(effects
 				(font
@@ -126517,6 +128653,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 584.2 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e9773728-955c-444f-9994-cc05f8848d56")
 		)
@@ -126581,6 +128726,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 882.65 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -126718,6 +128872,15 @@
 				(hide yes)
 			)
 		)
+		(property "P. No" "3267"
+			(at 990.6 414.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "58aa1602-66cb-4cb3-b120-0697db46dc5c")
 		)
@@ -126782,6 +128945,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 309.88 609.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -127399,6 +129571,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 789.94 448.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a1764727-fb50-4eb2-9711-b1fd1c46aa12")
 		)
@@ -127545,6 +129726,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 273.05 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "194d1736-f58e-4eba-a727-175b1c494673")
 		)
@@ -127609,6 +129799,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 292.1 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -127678,6 +129877,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 309.88 683.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -127811,6 +130019,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 1041.4 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -128038,6 +130255,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 1050.29 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ff4319b7-f877-451f-b8ad-32facd3fd76f")
 		)
@@ -128150,7 +130376,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1u"
 			(at 281.94 701.0399 90)
 			(effects
 				(font
@@ -128454,7 +130680,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "10 ohms"
 			(at 327.66 689.61 90)
 			(effects
 				(font
@@ -128490,7 +130716,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 327.66 693.42 90)
 			(effects
 				(font
@@ -128565,6 +130791,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 778.51 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "02828155-67fd-4468-8f62-86ba7d112ae7")
 		)
@@ -128629,6 +130864,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 140.97 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -128767,6 +131011,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 309.88 581.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0473755c-8abb-47a1-a4ac-6ab043afb9b6")
 		)
@@ -128800,7 +131053,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5kOhms"
+		(property "Value" "5k ohms"
 			(at 922.528 188.722 0)
 			(effects
 				(font
@@ -128836,7 +131089,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "PV36W253C01B00"
+		(property "P. No" "PV36W502C01B00"
 			(at 922.02 185.42 0)
 			(effects
 				(font
@@ -128992,6 +131245,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 579.12 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fabf42b2-226d-4134-8de6-8257d17c7f7e")
 		)
@@ -129127,6 +131389,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 309.88 662.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5c5d5c32-8e14-4d09-871a-da3c9da231ce")
 		)
@@ -129227,7 +131498,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1kOhm"
+		(property "Value" "1k ohms"
 			(at 848.106 415.29 90)
 			(effects
 				(font
@@ -129422,6 +131693,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 309.88 601.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9817ca3e-c9bf-4417-8cfe-e2b12a0b919c")
 		)
@@ -129552,6 +131832,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 910.59 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -129780,6 +132069,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 295.91 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "298a7706-a23c-45c6-8d43-dae8ff01367a")
 		)
@@ -129844,6 +132142,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 876.3 448.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -130077,6 +132384,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 275.59 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3c8fdd22-2256-4236-a7b7-18e47a8c23bd")
 		)
@@ -130109,7 +132425,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm"
+		(property "Value" "10 ohms"
 			(at 278.13 171.45 90)
 			(effects
 				(font
@@ -130145,7 +132461,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 281.94 171.45 90)
 			(effects
 				(font
@@ -130267,7 +132583,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "25kOhms"
+		(property "Value" "25k ohms"
 			(at 140.208 394.462 0)
 			(effects
 				(font
@@ -130460,6 +132776,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 805.18 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ce48de6e-6d77-48fe-ae0b-9b1f910f4089")
 		)
@@ -130492,7 +132817,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "10 ohms"
 			(at 422.91 679.45 90)
 			(effects
 				(font
@@ -130528,7 +132853,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 422.91 683.26 90)
 			(effects
 				(font
@@ -130729,7 +133054,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5kOhms"
+		(property "Value" "5k ohms"
 			(at 933.958 290.322 0)
 			(effects
 				(font
@@ -130843,6 +133168,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 252.73 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "be2d022c-b366-479f-85a6-8a5e6c91631d")
 		)
@@ -130907,6 +133241,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 256.54 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -130976,6 +133319,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 91.44 557.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -131761,6 +134113,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 309.88 619.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1a2ec076-e72d-4c9d-a16f-b3e5167f3492")
 		)
@@ -132116,6 +134477,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 392.43 412.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -132597,6 +134967,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 839.47 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9c6b119a-390a-4a6c-9e70-07e7809efb31")
 		)
@@ -132800,7 +135179,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1kOhms"
+		(property "Value" "1k ohms"
 			(at 403.098 140.462 0)
 			(effects
 				(font
@@ -132836,7 +135215,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "PV36W253C01B00"
+		(property "P. No" "PV36W102C01B00"
 			(at 402.59 137.16 0)
 			(effects
 				(font
@@ -133059,6 +135438,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 158.75 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3ab51c65-c4a0-4390-9d5f-381e77f9d22d")
 		)
@@ -133225,7 +135613,7 @@
 				)
 			)
 		)
-		(property "Value" "1 ohm 0603"
+		(property "Value" "1 ohm"
 			(at 821.69 524.51 90)
 			(effects
 				(font
@@ -133261,7 +135649,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "RC0603FR-101RL "
 			(at 821.69 528.32 90)
 			(effects
 				(font
@@ -133419,6 +135807,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 441.96 685.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "81a1606c-82dc-4e3b-93b4-8a74ba6b94da")
 		)
@@ -133520,7 +135917,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C100u"
+		(property "Value" "100u"
 			(at 295.91 182.8799 0)
 			(effects
 				(font
@@ -133796,7 +136193,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "10 ohms"
 			(at 327.66 585.47 90)
 			(effects
 				(font
@@ -133832,7 +136229,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 327.66 589.28 90)
 			(effects
 				(font
@@ -134132,6 +136529,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 911.86 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d70b8e26-2411-4760-984b-25f756af0311")
 		)
@@ -134231,7 +136637,7 @@
 				)
 			)
 		)
-		(property "Value" "142-0701-201"
+		(property "Value" "CONN SMA JACK"
 			(at 1008.38 315.468 0)
 			(effects
 				(font
@@ -134261,6 +136667,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 1009.65 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P. No" "132134"
 			(at 1009.65 311.15 0)
 			(effects
 				(font
@@ -134311,7 +136726,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "10 ohms"
 			(at 327.66 661.67 90)
 			(effects
 				(font
@@ -134347,7 +136762,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 327.66 665.48 90)
 			(effects
 				(font
@@ -134488,6 +136903,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 979.17 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b4bed705-6269-434b-8e8d-eceb8914bd8f")
 		)
@@ -134552,6 +136976,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 337.82 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -134621,6 +137054,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 441.96 584.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -134887,6 +137329,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 62.23 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3bf4c3b3-c812-409b-8031-06e9e30bc527")
 		)
@@ -134921,7 +137372,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C100u"
+		(property "Value" "100u"
 			(at 1022.35 449.5799 0)
 			(effects
 				(font
@@ -135064,7 +137515,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "10 ohms"
 			(at 327.66 588.01 90)
 			(effects
 				(font
@@ -135100,7 +137551,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 327.66 591.82 90)
 			(effects
 				(font
@@ -135301,7 +137752,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5kOhms"
+		(property "Value" "5k ohms"
 			(at 145.288 418.592 0)
 			(effects
 				(font
@@ -135413,6 +137864,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 919.48 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -135682,6 +138142,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 441.96 693.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ffd1c59c-8a43-4bb3-b9e9-0cc3dc39fc6d")
 		)
@@ -135715,7 +138184,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ASP-134603-01"
+		(property "Value" "FMC Conn Arr"
 			(at 136.144 591.82 0)
 			(effects
 				(font
@@ -135745,6 +138214,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 138.43 595.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P. No" "ASP-134603-01"
 			(at 138.43 595.63 0)
 			(effects
 				(font
@@ -136296,6 +138774,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 441.96 599.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4400f698-786e-48ef-a0c0-75053a23abd6")
 		)
@@ -136541,7 +139028,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "25kOhms"
+		(property "Value" "25k ohms"
 			(at 443.738 309.372 0)
 			(effects
 				(font
@@ -136722,6 +139209,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 970.28 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "83b06cc6-14ef-4b72-82db-bd32ad9cf8db")
 		)
@@ -136821,7 +139317,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "10 ohms"
 			(at 327.66 687.07 90)
 			(effects
 				(font
@@ -136857,7 +139353,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 327.66 690.88 90)
 			(effects
 				(font
@@ -136933,6 +139429,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 91.44 544.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -137161,6 +139666,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 231.14 560.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2658230d-35af-4329-8d88-d0c2a7b1c6d0")
 		)
@@ -137194,7 +139708,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1kOhm"
+		(property "Value" "1k ohms"
 			(at 850.9 307.848 90)
 			(effects
 				(font
@@ -137386,6 +139900,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 962.66 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e60c8c3c-2e9b-4bc4-9050-1e506fe81737")
 		)
@@ -137455,6 +139978,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 340.36 521.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "793719cd-dda3-4be0-a37c-f71ce3a2bb63")
 		)
@@ -137519,6 +140051,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 723.9 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -137591,7 +140132,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "CL10A106KP8NNNC"
+		(property "P. No" "CL10A106KQ8NNNC"
 			(at 182.88 285.75 0)
 			(effects
 				(font
@@ -137733,6 +140274,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 90.17 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c46d7678-0e8c-458c-9a3c-1c10996f9269")
 		)
@@ -137767,7 +140317,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PV36W503C01B00"
+		(property "Value" "50k ohms"
 			(at 654.05 394.335 90)
 			(effects
 				(font
@@ -137802,6 +140352,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "PV36W503C01B00"
+			(at 647.7 372.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -138101,6 +140660,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 441.96 589.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b22211e7-7bed-4846-a35b-6d028e256f27")
 		)
@@ -138170,6 +140738,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 340.36 525.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "59945aaf-97b0-4f5c-a57b-26fd5bbff526")
 		)
@@ -138234,6 +140811,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 412.75 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -138406,6 +140992,15 @@
 				(hide yes)
 			)
 		)
+		(property "P. No" "3267"
+			(at 1037.59 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2322e888-5606-4019-b44f-80cecd0f6033")
 		)
@@ -138472,7 +141067,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "CL10A106KP8NNNC"
+		(property "P. No" "CL10A106KQ8NNNC"
 			(at 635 71.12 0)
 			(effects
 				(font
@@ -138682,6 +141277,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 441.96 612.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9802440d-9a95-4989-98a3-88e52a5b8b36")
 		)
@@ -138880,6 +141484,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 331.47 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f30b9c72-4c37-454f-ab09-7c73b9210422")
 		)
@@ -138944,6 +141557,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 855.98 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -139015,6 +141637,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 441.96 609.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ea8620db-c286-4e36-acdc-1c9b9bcd06a5")
 		)
@@ -139079,6 +141710,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 567.69 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -139193,7 +141833,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm"
+		(property "Value" "10 ohms"
 			(at 908.05 69.85 90)
 			(effects
 				(font
@@ -139229,7 +141869,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 911.86 69.85 90)
 			(effects
 				(font
@@ -139307,6 +141947,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 721.36 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "554305e7-fbc3-473e-a22e-1b572de89e2d")
 		)
@@ -139371,6 +142020,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 882.65 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -139564,7 +142222,7 @@
 				)
 			)
 		)
-		(property "Value" "1 ohm 0603"
+		(property "Value" "1 ohm"
 			(at 868.68 698.5 90)
 			(effects
 				(font
@@ -139600,7 +142258,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "RC0603FR-101RL "
 			(at 868.68 702.31 90)
 			(effects
 				(font
@@ -139710,7 +142368,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C100u"
+		(property "Value" "100u"
 			(at 1022.35 388.6199 0)
 			(effects
 				(font
@@ -140014,7 +142672,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "CL10A106KP8NNNC"
+		(property "P. No" "CL10A106KQ8NNNC"
 			(at 57.15 171.45 0)
 			(effects
 				(font
@@ -140203,7 +142861,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C100u"
+		(property "Value" "100u"
 			(at 163.83 297.1799 0)
 			(effects
 				(font
@@ -140461,6 +143119,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 408.94 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "67647d58-b77a-4c30-80e7-346d7053fa19")
 		)
@@ -140525,6 +143192,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 768.35 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -140659,6 +143335,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 283.21 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a4e034c3-cb90-435f-9985-deca161dfaea")
 		)
@@ -140728,6 +143413,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 265.43 586.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d8540d70-c844-4123-a7d7-896aea8212b0")
 		)
@@ -140792,6 +143486,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 140.97 336.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -140927,6 +143630,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 906.78 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "46581c45-3544-4a83-99c8-f89d5e396f52")
 		)
@@ -141025,7 +143737,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "10 ohms"
 			(at 422.91 598.17 90)
 			(effects
 				(font
@@ -141061,7 +143773,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 422.91 601.98 90)
 			(effects
 				(font
@@ -141424,6 +144136,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 339.09 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "95821c75-89ce-4995-9350-905aa4613a4c")
 		)
@@ -141456,7 +144177,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "10 ohms"
 			(at 422.91 572.77 90)
 			(effects
 				(font
@@ -141492,7 +144213,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 422.91 576.58 90)
 			(effects
 				(font
@@ -141533,7 +144254,7 @@
 				)
 			)
 		)
-		(property "Value" "2k ohm"
+		(property "Value" "2k ohms"
 			(at 908.812 40.64 90)
 			(effects
 				(font
@@ -141568,7 +144289,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF2001V"
 			(at 906.78 38.1 90)
 			(effects
 				(font
@@ -141778,7 +144499,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "10 ohms"
 			(at 422.91 593.09 90)
 			(effects
 				(font
@@ -141814,7 +144535,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 422.91 596.9 90)
 			(effects
 				(font
@@ -141855,7 +144576,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm"
+		(property "Value" "10 ohms"
 			(at 408.94 171.45 90)
 			(effects
 				(font
@@ -141891,7 +144612,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 412.75 171.45 90)
 			(effects
 				(font
@@ -141966,6 +144687,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 547.37 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e09be3a5-5185-43ef-8960-5690495c67da")
 		)
@@ -142030,6 +144760,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 78.74 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -142229,6 +144968,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 149.86 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -142476,7 +145224,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "10 ohms"
 			(at 422.91 651.51 90)
 			(effects
 				(font
@@ -142512,7 +145260,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 422.91 655.32 90)
 			(effects
 				(font
@@ -142736,6 +145484,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 340.36 518.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "16f5500f-470f-4dcb-bd3c-600ad0d1ae96")
 		)
@@ -142800,6 +145557,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 831.85 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -143084,7 +145850,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "CL10A106KP8NNNC"
+		(property "P. No" "CL10A106KQ8NNNC"
 			(at 182.88 414.02 0)
 			(effects
 				(font
@@ -143415,6 +146181,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 636.27 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "980d661a-3c83-400e-aede-7bf4b4b7c100")
 		)
@@ -143448,7 +146223,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "25kOhms"
+		(property "Value" "25k ohms"
 			(at 767.588 50.292 0)
 			(effects
 				(font
@@ -143562,6 +146337,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 1007.11 448.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "88ac2dca-c2ca-437e-937d-30e6aabd2195")
 		)
@@ -143629,6 +146413,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 316.23 518.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -143810,7 +146603,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "25kOhms"
+		(property "Value" "25k ohms"
 			(at 768.858 188.722 0)
 			(effects
 				(font
@@ -143924,6 +146717,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 408.94 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e9de005b-9889-4f2a-9e13-95edae00e1c7")
 		)
@@ -143957,7 +146759,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "10 ohms"
 			(at 327.66 704.85 90)
 			(effects
 				(font
@@ -143993,7 +146795,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 327.66 708.66 90)
 			(effects
 				(font
@@ -144138,6 +146940,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 441.96 701.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "57b9d9ac-0270-4e5b-81b7-8b6756e8f112")
 		)
@@ -144274,7 +147085,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "CL10A106KP8NNNC"
+		(property "P. No" "CL10A106KQ8NNNC"
 			(at 264.16 415.29 0)
 			(effects
 				(font
@@ -144315,7 +147126,7 @@
 				)
 			)
 		)
-		(property "Value" "0.5k ohm"
+		(property "Value" "0.5k ohms"
 			(at 271.018 143.256 90)
 			(effects
 				(font
@@ -144350,7 +147161,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF4990V"
 			(at 270.51 138.43 90)
 			(effects
 				(font
@@ -144426,6 +147237,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 231.14 544.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -144560,6 +147380,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 699.77 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7ac2c077-6a1e-41dd-adab-76d4af9eda2f")
 		)
@@ -144672,7 +147501,7 @@
 				)
 			)
 		)
-		(property "Value" "142-0701-201"
+		(property "Value" "CONN SMA JACK"
 			(at 1040.13 315.468 0)
 			(effects
 				(font
@@ -144702,6 +147531,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 1041.4 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "P. No" "132134"
 			(at 1041.4 311.15 0)
 			(effects
 				(font
@@ -144917,6 +147755,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 1007.11 436.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6814bc3c-26d4-4ed0-8455-88787e90895f")
 		)
@@ -144981,6 +147828,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 919.48 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -145049,6 +147905,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 72.39 434.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "aeb2a243-b4b7-4397-a09d-6fdd46fb3012")
 		)
@@ -145115,6 +147980,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 220.98 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "41316bdb-9c98-4954-a007-3f40d7f30080")
 		)
@@ -145147,7 +148021,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "10 ohms"
 			(at 422.91 674.37 90)
 			(effects
 				(font
@@ -145183,7 +148057,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 422.91 678.18 90)
 			(effects
 				(font
@@ -145553,6 +148427,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 309.88 680.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ac0b1be8-494b-4f06-b6bd-f09ed0b01dfd")
 		)
@@ -145811,6 +148694,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 309.88 612.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5bfdb737-fcf8-4277-a379-0179c783dbc1")
 		)
@@ -145845,7 +148737,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C100u"
+		(property "Value" "100u"
 			(at 659.13 219.7099 0)
 			(effects
 				(font
@@ -146022,6 +148914,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 121.92 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "14015ec7-f238-4dcd-b87c-b4d3ab28709c")
 		)
@@ -146091,6 +148992,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 420.37 652.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b3348795-dc82-46e0-aaee-ebdf90d38033")
 		)
@@ -146157,6 +149067,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 848.36 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5d534e5d-0042-4a04-9234-1e49b6789e7f")
 		)
@@ -146221,6 +149140,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 454.66 379.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -146321,7 +149249,7 @@
 				)
 			)
 		)
-		(property "Value" "1 ohm 0603"
+		(property "Value" "1 ohm"
 			(at 675.64 638.81 90)
 			(effects
 				(font
@@ -146357,7 +149285,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "RC0603FR-101RL "
 			(at 675.64 642.62 90)
 			(effects
 				(font
@@ -146432,6 +149360,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 355.6 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c2f0c5e6-2938-409c-9919-18f5005f4ff4")
 		)
@@ -146464,7 +149401,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "10 ohms"
 			(at 213.36 548.64 90)
 			(effects
 				(font
@@ -146500,7 +149437,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 213.36 544.83 90)
 			(effects
 				(font
@@ -146541,7 +149478,7 @@
 				)
 			)
 		)
-		(property "Value" "1 ohm 0603"
+		(property "Value" "1 ohm"
 			(at 871.22 726.44 90)
 			(effects
 				(font
@@ -146577,7 +149514,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "RC0603FR-101RL "
 			(at 871.22 730.25 90)
 			(effects
 				(font
@@ -146655,6 +149592,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 441.96 698.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e94a43c0-267e-480a-9933-af1d78963e33")
 		)
@@ -146687,7 +149633,7 @@
 				)
 			)
 		)
-		(property "Value" "1 ohm 0603"
+		(property "Value" "1 ohm"
 			(at 709.93 664.21 90)
 			(effects
 				(font
@@ -146723,7 +149669,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "RC0603FR-101RL "
 			(at 709.93 668.02 90)
 			(effects
 				(font
@@ -146947,6 +149893,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 441.96 604.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "753fb642-a305-4ce0-8d4f-efb8451749f3")
 		)
@@ -147011,6 +149966,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 636.27 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -147159,6 +150123,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 275.59 401.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dfc97d1a-d489-4a5d-b986-593836e60d04")
 		)
@@ -147290,6 +150263,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 454.66 383.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7fc16c71-b120-4ab8-a910-969697d0d5b3")
 		)
@@ -147354,6 +150336,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 73.66 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -147456,7 +150447,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C100u"
+		(property "Value" "100u"
 			(at 1054.1 81.2799 0)
 			(effects
 				(font
@@ -147712,6 +150703,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 919.48 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c49e6b5a-4dbd-461f-97ee-1842dca2eae7")
 		)
@@ -147878,6 +150878,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 768.35 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9819653c-6775-436a-8f0d-f7f367c7349c")
 		)
@@ -147945,6 +150954,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 91.44 549.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -148148,6 +151166,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 316.23 525.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f8846456-27f9-4007-8142-b8ec8d2e157b")
 		)
@@ -148317,6 +151344,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 787.4 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7a856f51-89f1-4c13-894b-ec2ddd3967a5")
 		)
@@ -148350,7 +151386,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5kOhms"
+		(property "Value" "5k ohms"
 			(at 145.288 290.322 0)
 			(effects
 				(font
@@ -148656,6 +151692,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 812.8 745.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2a3929fc-a082-4cc7-8f67-a6b5b471d0a2")
 		)
@@ -148723,6 +151768,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 302.26 737.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -148795,7 +151849,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "CL10A106KP8NNNC"
+		(property "P. No" "CL10A106KQ8NNNC"
 			(at 59.69 93.98 0)
 			(effects
 				(font
@@ -148995,7 +152049,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5kOhms"
+		(property "Value" "5k ohms"
 			(at 146.558 69.342 0)
 			(effects
 				(font
@@ -149031,7 +152085,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "PV36W253C01B00"
+		(property "P. No" "PV36W502C01B00"
 			(at 146.05 66.04 0)
 			(effects
 				(font
@@ -149176,6 +152230,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 441.96 591.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -149327,7 +152390,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "CL10A106KP8NNNC"
+		(property "P. No" "CL10A106KQ8NNNC"
 			(at 443.23 330.2 0)
 			(effects
 				(font
@@ -149400,6 +152463,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 900.43 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -149538,7 +152610,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "CL10A106KP8NNNC"
+		(property "P. No" "CL10A106KQ8NNNC"
 			(at 138.43 179.07 0)
 			(effects
 				(font
@@ -149935,6 +153007,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 839.47 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "eecd22eb-ff19-41dc-9e23-8c18bd7cfa1d")
 		)
@@ -150034,7 +153115,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "10 ohms"
 			(at 327.66 621.03 90)
 			(effects
 				(font
@@ -150070,7 +153151,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 327.66 624.84 90)
 			(effects
 				(font
@@ -150143,6 +153224,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 158.75 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -150466,6 +153556,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 900.43 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "52118a6f-bdc5-4afd-822c-6033bfa3ab64")
 		)
@@ -150645,7 +153744,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "10 ohms"
 			(at 422.91 605.79 90)
 			(effects
 				(font
@@ -150681,7 +153780,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 422.91 609.6 90)
 			(effects
 				(font
@@ -150822,6 +153921,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 768.35 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "500cec49-6c48-4984-a381-cdb554f71e38")
 		)
@@ -150886,6 +153994,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 281.94 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -151080,7 +154197,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "10 ohms"
 			(at 327.66 702.31 90)
 			(effects
 				(font
@@ -151116,7 +154233,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 327.66 706.12 90)
 			(effects
 				(font
@@ -151191,6 +154308,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 419.1 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0d42cb1c-1566-4511-a89a-dedae9071453")
 		)
@@ -151255,6 +154381,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 283.21 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -151393,6 +154528,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 208.28 557.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e8331a23-0da6-4e93-971d-d8329154be38")
 		)
@@ -151425,7 +154569,7 @@
 				)
 			)
 		)
-		(property "Value" "1 ohm 0603"
+		(property "Value" "1 ohm"
 			(at 811.53 556.26 90)
 			(effects
 				(font
@@ -151461,7 +154605,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "RC0603FR-101RL "
 			(at 807.72 556.26 90)
 			(effects
 				(font
@@ -151569,7 +154713,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1u"
 			(at 279.4 619.7599 90)
 			(effects
 				(font
@@ -151728,7 +154872,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5kOhms"
+		(property "Value" "5k ohms"
 			(at 403.86 119.634 0)
 			(effects
 				(font
@@ -151875,7 +155019,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "10 ohms"
 			(at 422.91 661.67 90)
 			(effects
 				(font
@@ -151911,7 +155055,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 422.91 665.48 90)
 			(effects
 				(font
@@ -151984,6 +155128,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 828.04 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -152134,6 +155287,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 441.96 624.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "08fac8c7-4d84-4faf-8066-04247c66b4fd")
 		)
@@ -152269,7 +155431,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "10 ohms"
 			(at 422.91 689.61 90)
 			(effects
 				(font
@@ -152305,7 +155467,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 422.91 693.42 90)
 			(effects
 				(font
@@ -152658,6 +155820,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 252.73 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3835ecd8-baaa-4e18-bf00-5662372a26f4")
 		)
@@ -152788,6 +155959,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 784.86 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -153015,6 +156195,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 121.92 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "617b1776-ca42-4615-9be9-9ae2dd5127ea")
 		)
@@ -153048,7 +156237,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5kOhms"
+		(property "Value" "5k ohms"
 			(at 893.826 219.456 0)
 			(effects
 				(font
@@ -153160,6 +156349,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 970.28 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -153311,7 +156509,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "CL10A106KP8NNNC"
+		(property "P. No" "CL10A106KQ8NNNC"
 			(at 685.8 208.28 0)
 			(effects
 				(font
@@ -153386,6 +156584,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 952.5 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "338018af-38fc-49cd-a745-93da584d39d1")
 		)
@@ -153453,6 +156660,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 309.88 706.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -153758,7 +156974,7 @@
 				)
 			)
 		)
-		(property "Value" "1 ohm 0603"
+		(property "Value" "1 ohm"
 			(at 745.49 764.54 90)
 			(effects
 				(font
@@ -153794,7 +157010,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "RC0603FR-101RL "
 			(at 745.49 768.35 90)
 			(effects
 				(font
@@ -153867,6 +157083,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 392.43 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -153969,7 +157194,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C100u"
+		(property "Value" "100u"
 			(at 791.21 81.2799 0)
 			(effects
 				(font
@@ -154080,6 +157305,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 567.69 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "79491543-1fa1-45f0-82d6-c679a1b21408")
 		)
@@ -154149,6 +157383,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 231.14 552.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1b862c00-45cc-4749-9bd0-bfce91d0c3b4")
 		)
@@ -154216,6 +157459,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 441.96 662.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -154520,6 +157772,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 212.09 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "64c7ed1d-c28b-49cb-93c6-af5236d2dcf3")
 		)
@@ -154584,6 +157845,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 906.78 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -154653,6 +157923,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 441.96 680.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -154872,7 +158151,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CL31A107MQHNNNE:CAPC3216X180N"
+		(property "Footprint" "CL10A106KP8NNNC:CAPC1608X90N"
 			(at 627.0752 379.73 0)
 			(effects
 				(font
@@ -154896,6 +158175,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "C0603C104K3RACTU"
+			(at 626.11 375.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -154964,6 +158252,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 213.36 434.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b50d0d83-fd64-46a9-82ff-0f630823f0c3")
 		)
@@ -154998,7 +158295,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C100u"
+		(property "Value" "100u"
 			(at 791.21 219.7099 0)
 			(effects
 				(font
@@ -155268,6 +158565,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 1042.67 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "299afa8e-d00c-4f7c-874d-d6c6f5ec8558")
 		)
@@ -155380,7 +158686,7 @@
 				)
 			)
 		)
-		(property "Value" "2k ohm"
+		(property "Value" "2k ohms"
 			(at 1039.622 179.07 90)
 			(effects
 				(font
@@ -155415,7 +158721,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF2001V"
 			(at 1037.59 176.53 90)
 			(effects
 				(font
@@ -155456,7 +158762,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "10 ohms"
 			(at 422.91 621.03 90)
 			(effects
 				(font
@@ -155492,7 +158798,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 422.91 624.84 90)
 			(effects
 				(font
@@ -155568,6 +158874,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 265.43 695.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -155702,6 +159017,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 151.13 401.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9c17ca45-47ed-4203-b0d1-30eec3eec8ee")
 		)
@@ -155801,7 +159125,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "10 ohms"
 			(at 422.91 577.85 90)
 			(effects
 				(font
@@ -155837,7 +159161,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 422.91 581.66 90)
 			(effects
 				(font
@@ -155915,7 +159239,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "CL10A106KP8NNNC"
+		(property "P. No" "CL10A106KQ8NNNC"
 			(at 1029.97 209.55 0)
 			(effects
 				(font
@@ -156071,6 +159395,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 441.96 708.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "af9f1b6a-81e3-4614-9169-4fe473921916")
 		)
@@ -156140,7 +159473,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "CL10A106KP8NNNC"
+		(property "P. No" "CL10A106KQ8NNNC"
 			(at 140.97 95.25 0)
 			(effects
 				(font
@@ -156314,7 +159647,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "10 ohms"
 			(at 327.66 623.57 90)
 			(effects
 				(font
@@ -156350,7 +159683,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 327.66 627.38 90)
 			(effects
 				(font
@@ -156423,6 +159756,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 140.97 346.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -156536,7 +159878,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200 Ohms"
+		(property "Value" "200 ohms"
 			(at 841.248 397.51 0)
 			(effects
 				(font
@@ -156650,6 +159992,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 204.47 434.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "69aabea9-7340-4b43-9fb7-4afe0ed995a4")
 		)
@@ -156719,6 +160070,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 265.43 614.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "67ad62b5-28a2-4e73-ae93-3bec3d053ff3")
 		)
@@ -156752,7 +160112,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5kOhms"
+		(property "Value" "5k ohms"
 			(at 1026.414 223.012 0)
 			(effects
 				(font
@@ -156832,7 +160192,7 @@
 				)
 			)
 		)
-		(property "Value" "2k ohm"
+		(property "Value" "2k ohms"
 			(at 1042.162 40.64 90)
 			(effects
 				(font
@@ -156867,7 +160227,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF2001V"
 			(at 1040.13 38.1 90)
 			(effects
 				(font
@@ -156940,6 +160300,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 778.51 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -157092,7 +160461,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "CL10A106KP8NNNC"
+		(property "P. No" "CL10A106KQ8NNNC"
 			(at 189.23 95.25 0)
 			(effects
 				(font
@@ -157135,7 +160504,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1u"
 			(at 106.68 562.6099 90)
 			(effects
 				(font
@@ -157396,7 +160765,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "CL10A106KP8NNNC"
+		(property "P. No" "CL10A106KQ8NNNC"
 			(at 899.16 210.82 0)
 			(effects
 				(font
@@ -157823,6 +161192,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 309.88 698.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2a5dd7e2-f815-476c-a40c-a9f657d37fb6")
 		)
@@ -157992,6 +161370,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 716.28 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7e50e0fd-9dc0-44af-bf4f-ddc4c1e63932")
 		)
@@ -158092,7 +161479,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "10 ohms"
 			(at 327.66 681.99 90)
 			(effects
 				(font
@@ -158128,7 +161515,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 327.66 685.8 90)
 			(effects
 				(font
@@ -158392,7 +161779,7 @@
 				)
 			)
 		)
-		(property "Value" "1 ohm 0603"
+		(property "Value" "1 ohm"
 			(at 591.82 627.38 90)
 			(effects
 				(font
@@ -158428,7 +161815,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "RC0603FR-101RL "
 			(at 591.82 631.19 90)
 			(effects
 				(font
@@ -158503,6 +161890,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 974.09 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f56e0d9f-75b2-4c75-a3ea-aacb2b72af45")
 		)
@@ -158537,7 +161933,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C100u"
+		(property "Value" "100u"
 			(at 467.36 340.3599 0)
 			(effects
 				(font
@@ -158649,6 +162045,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 441.96 581.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -158784,6 +162189,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 441.96 574.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -159017,7 +162431,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "10 ohms"
 			(at 213.36 556.26 90)
 			(effects
 				(font
@@ -159053,7 +162467,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 213.36 552.45 90)
 			(effects
 				(font
@@ -159128,6 +162542,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 911.86 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "97cae7d3-3229-4530-93c4-dffec22e1abd")
 		)
@@ -159195,6 +162618,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 309.88 627.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -159333,7 +162765,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "CL10A106KP8NNNC"
+		(property "P. No" "CL10A106KQ8NNNC"
 			(at 139.7 415.29 0)
 			(effects
 				(font
@@ -159455,7 +162887,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5kOhms"
+		(property "Value" "5k ohms"
 			(at 640.588 212.852 0)
 			(effects
 				(font
@@ -159569,6 +163001,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 591.82 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4cecda7a-c943-487b-add8-8f36fcb56743")
 		)
@@ -159635,6 +163076,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 855.98 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "63d92524-f03a-4648-b574-7cd3299aa686")
 		)
@@ -159699,6 +163149,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 707.39 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -159832,6 +163291,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 802.64 448.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -160026,7 +163494,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2kOhms"
+		(property "Value" "2k ohms"
 			(at 844.042 288.798 0)
 			(effects
 				(font
@@ -160185,7 +163653,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5kOhms"
+		(property "Value" "5k ohms"
 			(at 268.478 68.072 0)
 			(effects
 				(font
@@ -160221,7 +163689,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "PV36W253C01B00"
+		(property "P. No" "PV36W502C01B00"
 			(at 267.97 64.77 0)
 			(effects
 				(font
@@ -160297,6 +163765,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 900.43 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -160445,6 +163922,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 383.54 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a678b581-4f60-4d23-b626-e4eae0640a0c")
 		)
@@ -160478,7 +163964,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1kOhm"
+		(property "Value" "1k ohms"
 			(at 942.086 307.34 90)
 			(effects
 				(font
@@ -160668,6 +164154,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 346.71 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -160929,7 +164424,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "CL10A106KP8NNNC"
+		(property "P. No" "CL10A106KQ8NNNC"
 			(at 553.72 208.28 0)
 			(effects
 				(font
@@ -161082,6 +164577,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 400.05 412.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "887f4df2-d7f0-4197-9f45-3230a95df299")
 		)
@@ -161114,7 +164618,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "10 ohms"
 			(at 213.36 553.72 90)
 			(effects
 				(font
@@ -161150,7 +164654,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 213.36 549.91 90)
 			(effects
 				(font
@@ -161191,7 +164695,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "10 ohms"
 			(at 422.91 702.31 90)
 			(effects
 				(font
@@ -161227,7 +164731,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 422.91 706.12 90)
 			(effects
 				(font
@@ -161336,7 +164840,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C100u"
+		(property "Value" "100u"
 			(at 163.83 425.4499 0)
 			(effects
 				(font
@@ -161450,6 +164954,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 309.88 624.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b5b59b2a-8605-4914-a112-8572abc0a067")
 		)
@@ -161519,6 +165032,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 309.88 596.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "28c1301b-4634-404a-9578-1facf0484ae0")
 		)
@@ -161553,7 +165075,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1u"
 			(at 281.94 673.0999 90)
 			(effects
 				(font
@@ -161792,7 +165314,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "25kOhms"
+		(property "Value" "25k ohms"
 			(at 635.508 188.722 0)
 			(effects
 				(font
@@ -161904,6 +165426,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 463.55 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -162319,6 +165850,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 579.12 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "85f71f2b-86c5-4a08-a36e-dacd534f1a56")
 		)
@@ -162389,7 +165929,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "CL10A106KP8NNNC"
+		(property "P. No" "CL10A106KQ8NNNC"
 			(at 817.88 208.28 0)
 			(effects
 				(font
@@ -162462,6 +166002,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 782.32 448.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -162563,7 +166112,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "10 ohms"
 			(at 422.91 615.95 90)
 			(effects
 				(font
@@ -162599,7 +166148,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 422.91 619.76 90)
 			(effects
 				(font
@@ -162640,7 +166189,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "10 ohms"
 			(at 327.66 600.71 90)
 			(effects
 				(font
@@ -162676,7 +166225,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 327.66 604.52 90)
 			(effects
 				(font
@@ -163063,7 +166612,7 @@
 				)
 			)
 		)
-		(property "Value" "10 ohm 1%"
+		(property "Value" "10 ohms"
 			(at 109.22 541.02 90)
 			(effects
 				(font
@@ -163099,7 +166648,7 @@
 				(hide yes)
 			)
 		)
-		(property "P. No" "ERJ3EKF10R0V"
+		(property "P. No" "ERJ-3EKF10R0V"
 			(at 109.22 544.83 90)
 			(effects
 				(font
@@ -163175,6 +166724,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 332.74 652.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -163538,6 +167096,15 @@
 				(hide yes)
 			)
 		)
+		(property "P. No" "3267"
+			(at 990.6 381 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6066ccb4-e27d-4ba9-9b5e-b89fb7367c3d")
 		)
@@ -163602,6 +167169,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 441.96 657.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -163801,6 +167377,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 848.36 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -164229,6 +167814,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 1013.46 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "09f1820e-e733-4063-b7db-44b6faa51c42")
 		)
@@ -164487,6 +168081,15 @@
 				)
 			)
 		)
+		(property "P. No" "61300211121"
+			(at 441.96 670.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "adf6d57e-6192-41f1-b465-596684d50903")
 		)
@@ -164554,6 +168157,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "P. No" "61300211121"
+			(at 265.43 668.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
