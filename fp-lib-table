@@ -4,7 +4,6 @@
   (lib (name "Connectors")(type "KiCad")(uri "${KIPRJMOD}/Comp_Lib/Footprints/142-0701-201.pretty")(options "")(descr ""))
   (lib (name "CL31A107MQHNNNE")(type "KiCad")(uri "${KIPRJMOD}/Comp_Lib/Footprints/CL31A107MQHNNNE.pretty")(options "")(descr ""))
   (lib (name "Chip_QFN100")(type "KiCad")(uri "${KIPRJMOD}/Comp_Lib/Footprints/QFN100_FinLib.pretty")(options "")(descr ""))
-  (lib (name "Chip_QFN80")(type "KiCad")(uri "${KIPRJMOD}/Comp_Lib/Footprints/QFN80_FinLib.pretty")(options "")(descr ""))
   (lib (name "CL10A106KP8NNNC")(type "KiCad")(uri "${KIPRJMOD}/Comp_Lib/Footprints/CL10A106KP8NNNC.pretty")(options "")(descr ""))
   (lib (name "C0603C103K5RACTU")(type "KiCad")(uri "${KIPRJMOD}/Comp_Lib/Footprints/C0603C103K5RACTU.pretty")(options "")(descr ""))
   (lib (name "CL10A475KP8NNNC")(type "KiCad")(uri "${KIPRJMOD}/Comp_Lib/Footprints/CL10A475KP8NNNC.pretty")(options "")(descr ""))

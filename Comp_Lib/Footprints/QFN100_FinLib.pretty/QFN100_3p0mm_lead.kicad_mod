@@ -1,4 +1,4 @@
-(footprint "QFN100"
+(footprint "QFN100_3p0mm_lead"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "QFN100"
+	(property "Value" "QFN100_3p0mm_lead"
 		(at 6.63 14.38 0)
 		(unlocked yes)
 		(layer "F.Fab")

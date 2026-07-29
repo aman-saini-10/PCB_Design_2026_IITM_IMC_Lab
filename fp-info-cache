@@ -1,4 +1,4 @@
-27275889876786828
+27279475997477581
 142-0701-201
 BJACK
 
@@ -6817,20 +6817,34 @@ capacitor tantalum
 0
 2
 2
-Chip_QFN80
-QFN80
+Chip_QFN100
+QFN100_0p8mm_lead
 
 
 0
 101
 101
 Chip_QFN100
-QFN100
+QFN100_1p5mm_lead
 
 
 0
 101
 101
+Chip_QFN100
+QFN100_3p0mm_lead
+
+
+0
+101
+101
+Chip_QFN100
+QFN100_CoB
+
+
+0
+0
+0
 Connector
 BJB_Pico_46.110.1001_Receptacle_Horizontal
 BJB Pico, single terminal block/receptacle, uninsulated, SMD, 6.9x2.3x2.7mm, https://www.bjb.com/media/7a/b3/df/1740905546/DM-6265102-v6_BJB_Datasheet_46.110.1001-0_SMD_Terminal_block_without_housing_Update_03_2022.PDF
